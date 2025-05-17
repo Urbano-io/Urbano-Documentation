@@ -1,4 +1,4 @@
-## ![](../../images/icons/Create_Building.png) Create Building
+# ![](../../images/icons/Create_Building.png) Create Building
 
 ![](../../images/components/Create_Building.png)
 
@@ -15,6 +15,3 @@ List of amenities for each building (optional)
 #### Outputs
 * ##### Bldg
 Building curve with metadata and amenities embedded
-
-
-[Check Hydra Example Files for Create Building](https://hydrashare.github.io/hydra/index.html?keywords=Create Building)

@@ -1,4 +1,4 @@
-## ![](../../images/icons/Activity_Demand_Profile___Persona.png) Activity Demand Profile / Persona
+# ![](../../images/icons/Activity_Demand_Profile___Persona.png) Activity Demand Profile / Persona
 
 ![](../../images/components/Activity_Demand_Profile___Persona.png)
 
@@ -17,6 +17,3 @@ Normalize the demand weights to sum to 1
 #### Outputs
 * ##### ADPer
 Activity Demand Profile describing the weighted demand of activities of a certain persona type
-
-
-[Check Hydra Example Files for Activity Demand Profile / Persona](https://hydrashare.github.io/hydra/index.html?keywords=Activity Demand Profile / Persona)

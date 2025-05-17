@@ -1,4 +1,4 @@
-## ![](../../images/icons/Deconstruct_Metadata.png) Deconstruct Metadata
+# ![](../../images/icons/Deconstruct_Metadata.png) Deconstruct Metadata
 
 ![](../../images/components/Deconstruct_Metadata.png)
 
@@ -13,6 +13,3 @@ Serializable dictionary with string keys and arbitrary values
 Keys in metadata
 * ##### Vals
 Values in metadata
-
-
-[Check Hydra Example Files for Deconstruct Metadata](https://hydrashare.github.io/hydra/index.html?keywords=Deconstruct Metadata)

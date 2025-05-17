@@ -1,4 +1,4 @@
-## ![](../../images/icons/Inspect_Street_Segment.png) Inspect Street Segment
+# ![](../../images/icons/Inspect_Street_Segment.png) Inspect Street Segment
 
 ![](../../images/components/Inspect_Street_Segment.png)
 
@@ -17,6 +17,3 @@ Geometry of street segment
 Serializable dictionary with string keys and arbitrary values
 * ##### Adj
 Buildings in the model that are connected to the street
-
-
-[Check Hydra Example Files for Inspect Street Segment](https://hydrashare.github.io/hydra/index.html?keywords=Inspect Street Segment)

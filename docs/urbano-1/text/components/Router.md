@@ -1,4 +1,4 @@
-## ![](../../images/icons/Router.png) Router
+# ![](../../images/icons/Router.png) Router
 
 ![](../../images/components/Router.png)
 
@@ -25,6 +25,3 @@ Curve representing the route of the trip
 Time taken in minutes
 * ##### Dist
 Distance covered in meters
-
-
-[Check Hydra Example Files for Router](https://hydrashare.github.io/hydra/index.html?keywords=Router)

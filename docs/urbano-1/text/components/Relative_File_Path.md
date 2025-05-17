@@ -1,4 +1,4 @@
-## ![](../../images/icons/Relative_File_Path.png) Relative File Path
+# ![](../../images/icons/Relative_File_Path.png) Relative File Path
 
 ![](../../images/components/Relative_File_Path.png)
 
@@ -11,6 +11,3 @@ Relative path to the directory containing this grasshopper file
 #### Outputs
 * ##### File
 Absolute path to the given file
-
-
-[Check Hydra Example Files for Relative File Path](https://hydrashare.github.io/hydra/index.html?keywords=Relative File Path)

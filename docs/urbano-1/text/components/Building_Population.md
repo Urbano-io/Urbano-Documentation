@@ -1,4 +1,4 @@
-## ![](../../images/icons/Building_Population.png) Building Population
+# ![](../../images/icons/Building_Population.png) Building Population
 
 ![](../../images/components/Building_Population.png)
 
@@ -19,6 +19,3 @@ Logistics area proportion of the building, default = 0.2
 #### Outputs
 * ##### PopMeta
 Metadata containing population data for a building (can merge with building metadata before creating building)
-
-
-[Check Hydra Example Files for Building Population](https://hydrashare.github.io/hydra/index.html?keywords=Building Population)

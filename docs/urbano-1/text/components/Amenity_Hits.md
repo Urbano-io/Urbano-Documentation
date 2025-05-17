@@ -1,4 +1,4 @@
-## ![](../../images/icons/Amenity_Hits.png) Amenity Hits
+# ![](../../images/icons/Amenity_Hits.png) Amenity Hits
 
 ![](../../images/components/Amenity_Hits.png)
 
@@ -17,6 +17,3 @@ A counter that tallies up the total number of people that are sent to a certain 
 Amenity Hosts
 * ##### AmTrips
 Trips that were to that amenity
-
-
-[Check Hydra Example Files for Amenity Hits](https://hydrashare.github.io/hydra/index.html?keywords=Amenity Hits)

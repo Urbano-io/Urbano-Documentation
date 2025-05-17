@@ -1,4 +1,4 @@
-## ![](../../images/icons/Lookup_Metadata.png) Lookup Metadata
+# ![](../../images/icons/Lookup_Metadata.png) Lookup Metadata
 
 ![](../../images/components/Lookup_Metadata.png)
 
@@ -13,6 +13,3 @@ Key to search in metadata
 #### Outputs
 * ##### Val
 Value for given key in metadata
-
-
-[Check Hydra Example Files for Lookup Metadata](https://hydrashare.github.io/hydra/index.html?keywords=Lookup Metadata)

@@ -1,4 +1,4 @@
-## ![](../../images/icons/Download_OpenStreetMap(OSM).png) Download OpenStreetMap(OSM)
+# ![](../../images/icons/Download_OpenStreetMap(OSM).png) Download OpenStreetMap(OSM)
 
 ![](../../images/components/Download_OpenStreetMap(OSM).png)
 
@@ -23,6 +23,3 @@ Toggle to start downloading OSM data
 URL used to download data (can use URL as path to import features, network, etc. because of cached downloads)
 * ##### File
 Path to downloaded OSM file
-
-
-[Check Hydra Example Files for Download OpenStreetMap(OSM)](https://hydrashare.github.io/hydra/index.html?keywords=Download OpenStreetMap(OSM))

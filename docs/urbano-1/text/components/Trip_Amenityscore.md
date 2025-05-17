@@ -1,4 +1,4 @@
-## ![](../../images/icons/Trip_Amenityscore.png) Trip Amenityscore
+# ![](../../images/icons/Trip_Amenityscore.png) Trip Amenityscore
 
 ![](../../images/components/Trip_Amenityscore.png)
 
@@ -15,6 +15,3 @@ Amenityscore computed for the amenities based on the given trips
 Amenity hosting certain activities for people to do
 * ##### AmHosts
 Amenity Hosts
-
-
-[Check Hydra Example Files for Trip Amenityscore](https://hydrashare.github.io/hydra/index.html?keywords=Trip Amenityscore)

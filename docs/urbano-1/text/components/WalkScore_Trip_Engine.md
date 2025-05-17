@@ -1,4 +1,4 @@
-## ![](../../images/icons/WalkScore_Trip_Engine.png) WalkScore Trip Engine
+# ![](../../images/icons/WalkScore_Trip_Engine.png) WalkScore Trip Engine
 
 ![](../../images/components/WalkScore_Trip_Engine.png)
 
@@ -15,6 +15,3 @@ Building to compute WalkScore for
 Trips generated in the WalkScore engine
 * ##### Score
 Walkability score computed using methodology given by WalkScore.com
-
-
-[Check Hydra Example Files for WalkScore Trip Engine](https://hydrashare.github.io/hydra/index.html?keywords=WalkScore Trip Engine)

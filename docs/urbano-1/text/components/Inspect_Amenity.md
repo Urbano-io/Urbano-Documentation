@@ -1,4 +1,4 @@
-## ![](../../images/icons/Inspect_Amenity.png) Inspect Amenity
+# ![](../../images/icons/Inspect_Amenity.png) Inspect Amenity
 
 ![](../../images/components/Inspect_Amenity.png)
 
@@ -17,6 +17,3 @@ Activities offered by amenity
 Building that hosts the amenity
 * ##### Meta
 Serializable dictionary with string keys and arbitrary values
-
-
-[Check Hydra Example Files for Inspect Amenity](https://hydrashare.github.io/hydra/index.html?keywords=Inspect Amenity)

@@ -1,4 +1,4 @@
-## ![](../../images/icons/Urbano_Bake.png) Urbano Bake
+# ![](../../images/icons/Urbano_Bake.png) Urbano Bake
 
 ![](../../images/components/Urbano_Bake.png)
 
@@ -15,6 +15,3 @@ Toggle to trigger baking operation
 #### Outputs
 * ##### Out
 Status of baking operation, True for success
-
-
-[Check Hydra Example Files for Urbano Bake](https://hydrashare.github.io/hydra/index.html?keywords=Urbano Bake)

@@ -1,4 +1,4 @@
-## ![](../../images/icons/Amenity_Capacity.png) Amenity Capacity
+# ![](../../images/icons/Amenity_Capacity.png) Amenity Capacity
 
 ![](../../images/components/Amenity_Capacity.png)
 
@@ -15,6 +15,3 @@ Logistics area proportion of the amenity, default = 0.2
 #### Outputs
 * ##### Meta
 Metadata containing the "ameinty_capacity" value (deconstruct to use the value itself)
-
-
-[Check Hydra Example Files for Amenity Capacity](https://hydrashare.github.io/hydra/index.html?keywords=Amenity Capacity)

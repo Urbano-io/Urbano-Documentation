@@ -1,4 +1,4 @@
-## ![](../../images/icons/Create_Amenity.png) Create Amenity
+# ![](../../images/icons/Create_Amenity.png) Create Amenity
 
 ![](../../images/components/Create_Amenity.png)
 
@@ -13,6 +13,3 @@ Serializable dictionary with string keys and arbitrary values
 #### Outputs
 * ##### Amen
 Point with amenity metadata embedded
-
-
-[Check Hydra Example Files for Create Amenity](https://hydrashare.github.io/hydra/index.html?keywords=Create Amenity)

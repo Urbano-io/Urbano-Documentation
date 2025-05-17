@@ -1,4 +1,4 @@
-## ![](../../images/icons/Inspect_Building.png) Inspect Building
+# ![](../../images/icons/Inspect_Building.png) Inspect Building
 
 ![](../../images/components/Inspect_Building.png)
 
@@ -21,6 +21,3 @@ Serializable dictionary with string keys and arbitrary values
 Amenity hosting certain activities for people to do
 * ##### 3D
 3D mesh representing building (uses height from metadata)
-
-
-[Check Hydra Example Files for Inspect Building](https://hydrashare.github.io/hydra/index.html?keywords=Inspect Building)

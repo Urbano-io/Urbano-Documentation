@@ -1,4 +1,4 @@
-## ![](../../images/icons/Inspect_Trip.png) Inspect Trip
+# ![](../../images/icons/Inspect_Trip.png) Inspect Trip
 
 ![](../../images/components/Inspect_Trip.png)
 
@@ -27,6 +27,3 @@ Number of people taking this trip
 Activity for the trip
 * ##### Amen
 Amenity hosting certain activities for people to do
-
-
-[Check Hydra Example Files for Inspect Trip](https://hydrashare.github.io/hydra/index.html?keywords=Inspect Trip)

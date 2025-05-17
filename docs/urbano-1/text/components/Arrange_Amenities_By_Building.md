@@ -1,4 +1,4 @@
-## ![](../../images/icons/Arrange_Amenities_By_Building.png) Arrange Amenities By Building
+# ![](../../images/icons/Arrange_Amenities_By_Building.png) Arrange Amenities By Building
 
 ![](../../images/components/Arrange_Amenities_By_Building.png)
 
@@ -15,6 +15,3 @@ Building footprints to examine and place points into
 List of amenities for each building
 * ##### Bldgs
 Same Buildings in order
-
-
-[Check Hydra Example Files for Arrange Amenities By Building](https://hydrashare.github.io/hydra/index.html?keywords=Arrange Amenities By Building)

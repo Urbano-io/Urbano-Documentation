@@ -1,4 +1,4 @@
-## ![](../../images/icons/Project_Geographic_Point.png) Project Geographic Point
+# ![](../../images/icons/Project_Geographic_Point.png) Project Geographic Point
 
 ![](../../images/components/Project_Geographic_Point.png)
 
@@ -17,6 +17,3 @@ UTM Zone (required for UTM to LatLong conversion) formatted as longZone+latZone,
 Projected Point
 * ##### UTM
 UTM Zone (from LatLong to UTM conversion)
-
-
-[Check Hydra Example Files for Project Geographic Point](https://hydrashare.github.io/hydra/index.html?keywords=Project Geographic Point)

@@ -1,4 +1,4 @@
-## ![](../../images/icons/Download_DEM_and_Build_Terrain_Mesh.png) Download DEM and Build Terrain Mesh
+# ![](../../images/icons/Download_DEM_and_Build_Terrain_Mesh.png) Download DEM and Build Terrain Mesh
 
 ![](../../images/components/Download_DEM_and_Build_Terrain_Mesh.png)
 
@@ -29,6 +29,3 @@ Terrain mesh constructed based on the DEM data (data resource: https://dds.cr.us
 UTM Zone of the given region (can be used along with translation vector) to transform data from different sources to a common origin)
 * ##### Vec
 Translation vector to move from actual UTM window to working origin (can be used to transform data from different sources to a common origin)
-
-
-[Check Hydra Example Files for Download DEM and Build Terrain Mesh](https://hydrashare.github.io/hydra/index.html?keywords=Download DEM and Build Terrain Mesh)

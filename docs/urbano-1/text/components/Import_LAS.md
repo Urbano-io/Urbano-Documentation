@@ -1,4 +1,4 @@
-## ![](../../images/icons/Import_LAS.png) Import LAS
+# ![](../../images/icons/Import_LAS.png) Import LAS
 
 ![](../../images/components/Import_LAS.png)
 
@@ -41,6 +41,3 @@ Unique classifications of the imported points
 UTM Zone of the given region (can be used along with translation vector) to transform data from different sources to a common origin)
 * ##### Vec
 Translation vector to move from actual UTM window to working origin (can be used to transform data from different sources to a common origin)
-
-
-[Check Hydra Example Files for Import LAS](https://hydrashare.github.io/hydra/index.html?keywords=Import LAS)

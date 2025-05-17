@@ -1,4 +1,4 @@
-## ![](../../images/icons/Building_Hits.png) Building Hits
+# ![](../../images/icons/Building_Hits.png) Building Hits
 
 ![](../../images/components/Building_Hits.png)
 
@@ -15,6 +15,3 @@ Destination Buildings curves
 Building hits - number of people  that took trips to that building
 * ##### BldgTrips
 Trips that go to that building
-
-
-[Check Hydra Example Files for Building Hits](https://hydrashare.github.io/hydra/index.html?keywords=Building Hits)
