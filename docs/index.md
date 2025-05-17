@@ -26,7 +26,7 @@ The Grasshopper plugin currently exists in two versions, please see below.
 
     ---
 
-    Our initial release, current not maintained.
+    Our initial release, currently not maintained.
 
     ---
 
@@ -36,7 +36,7 @@ The Grasshopper plugin currently exists in two versions, please see below.
 
     ---
 
-    Out current release, current actively maintained.
+    Our current release, currently actively maintained.
 
     ---
 
