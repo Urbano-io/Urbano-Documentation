@@ -1,0 +1,147 @@
+site_name: Urbano Component Documentation
+site_description: Component Documentation
+site_url: https://docs.urbano.io
+repo_url: https://github.com/Urbano-io/Urbano-Documentation
+edit_uri: blob/main/docs/
+site_author: Patrick Kastner
+copyright: >-
+  Copyright &copy; 2019-2025 Urbano
+extra_css:
+  - stylesheets/extra.css
+#extra: 
+
+nav:
+  - Documentation:
+      - Start: index.md
+  - Urbano-1:
+      - Start: outdoor/index.md
+  - Urbano-2:
+      - Start: outdoor+/index.md
+      - First Steps: outdoor+/first_steps.md
+      - Categories:
+          - ... | flat | outdoor+/categories/*.md
+      - Components:
+          - ... | flat | outdoor+/components/*.md
+
+  - Back: "https://urbano.io"
+
+
+theme:
+  name: material
+  custom_dir: docs/overrides
+  #font: false
+  logo: assets/cd/logo.svg
+  favicon: assets/cd/favicon.png
+  features:
+    - tabs
+    - instant
+    - navigation.tabs
+    #- content.action.edit
+    #- content.action.view
+    - content.code.annotate
+    - content.code.copy
+    # - content.code.select
+    # - content.footnote.tooltips
+    # - content.tabs.link
+    - content.tooltips
+    #- header.autohide
+    - navigation.expand
+    - navigation.footer
+    - navigation.indexes
+    - navigation.instant
+    - navigation.instant.prefetch
+    - navigation.instant.progress
+    - navigation.prune
+    - navigation.sections
+    - navigation.tabs
+    - navigation.tabs.sticky
+    - navigation.top
+    - navigation.path
+    - navigation.tracking
+    - navigation.path
+    - search.highlight
+    - search.share
+    - search.suggest
+    - toc.follow
+    - toc.integrate
+    - announce.dismiss
+
+  palette:
+    primary: white
+    # - media: "(prefers-color-scheme)"
+    #   toggle:
+    #     icon: material/link
+    #     name: Switch to light mode
+    # - media: "(prefers-color-scheme: light)"
+    #   scheme: default
+    #   primary: black
+    #   accent: indigo
+    #   toggle:
+    #     icon: material/toggle-switch
+    #     name: Switch to dark mode
+    # - media: "(prefers-color-scheme: dark)"
+    #   scheme: slate
+    #   primary: black
+    #   accent: indigo
+    #   toggle:
+    #     icon: material/toggle-switch-off
+    #     name: Switch to system preference
+
+markdown_extensions:
+  - md_in_html
+  #- pymdownx.blocks.caption
+  - attr_list
+  - admonition
+  - meta
+  - pymdownx.details
+  - pymdownx.superfences
+  - pymdownx.tabbed:
+      alternate_style: true
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+
+# Plugins
+plugins:
+  # - mkdocs-video
+  - awesome-pages
+  - glightbox:
+      skip_classes:
+        - skip-lightbox
+  - git-revision-date-localized:
+      type: timeago
+      custom_format: "%d. %B %Y"
+      timezone: US/Eastern
+      locale: en
+      fallback_to_build_date: true
+      enable_creation_date: true
+      exclude:
+        - contact.md
+        - download.md
+        - index.md
+      enabled: true
+      strict: true
+  - tags
+  - minify:
+      minify_html: true
+      minify_js: true
+      minify_css: true
+      htmlmin_opts:
+        remove_comments: true
+  - git-authors:
+      show_contribution: true
+      show_line_count: true
+      show_email_address: false
+      count_empty_lines: false
+      fallback_to_empty: false
+      sort_authors_by: name
+      authorship_threshold_percent: 1
+      #ignore_commits: .git-blame-ignore-revs
+      exclude:
+        - index.md
+      enabled: true
+      enabled_on_serve: false
+      strict: true
+  - search
+  - title-casing
+
