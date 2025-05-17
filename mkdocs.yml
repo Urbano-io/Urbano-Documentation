@@ -30,7 +30,7 @@ theme:
   name: material
   custom_dir: docs/overrides
   #font: false
-  logo: assets/cd/logo.svg
+  logo: assets/cd/favicon.png
   favicon: assets/cd/favicon.png
   features:
     - tabs
