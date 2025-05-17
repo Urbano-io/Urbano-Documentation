@@ -38,4 +38,4 @@ jobs:
       - run: pip install markdown-include
       - run: pip install mkdocs-video
       - run: pip install mkdocs-awesome-pages-plugin \
-      - run: echo 'docs.eddy3d.com' > ./CNAME && mkdocs gh-deploy --force
+      - run: echo 'docs.urbano.io' > ./CNAME && mkdocs gh-deploy --force
