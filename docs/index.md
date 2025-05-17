@@ -30,7 +30,7 @@ The Grasshopper plugin currently exists in two versions, please see below.
 
     ---
 
-    [:octicons-arrow-right-24: Learn more](https://docs.urbano.io/urbano-1/)
+    [:octicons-arrow-right-24: Learn more](urbano-1/)
 
 - __Urbano v2__
 
@@ -40,7 +40,7 @@ The Grasshopper plugin currently exists in two versions, please see below.
 
     ---
 
-    [:octicons-arrow-right-24: Learn more](https://docs.urbano.io/urbano-2/)
+    [:octicons-arrow-right-24: Learn more](urbano-2/)
 
 
 </div>
