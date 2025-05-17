@@ -16,41 +16,32 @@
 
 
 
-# Eddy3D Modules
+# Urbano Versions
 
-The Grasshopper plugin currently contains three modules, please see below.
+The Grasshopper plugin currently exists in two versions, please see below.
 
 <div class="grid cards" markdown>
 
-- __Eddy3D Outdoor__
+- __Urbano v1__
 
     ---
 
-    Decoupled microclimate simulations, via wind and mean radiant temperature simulations. Driven by OpenFOAM and Radiance.
+    Our initial release, current not maintained.
 
     ---
 
-    [:octicons-arrow-right-24: Learn more](https://docs.eddy3d.com/outdoor/)
+    [:octicons-arrow-right-24: Learn more](https://docs.urbano.io/urbano-1/)
 
-- __Eddy3D Outdoor+__
-
-    ---
-
-    Fully coupled microclimate simulations, including wind, radiation, heat, and moisture transfer, driven by `urbanMicroclimateFoam` by ETH Zurich Building Physics.
+- __Urbano v2__
 
     ---
 
-    [:octicons-arrow-right-24: Learn more](https://docs.eddy3d.com/outdoor%2B/)
-
-- __Eddy3D Indoor__
+    Out current release, current actively maintained.
 
     ---
 
-    Modeling airflow, moisture content, and passive scalars in indoor spaces.
+    [:octicons-arrow-right-24: Learn more](https://docs.urbano.io/urbano-2/)
 
-    ---
-
-    [:octicons-arrow-right-24: Learn more](https://docs.eddy3d.com/indoor/)
 
 </div>
 
