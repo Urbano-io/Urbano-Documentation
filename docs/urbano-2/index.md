@@ -1,4 +1,3 @@
 # Urbano v2
 
-More soon.
-
+Please find the component documentation on the following pages.

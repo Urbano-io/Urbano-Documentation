@@ -13,17 +13,14 @@ extra_css:
 nav:
   - Documentation:
       - Start: index.md
-  - Urbano-1:
+  - Urbano-v1:
       - Start: urbano-1/index.md
       - Components:
           - ... | flat | urbano-1/text/components/*.md
-  - Urbano-2:
+  - Urbano-v2:
       - Start: urbano-2/index.md
-      # - First Steps: outdoor+/first_steps.md
-      #- Categories:
-      #    - ... | flat | outdoor+/categories/*.md
-      #- Components:
-      #    - ... | flat | outdoor+/components/*.md
+      - Components:
+          - ... | flat | urbano-2/text/components/*.md
 
   - Back: "https://www.urbano.io"
 
