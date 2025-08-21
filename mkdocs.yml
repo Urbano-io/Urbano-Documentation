@@ -13,11 +13,11 @@ extra_css:
 nav:
   - Documentation:
       - Start: index.md
-  - Urbano-v1:
+  - Urbano:
       - Start: urbano-1/index.md
       - Components:
           - ... | flat | urbano-1/text/components/*.md
-  - Urbano-v2:
+  - Urbano2:
       - Start: urbano-2/index.md
       - Components:
           - ... | flat | urbano-2/text/components/*.md
