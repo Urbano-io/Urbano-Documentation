@@ -2,8 +2,6 @@
 
 Please find the component documentation on the following pages.
 
----# Urbano — v1
-
 <style>
 .video-embed{position:relative; padding-top:56.25%; height:0; margin:0 0 1.25rem 0;}
 .video-embed iframe{position:absolute; top:0; left:0; width:100%; height:100%; border:0;}
