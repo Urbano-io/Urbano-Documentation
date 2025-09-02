@@ -2,72 +2,69 @@
 
 Please find the component documentation on the following pages.
 
----
+---# Urbano — v1
 
-## 1) Urbano v1.1 Demo | Step 1 — Downloading Map Data  
-[Watch on YouTube](https://www.youtube.com/watch?v=mwNlGaMVBns)
+<style>
+.video-embed{position:relative; padding-top:56.25%; height:0; margin:0 0 1.25rem 0;}
+.video-embed iframe{position:absolute; top:0; left:0; width:100%; height:100%; border:0;}
+</style>
 
-<iframe width="560" height="315"
-  src="https://www.youtube.com/embed/mwNlGaMVBns"
-  title="Urbano v1.1 Demo | Step 1 — Downloading Map Data"
-  frameborder="0"
-  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-  referrerpolicy="strict-origin-when-cross-origin"
-  allowfullscreen>
-</iframe>
+## Step 1 — Downloading Map Data
+<div class="video-embed">
+  <iframe
+    src="https://www.youtube.com/embed/mwNlGaMVBns"
+    title="Step 1 — Downloading Map Data"
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+    referrerpolicy="strict-origin-when-cross-origin"
+    allowfullscreen
+    loading="lazy">
+  </iframe>
+</div>
 
----
+## Step 2 — Importing and Modeling
+<div class="video-embed">
+  <iframe
+    src="https://www.youtube.com/embed/NA1vpiR7vFI"
+    title="Step 2 — Importing and Modeling"
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+    referrerpolicy="strict-origin-when-cross-origin"
+    allowfullscreen
+    loading="lazy">
+  </iframe>
+</div>
 
-## 2) Urbano v1.1 Demo | Step 2 — Importing and Modeling  
-[Watch on YouTube](https://www.youtube.com/watch?v=NA1vpiR7vFI)
+## Step 3 — Site Analysis
+<div class="video-embed">
+  <iframe
+    src="https://www.youtube.com/embed/KMT0TOODwdY"
+    title="Step 3 — Site Analysis"
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+    referrerpolicy="strict-origin-when-cross-origin"
+    allowfullscreen
+    loading="lazy">
+  </iframe>
+</div>
 
-<iframe width="560" height="315"
-  src="https://www.youtube.com/embed/NA1vpiR7vFI"
-  title="Urbano v1.1 Demo | Step 2 — Importing and Modeling"
-  frameborder="0"
-  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-  referrerpolicy="strict-origin-when-cross-origin"
-  allowfullscreen>
-</iframe>
+## Step 4 — Evaluating Design Scenarios
+<div class="video-embed">
+  <iframe
+    src="https://www.youtube.com/embed/n1u3WJTBb30"
+    title="Step 4 — Evaluating Design Scenarios"
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+    referrerpolicy="strict-origin-when-cross-origin"
+    allowfullscreen
+    loading="lazy">
+  </iframe>
+</div>
 
----
-
-## 3) Urbano v1.1 Demo | Step 3 — Site Analysis  
-[Watch on YouTube](https://www.youtube.com/watch?v=KMT0TOODwdY)
-
-<iframe width="560" height="315"
-  src="https://www.youtube.com/embed/KMT0TOODwdY"
-  title="Urbano v1.1 Demo | Step 3 — Site Analysis"
-  frameborder="0"
-  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-  referrerpolicy="strict-origin-when-cross-origin"
-  allowfullscreen>
-</iframe>
-
----
-
-## 4) Urbano v1.1 Demo | Step 4 — Evaluating Design Scenarios  
-[Watch on YouTube](https://www.youtube.com/watch?v=n1u3WJTBb30)
-
-<iframe width="560" height="315"
-  src="https://www.youtube.com/embed/n1u3WJTBb30"
-  title="Urbano v1.1 Demo | Step 4 — Evaluating Design Scenarios"
-  frameborder="0"
-  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-  referrerpolicy="strict-origin-when-cross-origin"
-  allowfullscreen>
-</iframe>
-
----
-
-## 5) Urbano v1.1 Demo | Step 5 — Generative Approach  
-[Watch on YouTube](https://www.youtube.com/watch?v=rlrk0SwV4Do)
-
-<iframe width="560" height="315"
-  src="https://www.youtube.com/embed/rlrk0SwV4Do"
-  title="Urbano v1.1 Demo | Step 5 — Generative Approach"
-  frameborder="0"
-  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-  referrerpolicy="strict-origin-when-cross-origin"
-  allowfullscreen>
-</iframe>
+## Step 5 — Generative Approach
+<div class="video-embed">
+  <iframe
+    src="https://www.youtube.com/embed/rlrk0SwV4Do"
+    title="Step 5 — Generative Approach"
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+    referrerpolicy="strict-origin-when-cross-origin"
+    allowfullscreen
+    loading="lazy">
+  </iframe>
+</div>
