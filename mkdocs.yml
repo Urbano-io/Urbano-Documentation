@@ -110,7 +110,7 @@ plugins:
   - git-revision-date-localized:
       type: timeago
       custom_format: "%d. %B %Y"
-      timezone: US/Eastern
+      timezone: America/New_York
       locale: en
       # Netlify build env doesn't support multiprocessing semaphores.
       enable_parallel_processing: false
