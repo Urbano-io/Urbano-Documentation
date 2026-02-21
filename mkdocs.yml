@@ -5,7 +5,7 @@ repo_url: https://github.com/Urbano-io/Urbano-Documentation
 edit_uri: blob/main/docs/
 site_author: Patrick Kastner
 copyright: >-
-  Copyright &copy; 2019-2025 Urbano
+  Copyright &copy; 2019-2026 Urbano
 extra_css:
   - stylesheets/extra.css
 #extra: 
@@ -29,8 +29,8 @@ theme:
   name: material
   custom_dir: docs/overrides
   #font: false
-  logo: assets/cd/favicon.png
-  favicon: assets/cd/favicon.png
+  logo: assets/cd/android-chrome-512x512.png
+  favicon: assets/cd/favicon.ico
   features:
     - tabs
     - instant
