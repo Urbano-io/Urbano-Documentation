@@ -1,1 +1,1 @@
-mkdocs serve
+uv run mkdocs serve
