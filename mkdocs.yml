@@ -66,25 +66,25 @@ theme:
     - announce.dismiss
 
   palette:
-    primary: white
-    # - media: "(prefers-color-scheme)"
-    #   toggle:
-    #     icon: material/link
-    #     name: Switch to light mode
-    # - media: "(prefers-color-scheme: light)"
-    #   scheme: default
-    #   primary: black
-    #   accent: indigo
-    #   toggle:
-    #     icon: material/toggle-switch
-    #     name: Switch to dark mode
-    # - media: "(prefers-color-scheme: dark)"
-    #   scheme: slate
-    #   primary: black
-    #   accent: indigo
-    #   toggle:
-    #     icon: material/toggle-switch-off
-    #     name: Switch to system preference
+    # primary: white
+    - media: "(prefers-color-scheme)"
+      toggle:
+        icon: material/weather-sunny
+        name: Switch to light mode
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: black
+      accent: indigo
+      toggle:
+        icon: material/weather-night
+        name: Switch to dark mode
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: black
+      accent: indigo
+      toggle:
+        icon: material/brightness-auto
+        name: Switch to system preference
 
 markdown_extensions:
   - md_in_html
