@@ -35,7 +35,7 @@ theme:
     - tabs
     - instant
     - navigation.tabs
-    #- content.action.edit
+    - content.action.edit
     #- content.action.view
     - content.code.annotate
     - content.code.copy
@@ -66,25 +66,20 @@ theme:
     - announce.dismiss
 
   palette:
-    primary: white
-    # - media: "(prefers-color-scheme)"
-    #   toggle:
-    #     icon: material/link
-    #     name: Switch to light mode
-    # - media: "(prefers-color-scheme: light)"
-    #   scheme: default
-    #   primary: black
-    #   accent: indigo
-    #   toggle:
-    #     icon: material/toggle-switch
-    #     name: Switch to dark mode
-    # - media: "(prefers-color-scheme: dark)"
-    #   scheme: slate
-    #   primary: black
-    #   accent: indigo
-    #   toggle:
-    #     icon: material/toggle-switch-off
-    #     name: Switch to system preference
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: white
+      accent: indigo
+      toggle:
+        icon: material/brightness-7
+        name: Switch to dark mode
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: black
+      accent: indigo
+      toggle:
+        icon: material/brightness-4
+        name: Switch to light mode
 
 markdown_extensions:
   - md_in_html
