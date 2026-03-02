@@ -20,4 +20,5 @@ dependencies = [
   "mkdocs-bibtex",
   "mkdocs-section-index",
   "tzdata",
+  "playwright>=1.58.0",
 ]
