@@ -35,7 +35,7 @@ theme:
     - tabs
     - instant
     - navigation.tabs
-    #- content.action.edit
+    - content.action.edit
     #- content.action.view
     - content.code.annotate
     - content.code.copy
