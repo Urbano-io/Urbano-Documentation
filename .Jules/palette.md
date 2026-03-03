@@ -13,3 +13,7 @@
 ## 2024-05-26 - [External Link Accessibility and UX]
 **Learning:** External links should open in a new tab so users do not lose their context within the documentation. When opening a new tab, it's critical to include `target="_blank"` with `rel="noopener noreferrer"` for security, and to notify screen reader users via an `aria-label` (e.g., "(opens in a new tab)"). Redundant icon reading should be prevented with `aria-hidden="true"`.
 **Action:** Implemented accessible external link pattern for the LinkedIn announcement bar link and will reuse this pattern for future external links.
+
+## 2024-03-02 - Custom 404 Page Structure
+**Learning:** Default MkDocs Material 404 page doesn't have an explicit CTA back to the homepage that's easily identified by screen readers. Extending `main.html` to inject a custom `404.html` allows building a better layout using the theme's default classes (`md-button`).
+**Action:** When adding 404 pages to MkDocs applications, always extend `main.html` and include a descriptive "Go to Homepage" button with an appropriate `aria-label`.
