@@ -17,3 +17,7 @@
 ## 2024-03-02 - Custom 404 Page Structure
 **Learning:** Default MkDocs Material 404 page doesn't have an explicit CTA back to the homepage that's easily identified by screen readers. Extending `main.html` to inject a custom `404.html` allows building a better layout using the theme's default classes (`md-button`).
 **Action:** When adding 404 pages to MkDocs applications, always extend `main.html` and include a descriptive "Go to Homepage" button with an appropriate `aria-label`.
+
+## 2024-05-27 - [Legacy Documentation Warning]
+**Learning:** Having multiple versions of documentation (e.g., `urbano-1` and `urbano-2`) without clear in-page context can confuse users who land on outdated pages via search engines.
+**Action:** Injected a persistent warning admonition on all legacy pages (using Jinja2 conditional `{% if "urbano-1/" in page.url %}` in `docs/overrides/main.html`) to inform users and guide them to the active version.

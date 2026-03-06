@@ -16,6 +16,16 @@
 {% endif %}
 {% endblock %}
 
+{% block content %}
+  {% if page and page.url and "urbano-1/" in page.url %}
+    <div class="admonition warning">
+      <p class="admonition-title">Legacy Version</p>
+      <p>You are viewing documentation for <strong>Urbano v1</strong>, which is no longer actively maintained. We recommend using <a href="{{ config.site_url | default('/') }}urbano-2/">Urbano v2</a> for active projects.</p>
+    </div>
+  {% endif %}
+  {{ super() }}
+{% endblock %}
+
 <!-- Announcement bar -->
 {% block announce %}
   For updates follow <strong>Urbano</strong> on
