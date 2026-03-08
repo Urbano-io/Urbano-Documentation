@@ -25,3 +25,7 @@
 ## 2024-05-28 - [Prominent Legacy Upgrade CTA]
 **Learning:** Warning banners on legacy pages with regular inline links for migrating to the new version are often overlooked by users because they blend into the text.
 **Action:** Transformed the inline upgrade link in the legacy admonition into a highly visible, primary call-to-action button (`.md-button--primary`) with a clear `aria-label`. Added `.legacy-warning-btn` to centralize CSS instead of using inline styles.
+
+## 2025-02-19 - [404 Empty State Actions]
+**Learning:** The default 404 page provided a simple button without actionable guidance or strong visual hierarchy, making the recovery path from a broken link less pleasant.
+**Action:** Always provide explicit guidance (e.g. "use the search bar") in empty states, and add a semantically hidden icon (`aria-hidden="true"`) to primary fallback buttons (e.g. the home button) to improve visual clarity without compromising screen reader experiences.
