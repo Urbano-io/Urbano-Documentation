@@ -18,10 +18,15 @@
 
 {% block content %}
   {% if page and page.url and "urbano-1/" in page.url %}
-    <div class="admonition warning">
+    <div class="admonition warning" role="alert">
       <p class="admonition-title">Legacy Version</p>
       <p>You are viewing documentation for <strong>Urbano v1</strong>, which is no longer actively maintained. We recommend using Urbano v2 for active projects.</p>
-        <a href="{{ config.site_url | default('/') }}urbano-2/" class="md-button md-button--primary legacy-warning-btn" aria-label="Go to Urbano v2 documentation">Go to Urbano v2</a>
+        <a href="{{ config.site_url | default('/') }}urbano-2/" class="md-button md-button--primary legacy-warning-btn" aria-label="Go to Urbano v2 documentation">
+          Go to Urbano v2
+          <span class="twemoji" aria-hidden="true">
+            {% include ".icons/octicons/arrow-right-24.svg" %}
+          </span>
+        </a>
     </div>
   {% endif %}
   {{ super() }}
