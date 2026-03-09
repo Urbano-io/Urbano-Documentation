@@ -29,3 +29,7 @@
 ## 2025-02-19 - [404 Empty State Actions]
 **Learning:** The default 404 page provided a simple button without actionable guidance or strong visual hierarchy, making the recovery path from a broken link less pleasant.
 **Action:** Always provide explicit guidance (e.g. "use the search bar") in empty states, and add a semantically hidden icon (`aria-hidden="true"`) to primary fallback buttons (e.g. the home button) to improve visual clarity without compromising screen reader experiences.
+
+## 2024-05-29 - [Alert Role on Persistent Warnings]
+**Learning:** Warning banners (like legacy documentation notices) inserted via HTML overrides are read dynamically by screen readers. Applying `role="alert"` ensures screen readers immediately announce these critical warnings to users as soon as the page loads or updates.
+**Action:** Always add `role="alert"` to persistent, page-level warning admonitions injected via HTML overrides.
