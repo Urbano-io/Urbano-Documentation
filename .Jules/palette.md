@@ -33,3 +33,11 @@
 ## 2024-05-29 - [Alert Role on Persistent Warnings]
 **Learning:** Warning banners (like legacy documentation notices) inserted via HTML overrides are read dynamically by screen readers. Applying `role="alert"` ensures screen readers immediately announce these critical warnings to users as soon as the page loads or updates.
 **Action:** Always add `role="alert"` to persistent, page-level warning admonitions injected via HTML overrides.
+
+## 2025-02-19 - [WCAG 2.5.3 Label in Name for Voice Dictation]
+**Learning:** Accessible names (`aria-label`) that don't match the visible text of buttons can cause issues for voice dictation users who try to interact with UI elements by speaking their visible text.
+**Action:** Always ensure that `aria-label` attributes on text-containing elements exactly match or contain the exact visible text string to comply with WCAG 2.5.3.
+
+## 2025-02-19 - [Keyboard Discoverability in Empty States]
+**Learning:** Empty states (like 404 pages) that instruct users to take a specific action (e.g., "use the search bar") provide a better UX when they explicitly teach keyboard shortcuts.
+**Action:** When directing users to UI elements that have keyboard shortcuts, include a `<kbd>` tag to indicate the shortcut (e.g., `<kbd>/</kbd>`) to improve discoverability for power users.
