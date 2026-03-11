@@ -1,6 +1,6 @@
-# ![](../../images/icons/Geographic_Boundary.png) Geographic Boundary
+# ![Geographic Boundary icon](../../images/icons/Geographic_Boundary.png) Geographic Boundary
 
-![](../../images/components/Geographic_Boundary.png)
+![Geographic Boundary](../../images/components/Geographic_Boundary.png)
 
 Geographic Boundary
 

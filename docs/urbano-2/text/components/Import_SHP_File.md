@@ -1,6 +1,6 @@
-# ![](../../images/icons/Import_SHP_File.png) Import SHP File
+# ![Import SHP File icon](../../images/icons/Import_SHP_File.png) Import SHP File
 
-![](../../images/components/Import_SHP_File.png)
+![Import SHP File](../../images/components/Import_SHP_File.png)
 
 Import data from GIS shapefiles
 

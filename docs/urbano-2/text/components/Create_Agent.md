@@ -1,6 +1,6 @@
-# ![](../../images/icons/Create_Agent.png) Create Agent
+# ![Create Agent icon](../../images/icons/Create_Agent.png) Create Agent
 
-![](../../images/components/Create_Agent.png)
+![Create Agent](../../images/components/Create_Agent.png)
 
 Create Agent
 

@@ -1,6 +1,6 @@
-# ![](../../images/icons/Import_Data_Blocks.png) Import Data Blocks
+# ![Import Data Blocks icon](../../images/icons/Import_Data_Blocks.png) Import Data Blocks
 
-![](../../images/components/Import_Data_Blocks.png)
+![Import Data Blocks](../../images/components/Import_Data_Blocks.png)
 
 Import Data Blocks
 

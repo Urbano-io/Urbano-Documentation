@@ -1,6 +1,6 @@
-# ![](../../images/icons/Create_Block.png) Create Block
+# ![Create Block icon](../../images/icons/Create_Block.png) Create Block
 
-![](../../images/components/Create_Block.png)
+![Create Block](../../images/components/Create_Block.png)
 
 Create Block
 

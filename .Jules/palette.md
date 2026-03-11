@@ -41,3 +41,7 @@
 ## 2025-02-19 - [Keyboard Discoverability in Empty States]
 **Learning:** Empty states (like 404 pages) that instruct users to take a specific action (e.g., "use the search bar") provide a better UX when they explicitly teach keyboard shortcuts.
 **Action:** When directing users to UI elements that have keyboard shortcuts, include a `<kbd>` tag to indicate the shortcut (e.g., `<kbd>/</kbd>`) to improve discoverability for power users.
+
+## 2025-02-19 - [Missing Image Alt Text Pattern in Component Docs]
+**Learning:** Found a systemic pattern across ~125 component documentation markdown files where auto-generated or manually inserted images completely lacked `alt` text (e.g., `![]()`). This creates a significant accessibility barrier, especially for screen reader users trying to identify the UI icons and component representations shown in the images.
+**Action:** Implemented a script to auto-populate missing `alt` text using meaningful names derived from the image filenames (e.g., `![Building Population icon](...)`). Will ensure all future automated documentation generation routines include descriptive `alt` text by default.

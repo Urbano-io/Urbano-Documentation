@@ -1,6 +1,6 @@
-# ![](../../images/icons/Simulation_Configuration.png) Simulation Configuration
+# ![Simulation Configuration icon](../../images/icons/Simulation_Configuration.png) Simulation Configuration
 
-![](../../images/components/Simulation_Configuration.png)
+![Simulation Configuration](../../images/components/Simulation_Configuration.png)
 
 Simulation Configuration
 

@@ -1,6 +1,6 @@
-# ![](../../images/icons/Import_LAS.png) Import LAS
+# ![Import LAS icon](../../images/icons/Import_LAS.png) Import LAS
 
-![](../../images/components/Import_LAS.png)
+![Import LAS](../../images/components/Import_LAS.png)
 
 Import LAS file. (This component requires to run Rhino as administrator)
 

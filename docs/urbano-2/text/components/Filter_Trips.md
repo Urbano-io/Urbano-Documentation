@@ -1,6 +1,6 @@
-# ![](../../images/icons/Filter_Trips.png) Filter Trips
+# ![Filter Trips icon](../../images/icons/Filter_Trips.png) Filter Trips
 
-![](../../images/components/Filter_Trips.png)
+![Filter Trips](../../images/components/Filter_Trips.png)
 
 Description
 

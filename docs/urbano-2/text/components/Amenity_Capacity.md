@@ -1,6 +1,6 @@
-# ![](../../images/icons/Amenity_Capacity.png) Amenity Capacity
+# ![Amenity Capacity icon](../../images/icons/Amenity_Capacity.png) Amenity Capacity
 
-![](../../images/components/Amenity_Capacity.png)
+![Amenity Capacity](../../images/components/Amenity_Capacity.png)
 
 Calculate amenity capacity based on the area and activity
 

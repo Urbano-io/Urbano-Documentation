@@ -1,6 +1,6 @@
-# ![](../../images/icons/Trip_Walkscore.png) Trip Walkscore
+# ![Trip Walkscore icon](../../images/icons/Trip_Walkscore.png) Trip Walkscore
 
-![](../../images/components/Trip_Walkscore.png)
+![Trip Walkscore](../../images/components/Trip_Walkscore.png)
 
 Walkability score for given trips using the WalkScore methodology
 

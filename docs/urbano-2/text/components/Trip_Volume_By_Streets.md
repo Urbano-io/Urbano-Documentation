@@ -1,6 +1,6 @@
-# ![](../../images/icons/Trip_Volume_By_Streets.png) Trip Volume By Streets
+# ![Trip Volume By Streets icon](../../images/icons/Trip_Volume_By_Streets.png) Trip Volume By Streets
 
-![](../../images/components/Trip_Volume_By_Streets.png)
+![Trip Volume By Streets](../../images/components/Trip_Volume_By_Streets.png)
 
 Trip Volume By Streets
 

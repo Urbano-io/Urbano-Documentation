@@ -1,6 +1,6 @@
-# ![](../../images/icons/Import_Streets.png) Import Streets
+# ![Import Streets icon](../../images/icons/Import_Streets.png) Import Streets
 
-![](../../images/components/Import_Streets.png)
+![Import Streets](../../images/components/Import_Streets.png)
 
 Import Streets
 

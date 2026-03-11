@@ -1,6 +1,6 @@
-# ![](../../images/icons/Create_Public_Transit_Network.png) Create Public Transit Network
+# ![Create Public Transit Network icon](../../images/icons/Create_Public_Transit_Network.png) Create Public Transit Network
 
-![](../../images/components/Create_Public_Transit_Network.png)
+![Create Public Transit Network](../../images/components/Create_Public_Transit_Network.png)
 
 Create Public Transit Network
 

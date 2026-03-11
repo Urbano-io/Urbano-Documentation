@@ -1,6 +1,6 @@
-# ![](../../images/icons/Download_DEM_and_Build_Terrain_Mesh.png) Download DEM and Build Terrain Mesh
+# ![Download DEM and Build Terrain Mesh icon](../../images/icons/Download_DEM_and_Build_Terrain_Mesh.png) Download DEM and Build Terrain Mesh
 
-![](../../images/components/Download_DEM_and_Build_Terrain_Mesh.png)
+![Download DEM and Build Terrain Mesh](../../images/components/Download_DEM_and_Build_Terrain_Mesh.png)
 
 Download the DEM data and build the terrain mesh (Allow administrator access for Rhino; Wait until the download to be completed in the background and re-enable this component to see the changes)
 
