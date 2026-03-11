@@ -1,6 +1,6 @@
-# ![](../../images/icons/Inpsect_Trip.png) Inpsect Trip
+# ![Inpsect Trip icon](../../images/icons/Inpsect_Trip.png) Inpsect Trip
 
-![](../../images/components/Inpsect_Trip.png)
+![Inpsect Trip](../../images/components/Inpsect_Trip.png)
 
 Inpsect Trip
 

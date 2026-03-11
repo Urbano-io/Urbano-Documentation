@@ -1,6 +1,6 @@
-# ![](../../images/icons/WalkScore_Trip_Engine.png) WalkScore Trip Engine
+# ![WalkScore Trip Engine icon](../../images/icons/WalkScore_Trip_Engine.png) WalkScore Trip Engine
 
-![](../../images/components/WalkScore_Trip_Engine.png)
+![WalkScore Trip Engine](../../images/components/WalkScore_Trip_Engine.png)
 
 Generate trips based on the activity demand profile in the WalkScore.com methodology
 

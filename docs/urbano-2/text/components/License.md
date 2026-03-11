@@ -1,6 +1,6 @@
-# ![](../../images/icons/License.png) License
+# ![License icon](../../images/icons/License.png) License
 
-![](../../images/components/License.png)
+![License](../../images/components/License.png)
 
 License
 

@@ -1,6 +1,6 @@
-# ![](../../images/icons/Trip_Volume_From_To_Blocks.png) Trip Volume From/To Blocks
+# ![Trip Volume From To Blocks icon](../../images/icons/Trip_Volume_From_To_Blocks.png) Trip Volume From/To Blocks
 
-![](../../images/components/Trip_Volume_From_To_Blocks.png)
+![Trip Volume From To Blocks](../../images/components/Trip_Volume_From_To_Blocks.png)
 
 Trip Volume From/To Blocks (Trips from/to transit stops will be ignored to avoid double-counting trips for the same blocks)
 

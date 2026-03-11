@@ -1,6 +1,6 @@
-# ![](../../images/icons/Inspect_Project_Setting.png) Inspect Project Setting
+# ![Inspect Project Setting icon](../../images/icons/Inspect_Project_Setting.png) Inspect Project Setting
 
-![](../../images/components/Inspect_Project_Setting.png)
+![Inspect Project Setting](../../images/components/Inspect_Project_Setting.png)
 
 Inspect Project Setting
 

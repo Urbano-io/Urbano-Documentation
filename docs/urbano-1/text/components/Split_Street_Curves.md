@@ -1,6 +1,6 @@
-# ![](../../images/icons/Split_Street_Curves.png) Split Street Curves
+# ![Split Street Curves icon](../../images/icons/Split_Street_Curves.png) Split Street Curves
 
-![](../../images/components/Split_Street_Curves.png)
+![Split Street Curves](../../images/components/Split_Street_Curves.png)
 
 Split the street curves at intersections
 

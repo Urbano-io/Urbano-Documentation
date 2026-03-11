@@ -1,6 +1,6 @@
-# ![](../../images/icons/Trip_Volume_By_Transit.png) Trip Volume By Transit
+# ![Trip Volume By Transit icon](../../images/icons/Trip_Volume_By_Transit.png) Trip Volume By Transit
 
-![](../../images/components/Trip_Volume_By_Transit.png)
+![Trip Volume By Transit](../../images/components/Trip_Volume_By_Transit.png)
 
 Trip Volume By Transit
 
