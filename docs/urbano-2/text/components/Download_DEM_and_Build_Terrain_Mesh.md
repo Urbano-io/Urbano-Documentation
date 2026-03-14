@@ -24,7 +24,7 @@ Count of mesh vertices on Y axis
 
 #### Outputs
 * ##### mesh
-Terrain mesh constructed based on the DEM data (data resource: https://dds.cr.usgs.gov/srtm/version2_1/SRTM3/)
+Terrain mesh constructed based on the DEM data (data resource: [USGS SRTM3 Dataset](https://dds.cr.usgs.gov/srtm/version2_1/SRTM3/){ target="_blank" rel="noopener noreferrer" aria-label="USGS SRTM3 Dataset (opens in a new tab)" })
 * ##### UTM
 UTM Zone of the given region (can be used along with translation vector) to transform data from different sources to a common origin)
 * ##### Vec
