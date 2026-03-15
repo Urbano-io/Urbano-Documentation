@@ -45,3 +45,7 @@
 ## 2025-02-19 - [Missing Image Alt Text Pattern in Component Docs]
 **Learning:** Found a systemic pattern across ~125 component documentation markdown files where auto-generated or manually inserted images completely lacked `alt` text (e.g., `![]()`). This creates a significant accessibility barrier, especially for screen reader users trying to identify the UI icons and component representations shown in the images.
 **Action:** Implemented a script to auto-populate missing `alt` text using meaningful names derived from the image filenames (e.g., `![Building Population icon](...)`). Will ensure all future automated documentation generation routines include descriptive `alt` text by default.
+
+## 2025-03-15 - [404 Page Recovery Paths & Landing Page Empty States]
+**Learning:** Empty states without immediate, explicit actions create friction. For 404 pages, providing only a "Go to Homepage" button forces users to lose their context. For category landing pages (like `urbano-2/index.md`) that only instruct users to "use the sidebar", users are left hunting for navigation menus.
+**Action:** 1) Always include a `window.history.back()` action alongside the primary home fallback on 404/error pages to respect the user's journey. 2) Always provide a primary CTA button (e.g., "Start Browsing") on empty landing pages to reduce cognitive load and provide a clear "next step".

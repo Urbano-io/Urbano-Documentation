@@ -4,6 +4,7 @@
    1. Enhanced Focus Indicators for Accessibility
    2. Polished Custom Scrollbars
    3. Responsive Video Embed Container
+   4. Error Actions Layout
 */
 
 /* Accessibility: High-contrast focus ring for keyboard navigation */
@@ -66,4 +67,15 @@
 .legacy-warning-btn {
   margin-top: 0.5rem;
   display: inline-block;
+}
+
+/* 404 Page Actions */
+.error-actions {
+  display: flex;
+  gap: 1rem;
+  flex-wrap: wrap;
+}
+
+.error-actions button {
+  cursor: pointer;
 }

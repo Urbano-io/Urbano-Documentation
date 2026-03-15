@@ -6,11 +6,19 @@
     <p>The page you're looking for doesn't seem to exist. It might have been moved, or the link you followed might be broken.</p>
     <p>You can use the search bar above (press <kbd>/</kbd>) to find what you need, or return to the main documentation.</p>
     <br>
-    <a href="{{ config.site_url }}" class="md-button md-button--primary" aria-label="Go to Homepage">
-      <span class="twemoji" aria-hidden="true">
-        {% include ".icons/material/home.svg" %}
-      </span>
-      Go to Homepage
-    </a>
+    <div class="error-actions">
+      <a href="{{ config.site_url }}" class="md-button md-button--primary" aria-label="Go to Homepage">
+        <span class="twemoji" aria-hidden="true">
+          {% include ".icons/material/home.svg" %}
+        </span>
+        Go to Homepage
+      </a>
+      <button onclick="window.history.back()" class="md-button" aria-label="Go back to previous page">
+        <span class="twemoji" aria-hidden="true">
+          {% include ".icons/material/arrow-left.svg" %}
+        </span>
+        Go Back
+      </button>
+    </div>
   </div>
 {% endblock %}
