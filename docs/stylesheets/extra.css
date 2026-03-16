@@ -69,6 +69,16 @@
   display: inline-block;
 }
 
+/* Button Hover Lift Effect */
+.md-button {
+  transition: transform 0.2s ease, background-color 0.2s ease;
+}
+
+.md-button:hover,
+.md-button:focus-visible {
+  transform: translateY(-2px);
+}
+
 /* 404 Page Actions */
 .error-actions {
   display: flex;
