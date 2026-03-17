@@ -79,6 +79,10 @@
   transform: translateY(-2px);
 }
 
+.md-button:active {
+  transform: translateY(0) scale(0.97);
+}
+
 /* 404 Page Actions */
 .error-actions {
   display: flex;
