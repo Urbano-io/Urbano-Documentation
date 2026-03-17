@@ -49,3 +49,7 @@
 ## 2025-03-15 - [404 Page Recovery Paths & Landing Page Empty States]
 **Learning:** Empty states without immediate, explicit actions create friction. For 404 pages, providing only a "Go to Homepage" button forces users to lose their context. For category landing pages (like `urbano-2/index.md`) that only instruct users to "use the sidebar", users are left hunting for navigation menus.
 **Action:** 1) Always include a `window.history.back()` action alongside the primary home fallback on 404/error pages to respect the user's journey. 2) Always provide a primary CTA button (e.g., "Start Browsing") on empty landing pages to reduce cognitive load and provide a clear "next step".
+
+## 2025-03-24 - [Tactile Feedback for Buttons]
+**Learning:** Found buttons with CSS hover-lift effects (like `.md-button` using `translateY(-2px)`) that lacked a corresponding `active` state. Without an active state, the button remains visually lifted during a click, failing to provide the tactile, "pressed" feedback that users expect from a physical-feeling interaction.
+**Action:** Added `.md-button:active` with `translateY(0)` and a slight scale down (`scale(0.97)`) to complete the interaction loop. Will always pair hover-lift effects with active-press effects in the future.
