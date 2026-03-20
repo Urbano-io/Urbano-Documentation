@@ -1,5 +1,5 @@
+INFO    -  Building documentation...
 INFO    -  Cleaning site directory
-INFO    -  Building documentation to directory: /app/site
 INFO    -  The following pages exist in the docs directory, but are not included in the "nav" configuration:
   - urbano-1/text/components/ADP_Trip_Engine.md
   - urbano-1/text/components/Activity_Demand_Profile___Persona.md
@@ -128,13 +128,6 @@ INFO    -  The following pages exist in the docs directory, but are not included
   - urbano-2/text/components/Workflow_Template.md
 INFO    -  An absolute path to '/... | flat | urbano-1/text/components/*.md' is included in the 'nav' configuration, which presumably points to an external resource.
 INFO    -  An absolute path to '/... | flat | urbano-2/text/components/*.md' is included in the 'nav' configuration, which presumably points to an external resource.
-INFO    -  Documentation built in 11.19 seconds
-
-[31m │ ⚠ WARNING – MkDocs 2.0 is incompatible with Material for MkDocs[0m
-[31m │ [0m
-[31m │ [0m  MkDocs 1.x is unmaintained. We recommend switching to Zensical, our
-[31m │ [0m  new static site generator, as soon as possible. We're providing an
-[31m │ [0m  analysis of the situation in this article:
-[31m │ [0m
-[31m │ [0m  [4mhttps://squidfunk.github.io/mkdocs-material/blog/2026/02/18/mkdocs-2.0/[0m
-[0m
+INFO    -  Documentation built in 17.77 seconds
+INFO    -  [02:23:24] Serving on http://127.0.0.1:8000/
+WARNING -  [02:23:33] "GET /non-existent-page HTTP/1.1" code 404

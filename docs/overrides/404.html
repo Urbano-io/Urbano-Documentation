@@ -13,7 +13,7 @@
         </span>
         Go to Homepage
       </a>
-      <button onclick="window.history.back()" class="md-button" aria-label="Go back to previous page">
+      <button id="go-back-btn" onclick="window.history.back()" class="md-button" aria-label="Go back to previous page">
         <span class="twemoji" aria-hidden="true">
           {% include ".icons/material/arrow-left.svg" %}
         </span>
@@ -21,4 +21,15 @@
       </button>
     </div>
   </div>
+
+  <script>
+    // Improve UX: disable "Go Back" if there's no meaningful history to return to
+    if (window.history.length <= 2) {
+      const backBtn = document.getElementById('go-back-btn');
+      if (backBtn) {
+        backBtn.disabled = true;
+        backBtn.title = "No previous page to go back to";
+      }
+    }
+  </script>
 {% endblock %}
