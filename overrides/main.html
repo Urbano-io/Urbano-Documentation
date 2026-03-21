@@ -16,11 +16,27 @@
 {% endif %}
 {% endblock %}
 
+{% block content %}
+  {% if page and page.url and "urbano-1/" in page.url %}
+    <div class="admonition warning" role="alert">
+      <p class="admonition-title">Legacy Version</p>
+      <p>You are viewing documentation for <strong>Urbano v1</strong>, which is no longer actively maintained. We recommend using Urbano v2 for active projects.</p>
+        <a href="{{ config.site_url | default('/') }}urbano-2/" class="md-button md-button--primary legacy-warning-btn" aria-label="Go to Urbano v2">
+          Go to Urbano v2
+          <span class="twemoji" aria-hidden="true">
+            {% include ".icons/octicons/arrow-right-24.svg" %}
+          </span>
+        </a>
+    </div>
+  {% endif %}
+  {{ super() }}
+{% endblock %}
+
 <!-- Announcement bar -->
 {% block announce %}
   For updates follow <strong>Urbano</strong> on
-  <a rel="me" href="https://www.linkedin.com/company/urbano-io">
-    <span class="twemoji linkedin">
+  <a rel="me noopener noreferrer" target="_blank" href="https://www.linkedin.com/company/urbano-io" aria-label="LinkedIn: Follow Urbano (opens in a new tab)">
+    <span class="twemoji linkedin" aria-hidden="true">
       {% include ".icons/fontawesome/brands/linkedin.svg" %}
     </span>
     <strong>LinkedIn</strong>
