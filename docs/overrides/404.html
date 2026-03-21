@@ -3,7 +3,7 @@
 {% block content %}
   <div class="md-typeset">
     <h1>404 - Not found</h1>
-    <p>The page you're looking for doesn't seem to exist. It might have been moved, or the link you followed might be broken.</p>
+    <p>The page at <code id="broken-url"></code> doesn't seem to exist. It might have been moved, or the link you followed might be broken.</p>
     <p>You can use the search bar above (press <kbd>/</kbd>) to find what you need, or return to the main documentation.</p>
     <br>
     <div class="error-actions">
@@ -23,6 +23,11 @@
   </div>
 
   <script>
+    const brokenUrlEl = document.getElementById('broken-url');
+    if (brokenUrlEl) {
+      brokenUrlEl.textContent = window.location.pathname;
+    }
+
     // Improve UX: disable "Go Back" if there's no meaningful history to return to
     if (window.history.length <= 2) {
       const backBtn = document.getElementById('go-back-btn');
