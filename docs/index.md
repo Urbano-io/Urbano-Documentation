@@ -30,18 +30,17 @@ The Grasshopper plugin currently exists in two versions, please see below.
 
     ---
 
-    [:octicons-arrow-right-24: Learn more](urbano-1/)
+    [:material-history: View v1 Archive](urbano-1/index.md){ .md-button aria-label="View v1 Archive" }
 
 - __Urbano v2__
 
     ---
 
-    Our current release, currently actively maintained.
+    Our current release, actively maintained.
 
     ---
 
-    [:octicons-arrow-right-24: Learn more](urbano-2/)
+    [Get Started with v2 :octicons-arrow-right-24:](urbano-2/index.md){ .md-button .md-button--primary aria-label="Get Started with v2" }
 
 
 </div>
-

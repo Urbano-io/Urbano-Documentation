@@ -1,6 +1,6 @@
-# ![](../../images/icons/Embed_Metadata_into_Point.png) Embed Metadata into Point
+# ![Embed Metadata into Point icon](../../images/icons/Embed_Metadata_into_Point.png) Embed Metadata into Point
 
-![](../../images/components/Embed_Metadata_into_Point.png)
+![Embed Metadata into Point](../../images/components/Embed_Metadata_into_Point.png)
 
 Embed metadata into point
 

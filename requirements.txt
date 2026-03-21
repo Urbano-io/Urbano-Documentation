@@ -1,4 +1,4 @@
-mkdocs 
+mkdocs==1.6.1
 mkdocs-material
 mkdocs-multirepo-plugin 
 mkdocs-git-revision-date-localized-plugin 
@@ -13,3 +13,4 @@ mkdocs-video
 mkdocs-awesome-pages-plugin 
 mkdocs-bibtex
 mkdocs-section-index
+tzdata

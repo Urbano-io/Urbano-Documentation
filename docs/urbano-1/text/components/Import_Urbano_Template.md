@@ -1,6 +1,6 @@
-# ![](../../images/icons/Import_Urbano_Template.png) Import Urbano Template
+# ![Import Urbano Template icon](../../images/icons/Import_Urbano_Template.png) Import Urbano Template
 
-![](../../images/components/Import_Urbano_Template.png)
+![Import Urbano Template](../../images/components/Import_Urbano_Template.png)
 
 Load samples for Urbano from directory or URL
 

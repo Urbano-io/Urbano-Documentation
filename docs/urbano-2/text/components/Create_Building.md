@@ -1,6 +1,6 @@
-# ![](../../images/icons/Create_Building.png) Create Building
+# ![Create Building icon](../../images/icons/Create_Building.png) Create Building
 
-![](../../images/components/Create_Building.png)
+![Create Building](../../images/components/Create_Building.png)
 
 Create a building with given curve and metadata.
 

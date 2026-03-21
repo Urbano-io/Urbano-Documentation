@@ -1,6 +1,6 @@
-# ![](../../images/icons/Save_Trips_To_File.png) Save Trips To File
+# ![Save Trips To File icon](../../images/icons/Save_Trips_To_File.png) Save Trips To File
 
-![](../../images/components/Save_Trips_To_File.png)
+![Save Trips To File](../../images/components/Save_Trips_To_File.png)
 
 Save Trips To File
 

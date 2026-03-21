@@ -1,6 +1,6 @@
-# ![](../../images/icons/Import_OSM_Street_Network.png) Import OSM Street Network
+# ![Import OSM Street Network icon](../../images/icons/Import_OSM_Street_Network.png) Import OSM Street Network
 
-![](../../images/components/Import_OSM_Street_Network.png)
+![Import OSM Street Network](../../images/components/Import_OSM_Street_Network.png)
 
 Import Street Network from an OSM path
 

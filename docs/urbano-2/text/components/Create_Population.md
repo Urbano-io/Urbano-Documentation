@@ -1,6 +1,6 @@
-# ![](../../images/icons/Create_Population.png) Create Population
+# ![Create Population icon](../../images/icons/Create_Population.png) Create Population
 
-![](../../images/components/Create_Population.png)
+![Create Population](../../images/components/Create_Population.png)
 
 Create Population
 

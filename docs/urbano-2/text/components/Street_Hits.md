@@ -1,6 +1,6 @@
-# ![](../../images/icons/Street_Hits.png) Street Hits
+# ![Street Hits icon](../../images/icons/Street_Hits.png) Street Hits
 
-![](../../images/components/Street_Hits.png)
+![Street Hits](../../images/components/Street_Hits.png)
 
 Street Hits Counter
 

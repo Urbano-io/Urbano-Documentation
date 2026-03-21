@@ -1,6 +1,6 @@
-# ![](../../images/icons/Find_Amenities.png) Find Amenities
+# ![Find Amenities icon](../../images/icons/Find_Amenities.png) Find Amenities
 
-![](../../images/components/Find_Amenities.png)
+![Find Amenities](../../images/components/Find_Amenities.png)
 
 Find amenities for an activity in the model
 

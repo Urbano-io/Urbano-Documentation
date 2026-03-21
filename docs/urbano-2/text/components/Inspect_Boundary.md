@@ -1,6 +1,6 @@
-# ![](../../images/icons/Inspect_Boundary.png) Inspect Boundary
+# ![Inspect Boundary icon](../../images/icons/Inspect_Boundary.png) Inspect Boundary
 
-![](../../images/components/Inspect_Boundary.png)
+![Inspect Boundary](../../images/components/Inspect_Boundary.png)
 
 Inspect Boundary
 

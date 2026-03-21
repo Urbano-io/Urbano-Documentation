@@ -1,6 +1,6 @@
-# ![](../../images/icons/Load_Trip_from_File.png) Load Trip from File
+# ![Load Trip from File icon](../../images/icons/Load_Trip_from_File.png) Load Trip from File
 
-![](../../images/components/Load_Trip_from_File.png)
+![Load Trip from File](../../images/components/Load_Trip_from_File.png)
 
 Load Trips from File
 

@@ -1,6 +1,6 @@
-# ![](../../images/icons/Import_OSM_File.png) Import OSM File
+# ![Import OSM File icon](../../images/icons/Import_OSM_File.png) Import OSM File
 
-![](../../images/components/Import_OSM_File.png)
+![Import OSM File](../../images/components/Import_OSM_File.png)
 
 Import OSM File
 

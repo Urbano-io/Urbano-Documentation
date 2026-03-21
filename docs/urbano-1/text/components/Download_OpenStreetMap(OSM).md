@@ -1,6 +1,6 @@
-# ![](../../images/icons/Download_OpenStreetMap(OSM).png) Download OpenStreetMap(OSM)
+# ![Download OpenStreetMap(OSM icon](../../images/icons/Download_OpenStreetMap(OSM).png) Download OpenStreetMap(OSM)
 
-![](../../images/components/Download_OpenStreetMap(OSM).png)
+![Download OpenStreetMap(OSM](../../images/components/Download_OpenStreetMap(OSM).png)
 
 Download all OSM data within given bounds (be careful with the size of the region). OSM data will be downloaded to a cache and accessible by using the URL as input to import components. Providing the file path input will copy the data to the given location and can then be used to import later
 

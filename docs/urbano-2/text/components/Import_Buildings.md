@@ -1,6 +1,6 @@
-# ![](../../images/icons/Import_Buildings.png) Import Buildings
+# ![Import Buildings icon](../../images/icons/Import_Buildings.png) Import Buildings
 
-![](../../images/components/Import_Buildings.png)
+![Import Buildings](../../images/components/Import_Buildings.png)
 
 Import Buildings
 

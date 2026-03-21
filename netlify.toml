@@ -6,9 +6,10 @@ publish = "site"
 
 # The command to build your site
 command = """
-pip install --upgrade pip &&
-pip install -r requirements.txt &&
-python -m mkdocs build --clean
+curl -LsSf https://astral.sh/uv/install.sh | sh &&
+export PATH="$HOME/.local/bin:$PATH" &&
+uv sync --frozen &&
+uv run mkdocs build --clean
 """
 
 [build.environment]

@@ -1,6 +1,6 @@
-# ![](../../images/icons/Inspect_Street_Segment.png) Inspect Street Segment
+# ![Inspect Street Segment icon](../../images/icons/Inspect_Street_Segment.png) Inspect Street Segment
 
-![](../../images/components/Inspect_Street_Segment.png)
+![Inspect Street Segment](../../images/components/Inspect_Street_Segment.png)
 
 Inspect street segment to get properties and curve
 

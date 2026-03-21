@@ -1,6 +1,6 @@
-# ![](../../images/icons/Create_3D_Mesh.png) Create 3D Mesh
+# ![Create 3D Mesh icon](../../images/icons/Create_3D_Mesh.png) Create 3D Mesh
 
-![](../../images/components/Create_3D_Mesh.png)
+![Create 3D Mesh](../../images/components/Create_3D_Mesh.png)
 
 Create 3D Mesh
 

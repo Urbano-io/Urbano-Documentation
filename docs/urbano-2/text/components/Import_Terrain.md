@@ -1,6 +1,6 @@
-# ![](../../images/icons/Import_Terrain.png) Import Terrain
+# ![Import Terrain icon](../../images/icons/Import_Terrain.png) Import Terrain
 
-![](../../images/components/Import_Terrain.png)
+![Import Terrain](../../images/components/Import_Terrain.png)
 
 Import Terrain
 

@@ -1,6 +1,6 @@
-# ![](../../images/icons/Urbano_Gradient.png) Urbano Gradient
+# ![Urbano Gradient icon](../../images/icons/Urbano_Gradient.png) Urbano Gradient
 
-![](../../images/components/Urbano_Gradient.png)
+![Urbano Gradient](../../images/components/Urbano_Gradient.png)
 
 Represents a multiple colour gradient with customized transparency.
 
