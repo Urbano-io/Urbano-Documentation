@@ -17,10 +17,12 @@
 {% endblock %}
 
 {% block content %}
+  {# Single combined EOL banner for urbano-1 pages #}
   {% if page and page.url and "urbano-1/" in page.url %}
     <div class="admonition warning" role="alert">
-      <p class="admonition-title">Legacy Version</p>
-      <p>You are viewing documentation for <strong>Urbano v1</strong>, which is no longer actively maintained. We recommend using Urbano v2 for active projects.</p>
+      <p class="admonition-title">End of Life — Legacy Version</p>
+      <p>Urbano v1 has reached <strong>end of life</strong> and is no longer actively maintained.
+         This documentation is kept for reference only. We recommend using Urbano v2 for active projects.</p>
         <a href="{{ config.site_url | default('/') }}urbano-2/" class="md-button md-button--primary legacy-warning-btn" aria-label="Go to Urbano v2">
           Go to Urbano v2
           <span class="twemoji" aria-hidden="true">

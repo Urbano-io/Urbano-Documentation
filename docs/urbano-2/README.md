@@ -1,0 +1,73 @@
+# Urbano Component list
+## 1 Download_Import
+#### Main Components
+* [License](components/License.md)
+* [Workflow Template](components/Workflow_Template.md)
+* [Import Geojson File](components/Import_Geojson_File.md)
+* [Import OSM File](components/Import_OSM_File.md)
+* [Import SHP File](components/Import_SHP_File.md)
+* [Osm Feature Query](components/Osm_Feature_Query.md)
+* [Create Project Setting](components/Create_Project_Setting.md)
+* [Deconstruct Project Setting](components/Deconstruct_Project_Setting.md)
+* [Geographic Boundary](components/Geographic_Boundary.md)
+* [Import Buildings](components/Import_Buildings.md)
+* [Import Data Blocks](components/Import_Data_Blocks.md)
+* [Import Green Spaces](components/Import_Green_Spaces.md)
+* [Import Public Transits](components/Import_Public_Transits.md)
+* [Import Streets](components/Import_Streets.md)
+* [Import Terrain](components/Import_Terrain.md)
+## 2 Model
+#### Main Components
+* [Deconstruct Boundary](components/Deconstruct_Boundary.md)
+* [Deconstruct Street Network](components/Deconstruct_Street_Network.md)
+* [Create Block](components/Create_Block.md)
+* [Create Public Transit Network](components/Create_Public_Transit_Network.md)
+* [Create Street Network](components/Create_Street_Network.md)
+## 3 Metadata
+#### Main Components
+* [Create Metadata](components/Create_Metadata.md)
+* [Deconstruct Metadata](components/Deconstruct_Metadata.md)
+* [Embed Metadata into Curve](components/Embed_Metadata_into_Curve.md)
+* [Embed Metadata into Mesh](components/Embed_Metadata_into_Mesh.md)
+* [Embed Metadata into Point](components/Embed_Metadata_into_Point.md)
+* [Lookup Metadata](components/Lookup_Metadata.md)
+* [Merge Metadata](components/Merge_Metadata.md)
+* [Search Metadata](components/Search_Metadata.md)
+* [Street Metadata](components/Street_Metadata.md)
+## 4 Mobility
+#### Main Components
+* [Route Biases](components/Route_Biases.md)
+* [Router](components/Router.md)
+* [Betweenness Centrality](components/Betweenness_Centrality.md)
+* [Walkscore Component](components/Walkscore_Component.md)
+## 5 Utilities
+#### Main Components
+* [Draw Map](components/Draw_Map.md)
+* [Urbano Gradient](components/Urbano_Gradient.md)
+* [Run Python](components/Run_Python.md)
+* [Create 3D Mesh](components/Create_3D_Mesh.md)
+* [Project Geographic Boundary](components/Project_Geographic_Boundary.md)
+* [Project Geographic Point](components/Project_Geographic_Point.md)
+* [Remap](components/Remap.md)
+* [Relative Path](components/Relative_Path.md)
+* [Save Data To Geojson](components/Save_Data_To_Geojson.md)
+## Params
+#### Main Components
+* [Block](components/Block.md)
+* [Map Settings](components/Map_Settings.md)
+* [Project Setting](components/Project_Setting.md)
+* [Public Transit Network](components/Public_Transit_Network.md)
+* [Route Bias](components/Route_Bias.md)
+* [Street Network](components/Street_Network.md)
+* [Terrain Data](components/Terrain_Data.md)
+* [UrbanoBlockGeo](components/UrbanoBlockGeo.md)
+* [UrbanoBuildingGeo](components/UrbanoBuildingGeo.md)
+* [UrbanoGreenSpaceGeo](components/UrbanoGreenSpaceGeo.md)
+* [UrbanoStreetPolyline](components/UrbanoStreetPolyline.md)
+* [UrbanoTerrainMesh](components/UrbanoTerrainMesh.md)
+* [UrbanoTransitGeo](components/UrbanoTransitGeo.md)
+* [Coordinate Reference](components/Coordinate_Reference.md)
+* [Metadata](components/Metadata.md)
+* [Urbano Mesh](components/Urbano_Mesh.md)
+* [Urbano Polyline](components/Urbano_Polyline.md)
+* [Urbano Pt](components/Urbano_Pt.md)
