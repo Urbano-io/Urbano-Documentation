@@ -1,4 +1,4 @@
-## ![](../images/icons/Create_Metadata.png) Create Metadata
+# ![](../images/icons/Create_Metadata.png) Create Metadata
 
 ![](../images/components/Create_Metadata-crop.png)
 

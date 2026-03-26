@@ -1,4 +1,4 @@
-## ![](../images/icons/Import_OSM_File.png) Import OSM File
+# ![](../images/icons/Import_OSM_File.png) Import OSM File
 
 ![](../images/components/Import_OSM_File-crop.png)
 

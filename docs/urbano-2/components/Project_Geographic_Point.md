@@ -1,4 +1,4 @@
-## ![](../images/icons/Project_Geographic_Point.png) Project Geographic Point
+# ![](../images/icons/Project_Geographic_Point.png) Project Geographic Point
 
 ![](../images/components/Project_Geographic_Point-crop.png)
 

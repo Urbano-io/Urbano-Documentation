@@ -1,4 +1,4 @@
-## ![](../images/icons/Create_Project_Setting.png) Create Project Setting
+# ![](../images/icons/Create_Project_Setting.png) Create Project Setting
 
 ![](../images/components/Create_Project_Setting-crop.png)
 

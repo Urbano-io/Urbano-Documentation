@@ -1,4 +1,4 @@
-## ![](../images/icons/Deconstruct_Metadata.png) Deconstruct Metadata
+# ![](../images/icons/Deconstruct_Metadata.png) Deconstruct Metadata
 
 ![](../images/components/Deconstruct_Metadata-crop.png)
 

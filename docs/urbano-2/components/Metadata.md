@@ -1,4 +1,4 @@
-## ![](../images/icons/Metadata.png) Metadata
+# ![](../images/icons/Metadata.png) Metadata
 
 ![](../images/components/Metadata-crop.png)
 

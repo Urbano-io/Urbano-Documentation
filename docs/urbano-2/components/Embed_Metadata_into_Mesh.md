@@ -1,4 +1,4 @@
-## ![](../images/icons/Embed_Metadata_into_Mesh.png) Embed Metadata into Mesh
+# ![](../images/icons/Embed_Metadata_into_Mesh.png) Embed Metadata into Mesh
 
 ![](../images/components/Embed_Metadata_into_Mesh-crop.png)
 

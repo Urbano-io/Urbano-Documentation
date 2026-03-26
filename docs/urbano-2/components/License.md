@@ -1,4 +1,4 @@
-## ![](../images/icons/License.png) License
+# ![](../images/icons/License.png) License
 
 ![](../images/components/License-crop.png)
 

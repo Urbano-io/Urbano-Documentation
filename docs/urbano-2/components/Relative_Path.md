@@ -1,4 +1,4 @@
-## ![](../images/icons/Relative_Path.png) Relative Path
+# ![](../images/icons/Relative_Path.png) Relative Path
 
 ![](../images/components/Relative_Path-crop.png)
 

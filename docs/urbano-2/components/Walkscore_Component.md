@@ -1,4 +1,4 @@
-## ![](../images/icons/Walkscore_Component.png) Walkscore Component
+# ![](../images/icons/Walkscore_Component.png) Walkscore Component
 
 ![](../images/components/Walkscore_Component-crop.png)
 

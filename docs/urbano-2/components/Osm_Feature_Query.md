@@ -1,4 +1,4 @@
-## ![](../images/icons/Osm_Feature_Query.png) Osm Feature Query
+# ![](../images/icons/Osm_Feature_Query.png) Osm Feature Query
 
 ![](../images/components/Osm_Feature_Query-crop.png)
 

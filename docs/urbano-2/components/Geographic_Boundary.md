@@ -1,4 +1,4 @@
-## ![](../images/icons/Geographic_Boundary.png) Geographic Boundary
+# ![](../images/icons/Geographic_Boundary.png) Geographic Boundary
 
 ![](../images/components/Geographic_Boundary-crop.png)
 

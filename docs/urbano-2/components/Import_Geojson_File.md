@@ -1,4 +1,4 @@
-## ![](../images/icons/Import_Geojson_File.png) Import Geojson File
+# ![](../images/icons/Import_Geojson_File.png) Import Geojson File
 
 ![](../images/components/Import_Geojson_File-crop.png)
 

@@ -1,4 +1,4 @@
-## ![](../images/icons/Workflow_Template.png) Workflow Template
+# ![](../images/icons/Workflow_Template.png) Workflow Template
 
 ![](../images/components/Workflow_Template-crop.png)
 

@@ -1,4 +1,4 @@
-## ![](../images/icons/Urbano_Gradient.png) Urbano Gradient
+# ![](../images/icons/Urbano_Gradient.png) Urbano Gradient
 
 ![](../images/components/Urbano_Gradient-crop.png)
 

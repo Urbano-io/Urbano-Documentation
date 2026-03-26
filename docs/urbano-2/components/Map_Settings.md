@@ -1,4 +1,4 @@
-## ![](../images/icons/Map_Settings.png) Map Settings
+# ![](../images/icons/Map_Settings.png) Map Settings
 
 ![](../images/components/Map_Settings-crop.png)
 

@@ -1,4 +1,4 @@
-## ![](../images/icons/Deconstruct_Boundary.png) Deconstruct Boundary
+# ![](../images/icons/Deconstruct_Boundary.png) Deconstruct Boundary
 
 ![](../images/components/Deconstruct_Boundary-crop.png)
 

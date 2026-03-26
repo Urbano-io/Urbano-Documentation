@@ -1,4 +1,4 @@
-## ![](../images/icons/Save_Data_To_Geojson.png) Save Data To Geojson
+# ![](../images/icons/Save_Data_To_Geojson.png) Save Data To Geojson
 
 ![](../images/components/Save_Data_To_Geojson-crop.png)
 
