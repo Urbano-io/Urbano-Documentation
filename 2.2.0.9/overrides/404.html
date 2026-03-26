@@ -1,0 +1,40 @@
+{% extends "main.html" %}
+
+{% block content %}
+  <div class="md-typeset">
+    <h1>404 - Not found</h1>
+    <p>The page at <code id="broken-url"></code> doesn't seem to exist. It might have been moved, or the link you followed might be broken.</p>
+    <p>You can use the search bar above (press <kbd>/</kbd>) to find what you need, or return to the main documentation.</p>
+    <br>
+    <div class="error-actions">
+      <a href="{{ config.site_url }}" class="md-button md-button--primary" aria-label="Go to Homepage">
+        <span class="twemoji" aria-hidden="true">
+          {% include ".icons/material/home.svg" %}
+        </span>
+        Go to Homepage
+      </a>
+      <button id="go-back-btn" onclick="window.history.back()" class="md-button" aria-label="Go back to previous page">
+        <span class="twemoji" aria-hidden="true">
+          {% include ".icons/material/arrow-left.svg" %}
+        </span>
+        Go Back
+      </button>
+    </div>
+  </div>
+
+  <script>
+    const brokenUrlEl = document.getElementById('broken-url');
+    if (brokenUrlEl) {
+      brokenUrlEl.textContent = window.location.pathname;
+    }
+
+    // Improve UX: disable "Go Back" if there's no meaningful history to return to
+    if (window.history.length <= 2) {
+      const backBtn = document.getElementById('go-back-btn');
+      if (backBtn) {
+        backBtn.disabled = true;
+        backBtn.title = "No previous page to go back to";
+      }
+    }
+  </script>
+{% endblock %}

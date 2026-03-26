@@ -1,0 +1,46 @@
+{% extends "base.html" %}
+
+{% block extrahead %}
+{% if page and page.meta and page.meta.title %}
+<meta property="og:title" content="{{ page.meta.title }}" />
+{% endif %}
+{% if page and page.meta and page.meta.image %}
+<meta property="og:image" content="{{ page.meta.image }}" />
+<meta property="og:image:type" content="image/png" />
+<meta property="og:image:width" content="{{ page.meta.image_width }}" />
+<meta property="og:image:height" content="{{ page.meta.image_height }}" />
+<meta property="twitter:card" content="summary" />
+<meta property="twitter:title" content="{{ page.meta.twitter_title }}" />
+<meta property="twitter:image" content="{{ page.meta.image }}" />
+<meta property="twitter:image:alt" content="{{ page.meta.image_alt }}" />
+{% endif %}
+{% endblock %}
+
+{% block content %}
+  {# Single combined EOL banner for urbano-1 pages #}
+  {% if page and page.url and "urbano-1/" in page.url %}
+    <div class="admonition warning" role="alert">
+      <p class="admonition-title">End of Life — Legacy Version</p>
+      <p>Urbano v1 has reached <strong>end of life</strong> and is no longer actively maintained.
+         This documentation is kept for reference only. We recommend using Urbano v2 for active projects.</p>
+        <a href="{{ config.site_url | default('/') }}urbano-2/" class="md-button md-button--primary legacy-warning-btn" aria-label="Go to Urbano v2">
+          Go to Urbano v2
+          <span class="twemoji" aria-hidden="true">
+            {% include ".icons/octicons/arrow-right-24.svg" %}
+          </span>
+        </a>
+    </div>
+  {% endif %}
+  {{ super() }}
+{% endblock %}
+
+<!-- Announcement bar -->
+{% block announce %}
+  For updates follow <strong>Urbano</strong> on
+  <a rel="me noopener noreferrer" target="_blank" href="https://www.linkedin.com/company/urbano-io" aria-label="LinkedIn: Follow Urbano (opens in a new tab)">
+    <span class="twemoji linkedin" aria-hidden="true">
+      {% include ".icons/fontawesome/brands/linkedin.svg" %}
+    </span>
+    <strong>LinkedIn</strong>
+  </a>
+{% endblock %}
