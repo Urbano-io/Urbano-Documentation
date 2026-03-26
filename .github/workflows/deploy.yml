@@ -3,6 +3,9 @@ on:
   push:
     branches:
       - main
+  pull_request:
+    branches:
+      - main
 permissions:
   contents: write
 jobs:
@@ -49,5 +52,10 @@ jobs:
           # Setup CNAME inside docs so mike preserves it
           echo 'docs.urbano.io' > docs/CNAME
           
-          # Deploy using mike and push to gh-pages
-          mike deploy $VERSION latest --update-aliases --push
+          # Deploy using mike and optionally push
+          if [ "${{ github.event_name }}" == "push" ]; then
+            mike deploy $VERSION latest --update-aliases --push
+          else
+            # For PRs, just build to verify it compiles without errors
+            mike deploy $VERSION latest --update-aliases
+          fi
