@@ -2,7 +2,9 @@ name: ci
 on:
   push:
     branches:
-      - master 
+      - main
+  pull_request:
+    branches:
       - main
 permissions:
   contents: write
@@ -37,5 +39,23 @@ jobs:
       - run: pip install mkdocs-glightbox
       - run: pip install markdown-include
       - run: pip install mkdocs-video
-      - run: pip install mkdocs-awesome-pages-plugin \
-      - run: echo 'docs.urbano.io' > ./CNAME && mkdocs gh-deploy --force
+      - run: pip install mkdocs-awesome-pages-plugin
+      - run: pip install mike
+      - run: |
+          # Use default version if version.txt doesn't exist yet
+          VERSION="2.2.1.2"
+          if [ -f "docs/version.txt" ]; then
+            VERSION=$(cat docs/version.txt)
+          fi
+          echo "Deploying version $VERSION"
+          
+          # Setup CNAME inside docs so mike preserves it
+          echo 'docs.urbano.io' > docs/CNAME
+          
+          # Deploy using mike and optionally push
+          if [ "${{ github.event_name }}" == "push" ]; then
+            mike deploy $VERSION latest --update-aliases --push
+          else
+            # For PRs, just build to verify it compiles without errors
+            mike deploy $VERSION latest --update-aliases
+          fi

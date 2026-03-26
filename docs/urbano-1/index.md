@@ -1,9 +1,5 @@
 # Urbano v1
 
-!!! warning "End of Life (EOL)"
-    Urbano v1 has reached end of life and will not be further developed.
-    This documentation is maintained for reference and existing projects only.
-
 Please find the component documentation on the following pages. You can use the sidebar navigation to browse all available components, or press <kbd>/</kbd> to quickly search for what you need.
 
 ## 🚀 Features

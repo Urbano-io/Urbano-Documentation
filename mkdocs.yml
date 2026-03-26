@@ -8,7 +8,10 @@ copyright: >-
   Copyright &copy; 2019-2026 Urbano
 extra_css:
   - stylesheets/extra.css
-#extra: 
+extra:
+  version:
+    provider: mike
+    default: latest
 
 nav:
   - Documentation:
@@ -16,11 +19,18 @@ nav:
   - Urbano:
       - Start: urbano-1/index.md
       - Components:
-          - ... | flat | urbano-1/text/components/*.md
+          - ... | flat | urbano-1/components/*.md
   - Urbano2:
       - Start: urbano-2/index.md
+      - Categories:
+          - Download & Import: urbano-2/categories/1_Download_Import.md
+          - Model: urbano-2/categories/2_Model.md
+          - Metadata: urbano-2/categories/3_Metadata.md
+          - Mobility: urbano-2/categories/4_Mobility.md
+          - Utilities: urbano-2/categories/5_Utilities.md
+          - Params: urbano-2/categories/Params.md
       - Components:
-          - ... | flat | urbano-2/text/components/*.md
+          - ... | flat | urbano-2/components/*.md
 
   - Back: "https://www.urbano.io"
 
@@ -138,6 +148,9 @@ plugins:
       sort_authors_by: name
       authorship_threshold_percent: 1
       #ignore_commits: .git-blame-ignore-revs
+      ignore_authors:
+        - google-labs-jules[bot]
+        - 161369871+google-labs-jules[bot]@users.noreply.github.com
       exclude:
         - index.md
       enabled: true
