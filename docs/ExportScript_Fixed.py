@@ -37,7 +37,7 @@ USE_CROPPED_IMAGES = True
 # We intentionally capture a larger area and trim transparency afterward.
 # This is more robust than relying on exact canvas/viewport coordinate sync.
 CAPTURE_PADDING = 15
-CAPTURE_ZOOM = 1.75
+CAPTURE_ZOOM = 1.5
 CAPTURE_FRAME_MARGIN_X = 220
 CAPTURE_FRAME_MARGIN_Y = 160
 TRIM_ALPHA_THRESHOLD = 1

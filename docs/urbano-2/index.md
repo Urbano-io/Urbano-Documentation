@@ -6,4 +6,4 @@ You can use the sidebar navigation to browse all available components, or press 
 
 <br>
 
-[Start Browsing Components :octicons-arrow-right-24:](components/ADP_Trip_Engine.md){ .md-button .md-button--primary aria-label="Start Browsing Components" }
+[Start Browsing Components :octicons-arrow-right-24:](categories/1_Download_Import.md){ .md-button .md-button--primary aria-label="Start Browsing Components" }
