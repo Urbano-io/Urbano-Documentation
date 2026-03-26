@@ -63,6 +63,23 @@
   border: 0;
 }
 
+/* Urbano v2: Workflow teaser media block */
+.workflow-teaser {
+  margin: 0 0 1.25rem 0;
+  border-radius: 8px;
+  overflow: hidden;
+  border: 1px solid var(--md-default-fg-color--lightest, rgba(0, 0, 0, 0.12));
+  background: var(--md-default-bg-color--light, #f7f7f7);
+}
+
+.workflow-teaser video {
+  display: block;
+  width: 100%;
+  height: auto;
+  max-height: 80vh;
+  background: #111;
+}
+
 /* Palette's Legacy Banner Fix */
 .legacy-warning-btn {
   margin-top: 0.5rem;
