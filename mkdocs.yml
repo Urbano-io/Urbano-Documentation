@@ -148,6 +148,9 @@ plugins:
       sort_authors_by: name
       authorship_threshold_percent: 1
       #ignore_commits: .git-blame-ignore-revs
+      ignore_authors:
+        - google-labs-jules[bot]
+        - 161369871+google-labs-jules[bot]@users.noreply.github.com
       exclude:
         - index.md
       enabled: true
