@@ -601,10 +601,28 @@ else:
             write_grouped_components(summaryPath, pluginComponents[cleanSubCat], link_prefix="components/")
 
         # --- VERSION DETECTION ---
-        # Detect plugin version (useful for mike deploy scripts).
-        # Usage: mike deploy <version> latest --update-aliases
+        # Detect plugin version and write to version.txt for CI pipeline
         plugin_version = get_plugin_version(pluginName)
         print(f"[EXPORT] Detected plugin version: {plugin_version}")
+
+        # Determine docs root and write version.txt
+        docs_root = os.path.dirname(githubFolder) if os.path.basename(githubFolder) != "docs" else githubFolder
+        test_path = githubFolder
+        for _ in range(5):  # safety limit
+            if os.path.basename(test_path) == "docs":
+                docs_root = test_path
+                break
+            parent = os.path.dirname(test_path)
+            if parent == test_path:
+                break
+            test_path = parent
+
+        version_txt_path = os.path.join(docs_root, "version.txt")
+        try:
+            write_utf8(version_txt_path, plugin_version)
+            print(f"[EXPORT] Written version {plugin_version} to {version_txt_path}")
+        except Exception as ve:
+            print(f"[EXPORT] Warning: Could not write version.txt: {ve}")
 
         print(f"[EXPORT] === Export complete! {len(componentsHeights)} components exported. ===")
 
