@@ -1,4 +1,4 @@
-## ![](../images/icons/Search_Metadata.png) Search Metadata
+# ![](../images/icons/Search_Metadata.png) Search Metadata
 
 ![](../images/components/Search_Metadata-crop.png)
 

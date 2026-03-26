@@ -350,7 +350,7 @@ def exportDescription(component, pluginName, githubFolder, githubRepo=None):
     os.makedirs(components_dir, exist_ok=True)
 
     lines = []
-    header = f"## ![](../images/icons/{name}.png) {bName}"
+    header = f"# ![](../images/icons/{name}.png) {bName}"
     if githubRepo:
         source = f" - [[source code]]({githubRepo}/{originalName.replace(' ', '%20')}.cs)\n"
         lines.append(header + source)

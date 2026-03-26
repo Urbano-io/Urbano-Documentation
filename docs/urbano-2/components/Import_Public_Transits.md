@@ -1,4 +1,4 @@
-## ![](../images/icons/Import_Public_Transits.png) Import Public Transits
+# ![](../images/icons/Import_Public_Transits.png) Import Public Transits
 
 ![](../images/components/Import_Public_Transits-crop.png)
 

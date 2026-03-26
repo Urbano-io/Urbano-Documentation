@@ -1,4 +1,4 @@
-## ![](../images/icons/Coordinate_Reference.png) Coordinate Reference
+# ![](../images/icons/Coordinate_Reference.png) Coordinate Reference
 
 ![](../images/components/Coordinate_Reference-crop.png)
 

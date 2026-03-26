@@ -1,4 +1,4 @@
-## ![](../images/icons/Lookup_Metadata.png) Lookup Metadata
+# ![](../images/icons/Lookup_Metadata.png) Lookup Metadata
 
 ![](../images/components/Lookup_Metadata-crop.png)
 

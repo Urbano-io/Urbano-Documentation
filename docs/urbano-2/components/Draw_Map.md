@@ -1,4 +1,4 @@
-## ![](../images/icons/Draw_Map.png) Draw Map
+# ![](../images/icons/Draw_Map.png) Draw Map
 
 ![](../images/components/Draw_Map-crop.png)
 

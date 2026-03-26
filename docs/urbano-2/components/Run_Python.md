@@ -1,4 +1,4 @@
-## ![](../images/icons/Run_Python.png) Run Python
+# ![](../images/icons/Run_Python.png) Run Python
 
 ![](../images/components/Run_Python-crop.png)
 

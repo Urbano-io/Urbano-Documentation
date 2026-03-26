@@ -1,4 +1,4 @@
-## ![](../images/icons/Embed_Metadata_into_Curve.png) Embed Metadata into Curve
+# ![](../images/icons/Embed_Metadata_into_Curve.png) Embed Metadata into Curve
 
 ![](../images/components/Embed_Metadata_into_Curve-crop.png)
 

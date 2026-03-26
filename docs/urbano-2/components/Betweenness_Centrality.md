@@ -1,4 +1,4 @@
-## ![](../images/icons/Betweenness_Centrality.png) Betweenness Centrality
+# ![](../images/icons/Betweenness_Centrality.png) Betweenness Centrality
 
 ![](../images/components/Betweenness_Centrality-crop.png)
 

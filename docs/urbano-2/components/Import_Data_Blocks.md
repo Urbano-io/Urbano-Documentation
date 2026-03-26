@@ -1,4 +1,4 @@
-## ![](../images/icons/Import_Data_Blocks.png) Import Data Blocks
+# ![](../images/icons/Import_Data_Blocks.png) Import Data Blocks
 
 ![](../images/components/Import_Data_Blocks-crop.png)
 
