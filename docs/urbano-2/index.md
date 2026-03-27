@@ -22,31 +22,31 @@ Quick-start Grasshopper files for the workflows shown above.
 
     Define project boundary, granularity, and source data selection.
 
-    [Open _Project Setting Template_](https://github.com/Urbano-io/Urbano2-GH-Templates/blob/2.2.1.2/basics/1_project_setting.gh)
+    [Open *Project Setting Template* :material-open-in-new:](https://github.com/Urbano-io/Urbano2-GH-Templates/blob/2.2.1.2/basics/1_project_setting.gh){ .md-button target="_blank" rel="noopener noreferrer" aria-label="Open Project Setting Template (opens in a new tab)" }
 
 -   __Build Site Model__
 
     Build a complete urban site model from imported geospatial layers.
 
-    [Open _Build Site Model Template_](https://github.com/Urbano-io/Urbano2-GH-Templates/blob/2.2.1.2/use_cases/1_build_site_model.gh)
+    [Open *Build Site Model Template* :material-open-in-new:](https://github.com/Urbano-io/Urbano2-GH-Templates/blob/2.2.1.2/use_cases/1_build_site_model.gh){ .md-button target="_blank" rel="noopener noreferrer" aria-label="Open Build Site Model Template (opens in a new tab)" }
 
 -   __Walkscore by Block__
 
     Compute baseline block-level walkability across the study area.
 
-    [Open _Walkscore by Block Template_](https://github.com/Urbano-io/Urbano2-GH-Templates/blob/2.2.1.2/use_cases/2_compute_walkscore_by_block.gh)
+    [Open *Walkscore by Block Template* :material-open-in-new:](https://github.com/Urbano-io/Urbano2-GH-Templates/blob/2.2.1.2/use_cases/2_compute_walkscore_by_block.gh){ .md-button target="_blank" rel="noopener noreferrer" aria-label="Open Walkscore by Block Template (opens in a new tab)" }
 
 -   __Customize Walkscore__
 
     Add or remove amenities and compare walkscore...
 
-    [Open _Customize Walkscore Template_](https://github.com/Urbano-io/Urbano2-GH-Templates/blob/2.2.1.2/use_cases/3_customize_walkscore.gh)
+    [Open *Customize Walkscore Template* :material-open-in-new:](https://github.com/Urbano-io/Urbano2-GH-Templates/blob/2.2.1.2/use_cases/3_customize_walkscore.gh){ .md-button target="_blank" rel="noopener noreferrer" aria-label="Open Customize Walkscore Template (opens in a new tab)" }
 
 -   __Compute Betweenness Centrality__
 
     Evaluate network centrality and test street interventions.
 
-    [Open _Betweenness Centrality Template_](https://github.com/Urbano-io/Urbano2-GH-Templates/blob/2.2.1.2/use_cases/4_compute_BC.gh)
+    [Open *Betweenness Centrality Template* :material-open-in-new:](https://github.com/Urbano-io/Urbano2-GH-Templates/blob/2.2.1.2/use_cases/4_compute_BC.gh){ .md-button target="_blank" rel="noopener noreferrer" aria-label="Open Betweenness Centrality Template (opens in a new tab)" }
 
 </div>
 
