@@ -82,8 +82,8 @@ theme:
         name: Switch to light mode
     - media: "(prefers-color-scheme: light)"
       scheme: default
-      primary: black
-      accent: black
+      primary: white
+      accent: indigo
       toggle:
         icon: material/toggle-switch
         name: Switch to dark mode

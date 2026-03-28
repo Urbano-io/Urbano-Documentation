@@ -13,7 +13,7 @@
         </span>
         Go to Homepage
       </a>
-      <button id="go-back-btn" onclick="window.history.back()" class="md-button" aria-label="Go back to previous page">
+      <button id="go-back-btn" onclick="window.history.back()" class="md-button" aria-label="Go Back">
         <span class="twemoji" aria-hidden="true">
           {% include ".icons/material/arrow-left.svg" %}
         </span>
@@ -28,11 +28,14 @@
       brokenUrlEl.textContent = window.location.pathname;
     }
 
-    // Improve UX: disable "Go Back" if there's no meaningful history to return to
+    // Improve UX: disable "Go Back" if there's no meaningful history to return to.
+    // Use aria-disabled instead of the disabled attribute so the button remains focusable
+    // for keyboard users to discover the tooltip/reasoning.
     if (window.history.length <= 2) {
       const backBtn = document.getElementById('go-back-btn');
       if (backBtn) {
-        backBtn.disabled = true;
+        backBtn.removeAttribute('onclick');
+        backBtn.setAttribute('aria-disabled', 'true');
         backBtn.title = "No previous page to go back to";
       }
     }
