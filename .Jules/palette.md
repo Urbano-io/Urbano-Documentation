@@ -57,3 +57,7 @@
 ## 2025-05-15 - [Clear External Link Indication]
 **Learning:** Found several external links on landing pages (like the GitHub links to Grasshopper templates) that lacked visual indication that they point outside the documentation site. Users might click these expecting to stay within the documentation flow, only to be taken to another site entirely, which can be jarring.
 **Action:** Appended the `:material-open-in-new:` icon to external links, especially in prominent lists or cards, to provide visual affordance that the link opens a new tab/external site. Also ensured `target="_blank"`, `rel="noopener noreferrer"`, and a descriptive `aria-label` were added for security and accessibility.
+
+## 2025-05-18 - [Accessible Tooltips on Disabled Buttons]
+**Learning:** Setting the `disabled` attribute on a button removes it from the keyboard focus order entirely. This means keyboard and screen reader users cannot access the `title` tooltip that explains *why* the button is disabled.
+**Action:** Use `aria-disabled="true"` instead of the `disabled` attribute, remove any `onclick` handlers, and apply the disabled styling via CSS `[aria-disabled="true"]`. This keeps the button in the focus order so its explanatory tooltip remains accessible to all users.
