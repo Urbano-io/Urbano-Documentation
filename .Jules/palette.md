@@ -53,3 +53,7 @@
 ## 2025-03-24 - [Tactile Feedback for Buttons]
 **Learning:** Found buttons with CSS hover-lift effects (like `.md-button` using `translateY(-2px)`) that lacked a corresponding `active` state. Without an active state, the button remains visually lifted during a click, failing to provide the tactile, "pressed" feedback that users expect from a physical-feeling interaction.
 **Action:** Added `.md-button:active` with `translateY(0)` and a slight scale down (`scale(0.97)`) to complete the interaction loop. Will always pair hover-lift effects with active-press effects in the future.
+
+## 2025-05-15 - [Clear External Link Indication]
+**Learning:** Found several external links on landing pages (like the GitHub links to Grasshopper templates) that lacked visual indication that they point outside the documentation site. Users might click these expecting to stay within the documentation flow, only to be taken to another site entirely, which can be jarring.
+**Action:** Appended the `:material-open-in-new:` icon to external links, especially in prominent lists or cards, to provide visual affordance that the link opens a new tab/external site. Also ensured `target="_blank"`, `rel="noopener noreferrer"`, and a descriptive `aria-label` were added for security and accessibility.
