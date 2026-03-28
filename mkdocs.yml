@@ -39,7 +39,7 @@ theme:
   name: material
   custom_dir: docs/overrides
   #font: false
-  logo: assets/cd/android-chrome-512x512.png
+  logo: assets/cd/header-logo.png
   favicon: assets/cd/favicon.ico
   features:
     - tabs
