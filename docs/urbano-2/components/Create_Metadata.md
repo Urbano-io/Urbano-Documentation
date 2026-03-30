@@ -1,6 +1,6 @@
-# ![](../images/icons/Create_Metadata.png) Create Metadata
+# ![Create Metadata icon](../images/icons/Create_Metadata.png) Create Metadata
 
-![](../images/components/Create_Metadata-crop.png)
+![Create Metadata component](../images/components/Create_Metadata-crop.png)
 
 Create metadata from field names (keys) and corresponding values.
 

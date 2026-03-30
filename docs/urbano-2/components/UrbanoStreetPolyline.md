@@ -1,6 +1,6 @@
-# ![](../images/icons/UrbanoStreetPolyline.png) UrbanoStreetPolyline
+# ![UrbanoStreetPolyline icon](../images/icons/UrbanoStreetPolyline.png) UrbanoStreetPolyline
 
-![](../images/components/UrbanoStreetPolyline-crop.png)
+![UrbanoStreetPolyline component](../images/components/UrbanoStreetPolyline-crop.png)
 
 UrbanoStreetPolyline
 

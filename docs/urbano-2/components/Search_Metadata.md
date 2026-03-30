@@ -1,6 +1,6 @@
-# ![](../images/icons/Search_Metadata.png) Search Metadata
+# ![Search Metadata icon](../images/icons/Search_Metadata.png) Search Metadata
 
-![](../images/components/Search_Metadata-crop.png)
+![Search Metadata component](../images/components/Search_Metadata-crop.png)
 
 Find unique keys and values in the Metadata
 

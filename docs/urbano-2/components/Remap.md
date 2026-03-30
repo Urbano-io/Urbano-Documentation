@@ -1,6 +1,6 @@
-# ![](../images/icons/Remap.png) Remap
+# ![Remap icon](../images/icons/Remap.png) Remap
 
-![](../images/components/Remap-crop.png)
+![Remap component](../images/components/Remap-crop.png)
 
 Remap
 

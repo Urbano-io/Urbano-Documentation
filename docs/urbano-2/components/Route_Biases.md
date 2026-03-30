@@ -1,6 +1,6 @@
-# ![](../images/icons/Route_Biases.png) Route Biases
+# ![Route Biases icon](../images/icons/Route_Biases.png) Route Biases
 
-![](../images/components/Route_Biases-crop.png)
+![Route Biases component](../images/components/Route_Biases-crop.png)
 
 Route Biases
 

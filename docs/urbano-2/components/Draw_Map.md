@@ -1,6 +1,6 @@
-# ![](../images/icons/Draw_Map.png) Draw Map
+# ![Draw Map icon](../images/icons/Draw_Map.png) Draw Map
 
-![](../images/components/Draw_Map-crop.png)
+![Draw Map component](../images/components/Draw_Map-crop.png)
 
 Draw Map
 

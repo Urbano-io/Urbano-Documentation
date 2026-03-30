@@ -1,6 +1,6 @@
-# ![](../images/icons/Merge_Metadata.png) Merge Metadata
+# ![Merge Metadata icon](../images/icons/Merge_Metadata.png) Merge Metadata
 
-![](../images/components/Merge_Metadata-crop.png)
+![Merge Metadata component](../images/components/Merge_Metadata-crop.png)
 
 Merge a list of Metadata into a single metadata
 

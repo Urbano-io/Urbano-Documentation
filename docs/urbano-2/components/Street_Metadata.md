@@ -1,6 +1,6 @@
-# ![](../images/icons/Street_Metadata.png) Street Metadata
+# ![Street Metadata icon](../images/icons/Street_Metadata.png) Street Metadata
 
-![](../images/components/Street_Metadata-crop.png)
+![Street Metadata component](../images/components/Street_Metadata-crop.png)
 
 Street Metadata
 

@@ -1,6 +1,6 @@
-# ![](../images/icons/Deconstruct_Street_Network.png) Deconstruct Street Network
+# ![Deconstruct Street Network icon](../images/icons/Deconstruct_Street_Network.png) Deconstruct Street Network
 
-![](../images/components/Deconstruct_Street_Network-crop.png)
+![Deconstruct Street Network component](../images/components/Deconstruct_Street_Network-crop.png)
 
 Deconstruct Street Network
 

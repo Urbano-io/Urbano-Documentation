@@ -1,6 +1,6 @@
-# ![](../images/icons/Import_Green_Spaces.png) Import Green Spaces
+# ![Import Green Spaces icon](../images/icons/Import_Green_Spaces.png) Import Green Spaces
 
-![](../images/components/Import_Green_Spaces-crop.png)
+![Import Green Spaces component](../images/components/Import_Green_Spaces-crop.png)
 
 Import Green Spaces
 

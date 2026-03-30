@@ -1,6 +1,6 @@
-# ![](../images/icons/Run_Python.png) Run Python
+# ![Run Python icon](../images/icons/Run_Python.png) Run Python
 
-![](../images/components/Run_Python-crop.png)
+![Run Python component](../images/components/Run_Python-crop.png)
 
 Run Python
 

@@ -1,6 +1,6 @@
-# ![](../images/icons/UrbanoTerrainMesh.png) UrbanoTerrainMesh
+# ![UrbanoTerrainMesh icon](../images/icons/UrbanoTerrainMesh.png) UrbanoTerrainMesh
 
-![](../images/components/UrbanoTerrainMesh-crop.png)
+![UrbanoTerrainMesh component](../images/components/UrbanoTerrainMesh-crop.png)
 
 UrbanoTerrainMesh
 

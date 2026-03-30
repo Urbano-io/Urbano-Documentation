@@ -1,6 +1,6 @@
-# ![](../images/icons/Project_Geographic_Boundary.png) Project Geographic Boundary
+# ![Project Geographic Boundary icon](../images/icons/Project_Geographic_Boundary.png) Project Geographic Boundary
 
-![](../images/components/Project_Geographic_Boundary-crop.png)
+![Project Geographic Boundary component](../images/components/Project_Geographic_Boundary-crop.png)
 
 Project geographic boundary
 
