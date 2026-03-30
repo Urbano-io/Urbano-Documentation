@@ -1,6 +1,6 @@
-# ![](../images/icons/Lookup_Metadata.png) Lookup Metadata
+# ![Lookup Metadata icon](../images/icons/Lookup_Metadata.png) Lookup Metadata
 
-![](../images/components/Lookup_Metadata-crop.png)
+![Lookup Metadata component](../images/components/Lookup_Metadata-crop.png)
 
 Find values corresponding to keys in metadata (or Rhino geometry with metadata embedded)
 

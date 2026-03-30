@@ -1,6 +1,6 @@
-# ![](../images/icons/Router.png) Router
+# ![Router icon](../images/icons/Router.png) Router
 
-![](../images/components/Router-crop.png)
+![Router component](../images/components/Router-crop.png)
 
 Find a trip between two places (buildings/points/curves) using the specified mode
 

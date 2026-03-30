@@ -1,6 +1,6 @@
-# ![](../images/icons/Betweenness_Centrality.png) Betweenness Centrality
+# ![Betweenness Centrality icon](../images/icons/Betweenness_Centrality.png) Betweenness Centrality
 
-![](../images/components/Betweenness_Centrality-crop.png)
+![Betweenness Centrality component](../images/components/Betweenness_Centrality-crop.png)
 
 Computes Edge Betweenness Centrality for the Street Network
 

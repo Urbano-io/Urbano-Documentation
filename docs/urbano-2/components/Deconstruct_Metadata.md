@@ -1,6 +1,6 @@
-# ![](../images/icons/Deconstruct_Metadata.png) Deconstruct Metadata
+# ![Deconstruct Metadata icon](../images/icons/Deconstruct_Metadata.png) Deconstruct Metadata
 
-![](../images/components/Deconstruct_Metadata-crop.png)
+![Deconstruct Metadata component](../images/components/Deconstruct_Metadata-crop.png)
 
 Deconstruct Metadata into keys and values
 

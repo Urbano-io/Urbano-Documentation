@@ -1,6 +1,6 @@
-# ![](../images/icons/Urbano_Gradient.png) Urbano Gradient
+# ![Urbano Gradient icon](../images/icons/Urbano_Gradient.png) Urbano Gradient
 
-![](../images/components/Urbano_Gradient-crop.png)
+![Urbano Gradient component](../images/components/Urbano_Gradient-crop.png)
 
 Represents a multiple colour gradient. The Reverse and Transparency inputs modify the gradient permanently.
 

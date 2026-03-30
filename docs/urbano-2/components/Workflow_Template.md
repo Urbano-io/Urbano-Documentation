@@ -1,6 +1,6 @@
-# ![](../images/icons/Workflow_Template.png) Workflow Template
+# ![Workflow Template icon](../images/icons/Workflow_Template.png) Workflow Template
 
-![](../images/components/Workflow_Template-crop.png)
+![Workflow Template component](../images/components/Workflow_Template-crop.png)
 
 Load workflow templates.
 

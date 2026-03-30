@@ -1,6 +1,6 @@
-# ![](../images/icons/Walkscore_Component.png) Walkscore Component
+# ![Walkscore Component icon](../images/icons/Walkscore_Component.png) Walkscore Component
 
-![](../images/components/Walkscore_Component-crop.png)
+![Walkscore Component component](../images/components/Walkscore_Component-crop.png)
 
 Compute Walkscore values for input geometries using Itinero routing to amenity POIs extracted from OSM.
 

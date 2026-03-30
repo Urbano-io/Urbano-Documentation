@@ -1,6 +1,6 @@
-# ![](../images/icons/UrbanoTransitGeo.png) UrbanoTransitGeo
+# ![UrbanoTransitGeo icon](../images/icons/UrbanoTransitGeo.png) UrbanoTransitGeo
 
-![](../images/components/UrbanoTransitGeo-crop.png)
+![UrbanoTransitGeo component](../images/components/UrbanoTransitGeo-crop.png)
 
 UrbanoTransitGeo
 

@@ -1,6 +1,6 @@
-# ![](../images/icons/Coordinate_Reference.png) Coordinate Reference
+# ![Coordinate Reference icon](../images/icons/Coordinate_Reference.png) Coordinate Reference
 
-![](../images/components/Coordinate_Reference-crop.png)
+![Coordinate Reference component](../images/components/Coordinate_Reference-crop.png)
 
 Coordinate reference information for properly locating the geometries in the Rhino canvas
 

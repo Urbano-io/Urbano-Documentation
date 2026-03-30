@@ -1,6 +1,6 @@
-# ![](../images/icons/Create_Project_Setting.png) Create Project Setting
+# ![Create Project Setting icon](../images/icons/Create_Project_Setting.png) Create Project Setting
 
-![](../images/components/Create_Project_Setting-crop.png)
+![Create Project Setting component](../images/components/Create_Project_Setting-crop.png)
 
 Create Project Setting
 

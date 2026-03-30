@@ -1,6 +1,6 @@
-# ![](../images/icons/Deconstruct_Project_Setting.png) Deconstruct Project Setting
+# ![Deconstruct Project Setting icon](../images/icons/Deconstruct_Project_Setting.png) Deconstruct Project Setting
 
-![](../images/components/Deconstruct_Project_Setting-crop.png)
+![Deconstruct Project Setting component](../images/components/Deconstruct_Project_Setting-crop.png)
 
 Deconstruct Project Setting
 

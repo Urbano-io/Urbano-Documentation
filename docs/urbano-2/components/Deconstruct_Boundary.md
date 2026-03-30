@@ -1,6 +1,6 @@
-# ![](../images/icons/Deconstruct_Boundary.png) Deconstruct Boundary
+# ![Deconstruct Boundary icon](../images/icons/Deconstruct_Boundary.png) Deconstruct Boundary
 
-![](../images/components/Deconstruct_Boundary-crop.png)
+![Deconstruct Boundary component](../images/components/Deconstruct_Boundary-crop.png)
 
 Deconstruct Boundary
 

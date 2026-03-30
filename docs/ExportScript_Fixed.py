@@ -350,7 +350,7 @@ def exportDescription(component, pluginName, githubFolder, githubRepo=None):
     os.makedirs(components_dir, exist_ok=True)
 
     lines = []
-    header = f"# ![](../images/icons/{name}.png) {bName}"
+    header = f"# ![{bName} icon](../images/icons/{name}.png) {bName}"
     if githubRepo:
         source = f" - [[source code]]({githubRepo}/{originalName.replace(' ', '%20')}.cs)\n"
         lines.append(header + source)
@@ -358,7 +358,7 @@ def exportDescription(component, pluginName, githubFolder, githubRepo=None):
         lines.append(header + "\n")
 
     image_filename = get_component_image_filename(name, githubFolder)
-    image = f"![](../images/components/{image_filename})"
+    image = f"![{bName} component](../images/components/{image_filename})"
     lines.append(image)
 
     desc = description.split("Provided by ")[0].replace("\n", " ")

@@ -1,6 +1,6 @@
-# ![](../images/icons/UrbanoBlockGeo.png) UrbanoBlockGeo
+# ![UrbanoBlockGeo icon](../images/icons/UrbanoBlockGeo.png) UrbanoBlockGeo
 
-![](../images/components/UrbanoBlockGeo-crop.png)
+![UrbanoBlockGeo component](../images/components/UrbanoBlockGeo-crop.png)
 
 UrbanoBlockGeo
 

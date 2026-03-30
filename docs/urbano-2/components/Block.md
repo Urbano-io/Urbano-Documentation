@@ -1,6 +1,6 @@
-# ![](../images/icons/Block.png) Block
+# ![Block icon](../images/icons/Block.png) Block
 
-![](../images/components/Block-crop.png)
+![Block component](../images/components/Block-crop.png)
 
 Block
 

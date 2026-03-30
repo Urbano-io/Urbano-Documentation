@@ -1,6 +1,6 @@
-# ![](../images/icons/Project_Geographic_Point.png) Project Geographic Point
+# ![Project Geographic Point icon](../images/icons/Project_Geographic_Point.png) Project Geographic Point
 
-![](../images/components/Project_Geographic_Point-crop.png)
+![Project Geographic Point component](../images/components/Project_Geographic_Point-crop.png)
 
 Project geographic points between WSG84 (lat,long) and UTM coords
 

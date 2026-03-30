@@ -1,6 +1,6 @@
-# ![](../images/icons/Osm_Feature_Query.png) Osm Feature Query
+# ![Osm Feature Query icon](../images/icons/Osm_Feature_Query.png) Osm Feature Query
 
-![](../images/components/Osm_Feature_Query-crop.png)
+![Osm Feature Query component](../images/components/Osm_Feature_Query-crop.png)
 
 Generate OSM feature queries suitable for input to the Import Osm File
 
