@@ -2,6 +2,10 @@
 
 Please find the component documentation on the following pages. You can use the sidebar navigation to browse all available components, or press <kbd>/</kbd> to quickly search for what you need.
 
+<br>
+
+[Start Browsing Components :octicons-arrow-right-24:](components/ADP_Trip_Engine.md){ .md-button .md-button--primary }
+
 ## 🚀 Features
 
 A preview of what Urbano enables you to do
