@@ -4,7 +4,7 @@ Please find the component documentation on the following pages. You can use the 
 
 <br>
 
-[Start Browsing Components :octicons-arrow-right-24:](components/ADP_Trip_Engine.md){ .md-button .md-button--primary }
+[Start Browsing Components :octicons-arrow-right-24:](components/ADP_Trip_Engine.md){ .md-button .md-button--primary aria-label="Start Browsing Components" }
 
 ## 🚀 Features
 

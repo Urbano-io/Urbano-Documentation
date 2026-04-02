@@ -352,7 +352,7 @@ def exportDescription(component, pluginName, githubFolder, githubRepo=None):
     lines = []
     header = f"# ![{bName} icon](../images/icons/{name}.png) {bName}"
     if githubRepo:
-        source = f" - [[source code]]({githubRepo}/{originalName.replace(' ', '%20')}.cs)\n"
+        source = f" - [[source code :material-open-in-new:]({githubRepo}/{originalName.replace(' ', '%20')}.cs){{ target=\"_blank\" rel=\"noopener noreferrer\" aria-label=\"source code (opens in a new tab)\" }}]\n"
         lines.append(header + source)
     else:
         lines.append(header + "\n")
