@@ -1,6 +1,6 @@
-# ![Create Amenity icon](../../images/icons/Create_Amenity.png) Create Amenity
+# ![Create Amenity icon](../images/icons/Create_Amenity.png) Create Amenity
 
-![Create Amenity](../../images/components/Create_Amenity.png)
+![Create Amenity](../images/components/Create_Amenity.png)
 
 Build amenity from point and metadata
 

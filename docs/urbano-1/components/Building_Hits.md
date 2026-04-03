@@ -1,6 +1,6 @@
-# ![Building Hits icon](../../images/icons/Building_Hits.png) Building Hits
+# ![Building Hits icon](../images/icons/Building_Hits.png) Building Hits
 
-![Building Hits](../../images/components/Building_Hits.png)
+![Building Hits](../images/components/Building_Hits.png)
 
 Buildings that were destination for the given trips
 

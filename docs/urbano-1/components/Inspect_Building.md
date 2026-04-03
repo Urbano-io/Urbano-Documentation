@@ -1,6 +1,6 @@
-# ![Inspect Building icon](../../images/icons/Inspect_Building.png) Inspect Building
+# ![Inspect Building icon](../images/icons/Inspect_Building.png) Inspect Building
 
-![Inspect Building](../../images/components/Inspect_Building.png)
+![Inspect Building](../images/components/Inspect_Building.png)
 
 Inspect building to get properties and curve
 

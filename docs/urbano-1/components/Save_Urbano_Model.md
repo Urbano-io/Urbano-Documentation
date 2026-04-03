@@ -1,6 +1,6 @@
-# ![Save Urbano Model icon](../../images/icons/Save_Urbano_Model.png) Save Urbano Model
+# ![Save Urbano Model icon](../images/icons/Save_Urbano_Model.png) Save Urbano Model
 
-![Save Urbano Model](../../images/components/Save_Urbano_Model.png)
+![Save Urbano Model](../images/components/Save_Urbano_Model.png)
 
 Save Urbano Model to file
 

@@ -1,6 +1,6 @@
-# ![Create Street Network icon](../../images/icons/Create_Street_Network.png) Create Street Network
+# ![Create Street Network icon](../images/icons/Create_Street_Network.png) Create Street Network
 
-![Create Street Network](../../images/components/Create_Street_Network.png)
+![Create Street Network](../images/components/Create_Street_Network.png)
 
 Create street network from curves
 

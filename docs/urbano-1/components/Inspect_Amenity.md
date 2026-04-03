@@ -1,6 +1,6 @@
-# ![Inspect Amenity icon](../../images/icons/Inspect_Amenity.png) Inspect Amenity
+# ![Inspect Amenity icon](../images/icons/Inspect_Amenity.png) Inspect Amenity
 
-![Inspect Amenity](../../images/components/Inspect_Amenity.png)
+![Inspect Amenity](../images/components/Inspect_Amenity.png)
 
 Inspect amenities to get properties
 

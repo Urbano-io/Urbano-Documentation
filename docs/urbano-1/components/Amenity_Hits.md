@@ -1,6 +1,6 @@
-# ![Amenity Hits icon](../../images/icons/Amenity_Hits.png) Amenity Hits
+# ![Amenity Hits icon](../images/icons/Amenity_Hits.png) Amenity Hits
 
-![Amenity Hits](../../images/components/Amenity_Hits.png)
+![Amenity Hits](../images/components/Amenity_Hits.png)
 
 Hits at amenities in the given trips
 

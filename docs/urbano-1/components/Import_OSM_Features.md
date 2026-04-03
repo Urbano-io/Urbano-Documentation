@@ -1,6 +1,6 @@
-# ![Import OSM Features icon](../../images/icons/Import_OSM_Features.png) Import OSM Features
+# ![Import OSM Features icon](../images/icons/Import_OSM_Features.png) Import OSM Features
 
-![Import OSM Features](../../images/components/Import_OSM_Features.png)
+![Import OSM Features](../images/components/Import_OSM_Features.png)
 
 Import buildings, amenities and other features from an OSM path
 

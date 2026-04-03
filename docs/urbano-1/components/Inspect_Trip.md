@@ -1,6 +1,6 @@
-# ![Inspect Trip icon](../../images/icons/Inspect_Trip.png) Inspect Trip
+# ![Inspect Trip icon](../images/icons/Inspect_Trip.png) Inspect Trip
 
-![Inspect Trip](../../images/components/Inspect_Trip.png)
+![Inspect Trip](../images/components/Inspect_Trip.png)
 
 Inspect trip for details like time, distance, route
 

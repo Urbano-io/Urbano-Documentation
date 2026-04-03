@@ -1,6 +1,6 @@
-# ![Simplify Polyline icon](../../images/icons/Simplify_Polyline.png) Simplify Polyline
+# ![Simplify Polyline icon](../images/icons/Simplify_Polyline.png) Simplify Polyline
 
-![Simplify Polyline](../../images/components/Simplify_Polyline.png)
+![Simplify Polyline](../images/components/Simplify_Polyline.png)
 
 Simplify polyline using Douglas Peucker reduction
 

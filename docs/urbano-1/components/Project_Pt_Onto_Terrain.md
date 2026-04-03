@@ -1,6 +1,6 @@
-# ![Project Pt Onto Terrain icon](../../images/icons/Project_Pt_Onto_Terrain.png) Project Pt Onto Terrain
+# ![Project Pt Onto Terrain icon](../images/icons/Project_Pt_Onto_Terrain.png) Project Pt Onto Terrain
 
-![Project Pt Onto Terrain](../../images/components/Project_Pt_Onto_Terrain.png)
+![Project Pt Onto Terrain](../images/components/Project_Pt_Onto_Terrain.png)
 
 Project pt onto the terrain mesh when there is missing or incorrect point elevation
 

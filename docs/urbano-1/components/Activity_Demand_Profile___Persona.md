@@ -1,6 +1,6 @@
-# ![Activity Demand Profile   Persona icon](../../images/icons/Activity_Demand_Profile___Persona.png) Activity Demand Profile / Persona
+# ![Activity Demand Profile   Persona icon](../images/icons/Activity_Demand_Profile___Persona.png) Activity Demand Profile / Persona
 
-![Activity Demand Profile   Persona](../../images/components/Activity_Demand_Profile___Persona.png)
+![Activity Demand Profile   Persona](../images/components/Activity_Demand_Profile___Persona.png)
 
 Activity Demand Profile describing the population weighted demand of activities for a certain persona type. Either input profile data, or load from stock data provided by Urbano. Loaded data can then be edited and saved in the ADP editor. You can even start creating a profile from scratch in the editor
 

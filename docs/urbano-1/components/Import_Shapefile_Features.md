@@ -1,6 +1,6 @@
-# ![Import Shapefile Features icon](../../images/icons/Import_Shapefile_Features.png) Import Shapefile Features
+# ![Import Shapefile Features icon](../images/icons/Import_Shapefile_Features.png) Import Shapefile Features
 
-![Import Shapefile Features](../../images/components/Import_Shapefile_Features.png)
+![Import Shapefile Features](../images/components/Import_Shapefile_Features.png)
 
 Import data from GIS shapefiles
 
