@@ -1,6 +1,6 @@
-# ![ADP Trip Engine icon](../../images/icons/ADP_Trip_Engine.png) ADP Trip Engine
+# ![ADP Trip Engine icon](../images/icons/ADP_Trip_Engine.png) ADP Trip Engine
 
-![ADP Trip Engine](../../images/components/ADP_Trip_Engine.png)
+![ADP Trip Engine](../images/components/ADP_Trip_Engine.png)
 
 Generate trips from the building based on the given activity demand profile and the destination choice model for each activity in the profile
 

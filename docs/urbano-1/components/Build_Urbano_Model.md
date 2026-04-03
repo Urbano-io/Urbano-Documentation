@@ -1,6 +1,6 @@
-# ![Build Urbano Model icon](../../images/icons/Build_Urbano_Model.png) Build Urbano Model
+# ![Build Urbano Model icon](../images/icons/Build_Urbano_Model.png) Build Urbano Model
 
-![Build Urbano Model](../../images/components/Build_Urbano_Model.png)
+![Build Urbano Model](../images/components/Build_Urbano_Model.png)
 
 Build an Urbano model with buildings and streets
 

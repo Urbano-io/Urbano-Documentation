@@ -61,3 +61,7 @@
 ## 2025-05-18 - [Accessible Tooltips on Disabled Buttons]
 **Learning:** Setting the `disabled` attribute on a button removes it from the keyboard focus order entirely. This means keyboard and screen reader users cannot access the `title` tooltip that explains *why* the button is disabled.
 **Action:** Use `aria-disabled="true"` instead of the `disabled` attribute, remove any `onclick` handlers, and apply the disabled styling via CSS `[aria-disabled="true"]`. This keeps the button in the focus order so its explanatory tooltip remains accessible to all users.
+
+## 2025-05-24 - [Direct Search Access in Empty States]
+**Learning:** While instructing users to "use the search bar (press /)" in empty states like 404 pages is helpful, it still requires cognitive load to locate the search bar or recall the keyboard shortcut. Mouse/touch users benefit from a direct, single-tap recovery action.
+**Action:** In MkDocs Material, use a `<label for="__search" class="md-button">` to create a prominent button that natively triggers the search overlay. Always include this alongside "Go to Homepage" on error pages to provide multiple intuitive recovery paths.

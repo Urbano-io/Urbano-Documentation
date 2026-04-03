@@ -1,6 +1,6 @@
-# ![Arrange Amenities By Building icon](../../images/icons/Arrange_Amenities_By_Building.png) Arrange Amenities By Building
+# ![Arrange Amenities By Building icon](../images/icons/Arrange_Amenities_By_Building.png) Arrange Amenities By Building
 
-![Arrange Amenities By Building](../../images/components/Arrange_Amenities_By_Building.png)
+![Arrange Amenities By Building](../images/components/Arrange_Amenities_By_Building.png)
 
 Arrange points (amenities, geotagged metadata from other sources) by the closest building
 

@@ -1,6 +1,6 @@
-# ![Merge Metadata icon](../../images/icons/Merge_Metadata.png) Merge Metadata
+# ![Merge Metadata icon](../images/icons/Merge_Metadata.png) Merge Metadata
 
-![Merge Metadata](../../images/components/Merge_Metadata.png)
+![Merge Metadata](../images/components/Merge_Metadata.png)
 
 Merge collection of metadatas
 

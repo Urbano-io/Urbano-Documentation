@@ -1,6 +1,6 @@
-# ![Building Population icon](../../images/icons/Building_Population.png) Building Population
+# ![Building Population icon](../images/icons/Building_Population.png) Building Population
 
-![Building Population](../../images/components/Building_Population.png)
+![Building Population](../images/components/Building_Population.png)
 
 Calculate the population in a building using area data
 

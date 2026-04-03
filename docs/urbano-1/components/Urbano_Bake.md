@@ -1,6 +1,6 @@
-# ![Urbano Bake icon](../../images/icons/Urbano_Bake.png) Urbano Bake
+# ![Urbano Bake icon](../images/icons/Urbano_Bake.png) Urbano Bake
 
-![Urbano Bake](../../images/components/Urbano_Bake.png)
+![Urbano Bake](../images/components/Urbano_Bake.png)
 
 Bake building/street curves to given layer on Rhino
 

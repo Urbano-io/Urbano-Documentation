@@ -1,6 +1,6 @@
-# ![WorkerWithProgBarComponent icon](../../images/icons/WorkerWithProgBarComponent.png) WorkerWithProgBarComponent
+# ![WorkerWithProgBarComponent icon](../images/icons/WorkerWithProgBarComponent.png) WorkerWithProgBarComponent
 
-![WorkerWithProgBarComponent](../../images/components/WorkerWithProgBarComponent.png)
+![WorkerWithProgBarComponent](../images/components/WorkerWithProgBarComponent.png)
 
 Description
 

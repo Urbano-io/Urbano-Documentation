@@ -1,6 +1,6 @@
-# ![Import Urbano Model icon](../../images/icons/Import_Urbano_Model.png) Import Urbano Model
+# ![Import Urbano Model icon](../images/icons/Import_Urbano_Model.png) Import Urbano Model
 
-![Import Urbano Model](../../images/components/Import_Urbano_Model.png)
+![Import Urbano Model](../images/components/Import_Urbano_Model.png)
 
 Import Urbano Model from file path or URL
 
