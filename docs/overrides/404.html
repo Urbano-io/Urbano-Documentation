@@ -7,19 +7,19 @@
     <p>You can use the search bar above (press <kbd>/</kbd>) to find what you need, or return to the main documentation.</p>
     <br>
     <div class="error-actions">
-      <a href="{{ config.site_url }}" class="md-button md-button--primary" aria-label="Go to Homepage">
+      <a href="{{ base_url }}/" class="md-button md-button--primary" aria-label="Go to Homepage">
         <span class="twemoji" aria-hidden="true">
           {% include ".icons/material/home.svg" %}
         </span>
         Go to Homepage
       </a>
-      <label for="__search" class="md-button" aria-label="Search documentation" title="Open search">
+      <label for="__search" class="md-button" tabindex="0" onkeydown="if(event.key==='Enter'||event.key===' '){event.preventDefault(); this.click();}" aria-label="Search documentation" title="Open search">
         <span class="twemoji" aria-hidden="true">
           {% include ".icons/material/magnify.svg" %}
         </span>
         Search
       </label>
-      <button id="go-back-btn" onclick="window.history.back()" class="md-button" aria-label="Go Back">
+      <button id="go-back-btn" type="button" onclick="window.history.back()" class="md-button" aria-label="Go Back">
         <span class="twemoji" aria-hidden="true">
           {% include ".icons/material/arrow-left.svg" %}
         </span>
