@@ -65,3 +65,7 @@
 ## 2025-05-24 - [Direct Search Access in Empty States]
 **Learning:** While instructing users to "use the search bar (press /)" in empty states like 404 pages is helpful, it still requires cognitive load to locate the search bar or recall the keyboard shortcut. Mouse/touch users benefit from a direct, single-tap recovery action.
 **Action:** In MkDocs Material, use a `<label for="__search" class="md-button">` to create a prominent button that natively triggers the search overlay. Always include this alongside "Go to Homepage" on error pages to provide multiple intuitive recovery paths.
+
+## 2026-04-03 - [Keyboard Accessibility for Label Buttons]
+**Learning:** Using a `<label for="...">` styled as a button (e.g., `.md-button`) provides a great click experience without JavaScript, but labels are natively excluded from the keyboard focus order. This completely breaks keyboard navigation for that "button".
+**Action:** When using `<label>` elements as UI buttons, always add `tabindex="0"` to include them in the focus order, and implement an `onkeydown` handler to simulate a click when the `Enter` or `Space` key is pressed.
