@@ -5,11 +5,11 @@
 Save Urbano Model to file
 
 #### Inputs
-* ##### Model []
+* ##### Model
 Urbano model containing buildings with amenities and network
-* ##### Path []
+* ##### Path
 File path to create and save Urbano model to
-* ##### Run []
+* ##### Run
 Toggle to save (if kept true, will save on every update)
 
 #### Outputs

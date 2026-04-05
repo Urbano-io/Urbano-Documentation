@@ -5,11 +5,11 @@
 Split the street curves at intersections
 
 #### Inputs
-* ##### RawCrv []
+* ##### RawCrv
 Split Street Curves
-* ##### Meta []
+* ##### Meta
 Serializable dictionary with string keys and arbitrary values
-* ##### Tol []
+* ##### Tol
 Tolerance for detecting street intersections
 
 #### Outputs

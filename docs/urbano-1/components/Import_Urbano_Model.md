@@ -5,7 +5,7 @@
 Import Urbano Model from file path or URL
 
 #### Inputs
-* ##### Path []
+* ##### Path
 File Path or URL for the resource. URL resources will be cached.
 
 #### Outputs

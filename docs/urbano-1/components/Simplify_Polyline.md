@@ -5,9 +5,9 @@
 Simplify polyline using Douglas Peucker reduction
 
 #### Inputs
-* ##### Poly []
+* ##### Poly
 Polyline to simplify
-* ##### Tol []
+* ##### Tol
 Tolerance for Douglas-Peucker reduction
 
 #### Outputs

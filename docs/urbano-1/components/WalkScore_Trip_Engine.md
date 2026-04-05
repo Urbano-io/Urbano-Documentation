@@ -5,9 +5,9 @@
 Generate trips based on the activity demand profile in the WalkScore.com methodology
 
 #### Inputs
-* ##### Model []
+* ##### Model
 Urbano model containing buildings with amenities and network
-* ##### Bldg []
+* ##### Bldg
 Building to compute WalkScore for
 
 #### Outputs

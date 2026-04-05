@@ -5,11 +5,11 @@
 Inspect building to get properties and curve
 
 #### Inputs
-* ##### Bldg []
+* ##### Bldg
 Building curve to inspect
-* ##### Model []
+* ##### Model
 Urbano model containing buildings with amenities and network
-* ##### DefHeight []
+* ##### DefHeight
 Replace missing building heights with the default height
 
 #### Outputs

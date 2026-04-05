@@ -5,11 +5,11 @@
 Bake building/street curves to given layer on Rhino
 
 #### Inputs
-* ##### Crv []
+* ##### Crv
 Curves to bake to layer
-* ##### Layer []
+* ##### Layer
 Layer to bake the curves on
-* ##### Bake []
+* ##### Bake
 Toggle to trigger baking operation
 
 #### Outputs

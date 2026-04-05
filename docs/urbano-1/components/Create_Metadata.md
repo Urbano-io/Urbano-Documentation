@@ -5,9 +5,9 @@
 Create metadata from field names (keys) and corresponding values.
 
 #### Inputs
-* ##### Keys []
+* ##### Keys
 Field names (keys) in the metadata
-* ##### Vals []
+* ##### Vals
 Values corresponding to keys in the metadata
 
 #### Outputs

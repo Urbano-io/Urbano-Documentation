@@ -5,11 +5,11 @@
 Build an Urbano model with buildings and streets
 
 #### Inputs
-* ##### Bldgs []
+* ##### Bldgs
 Building curves in the model
-* ##### Net []
+* ##### Net
 Street Network
-* ##### Build []
+* ##### Build
 Toggle to start building Urbano model
 
 #### Outputs

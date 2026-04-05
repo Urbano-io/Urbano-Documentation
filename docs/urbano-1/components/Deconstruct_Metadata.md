@@ -5,7 +5,7 @@
 Deconstruct Metadata into keys and values
 
 #### Inputs
-* ##### Meta []
+* ##### Meta
 Serializable dictionary with string keys and arbitrary values
 
 #### Outputs

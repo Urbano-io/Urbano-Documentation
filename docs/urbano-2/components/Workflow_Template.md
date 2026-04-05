@@ -5,19 +5,19 @@
 Load workflow templates.
 
 #### Input
-* ##### Dir [Text list]
+* ##### Dir `[Text list]`
   Additional folders to import templates from
 
 #### Output
-* ##### Directories [Text list]
+* ##### Directories `[Text list]`
   Directories
-* ##### Templates [Text list]
+* ##### Templates `[Text list]`
   Templates found from folders
-* ##### Project Setting [Text]
+* ##### Project Setting `[Text]`
   Example Project Setting
-* ##### OSM [Text]
+* ##### OSM `[Text]`
   Example OSM File Path
-* ##### SHP [Text]
+* ##### SHP `[Text]`
   Example Shapefile Path
-* ##### GEOJSON [Text]
+* ##### GEOJSON `[Text]`
   Example Geojson Path

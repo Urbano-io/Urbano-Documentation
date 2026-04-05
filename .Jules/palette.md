@@ -69,3 +69,7 @@
 ## 2026-04-03 - [Keyboard Accessibility for Label Buttons]
 **Learning:** Using a `<label for="...">` styled as a button (e.g., `.md-button`) provides a great click experience without JavaScript, but labels are natively excluded from the keyboard focus order. This completely breaks keyboard navigation for that "button".
 **Action:** When using `<label>` elements as UI buttons, always add `tabindex="0"` to include them in the focus order, and implement an `onkeydown` handler to simulate a click when the `Enter` or `Space` key is pressed.
+
+## 2026-04-04 - [Component Parameter Type Readability]
+**Learning:** In technical documentation, displaying parameter names and their types as plain text adjacent to each other (e.g., `* ##### ParamName [Type]`) makes it harder for users to quickly scan and differentiate the variable name from its data type constraint. Empty type brackets (e.g., `[]`) add visual noise without providing value.
+**Action:** Style type signatures or constraints as inline code badges (e.g., `* ##### ParamName `[`Type`]``) to create clear visual separation from the variable name, improving scannability. Always remove empty/null type markers.

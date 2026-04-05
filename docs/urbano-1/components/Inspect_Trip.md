@@ -5,7 +5,7 @@
 Inspect trip for details like time, distance, route
 
 #### Inputs
-* ##### Trip []
+* ##### Trip
 Trip between two locations, including route and metadata
 
 #### Outputs

@@ -5,7 +5,7 @@
 Description
 
 #### Inputs
-* ##### R []
+* ##### R
 R
 
 #### Outputs

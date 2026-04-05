@@ -5,7 +5,7 @@
 Buildings that were destination for the given trips
 
 #### Inputs
-* ##### Trips []
+* ##### Trips
 Trips that are used to compute hits
 
 #### Outputs

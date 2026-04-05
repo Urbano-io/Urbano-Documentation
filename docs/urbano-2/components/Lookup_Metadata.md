@@ -5,11 +5,11 @@
 Find values corresponding to keys in metadata (or Rhino geometry with metadata embedded)
 
 #### Input
-* ##### Meta [CR]
+* ##### Meta `[CR]`
   Metadata to lookup. Can also be Curve/MetaPoint with metadata embedded in it.
-* ##### Key [Text]
+* ##### Key `[Text]`
   Key to search in metadata
 
 #### Output
-* ##### Val [Generic Data]
+* ##### Val `[Generic Data]`
   Value for given key in metadata

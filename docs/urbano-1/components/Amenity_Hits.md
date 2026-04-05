@@ -5,7 +5,7 @@
 Hits at amenities in the given trips
 
 #### Inputs
-* ##### Trips []
+* ##### Trips
 Trips that are used to compute hits
 
 #### Outputs

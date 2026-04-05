@@ -5,15 +5,15 @@
 Run Python
 
 #### Input
-* ##### python.exe [Text]
+* ##### python.exe `[Text]`
   python.exe
-* ##### py [Text]
+* ##### py `[Text]`
   py
-* ##### args [Text]
+* ##### args `[Text]`
   args
 
 #### Output
-* ##### error [Text]
+* ##### error `[Text]`
   error
-* ##### output [Text]
+* ##### output `[Text]`
   output

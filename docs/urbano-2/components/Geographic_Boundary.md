@@ -5,17 +5,17 @@
 Geographic Boundary
 
 #### Input
-* ##### Left [Number]
+* ##### Left `[Number]`
   Minimum longitude, left boundary.
-* ##### Top [Number]
+* ##### Top `[Number]`
   Maximum latitude, top boundary.
-* ##### Right [Number]
+* ##### Right `[Number]`
   Maximum longitude, right boundary.
-* ##### Bottom [Number]
+* ##### Bottom `[Number]`
   Minimum latitude, bottom boundary.
 
 #### Output
-* ##### Boundary [Text]
+* ##### Boundary `[Text]`
   A string representing geographical boundary
-* ##### Coordinate Reference [CR]
+* ##### Coordinate Reference `[CR]`
   Coordinate reference information for properly locating the geometries in the Rhino canvas

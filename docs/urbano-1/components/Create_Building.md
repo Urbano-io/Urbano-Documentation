@@ -5,11 +5,11 @@
 Create a building with given curve and metadata.
 
 #### Inputs
-* ##### Curve []
+* ##### Curve
 Closed polygon for the building footprint
-* ##### Meta []
+* ##### Meta
 Serializable dictionary with string keys and arbitrary values
-* ##### AmenB []
+* ##### AmenB
 List of amenities for each building (optional)
 
 #### Outputs

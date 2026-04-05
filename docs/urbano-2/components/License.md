@@ -7,9 +7,9 @@ Urbano License Management
 #### Input
 
 #### Output
-* ##### Info [Text]
+* ##### Info `[Text]`
   License information
-* ##### Tokens [Text list]
+* ##### Tokens `[Text list]`
   Wallet balance (Token: Quantity)
-* ##### Debug [Text list]
+* ##### Debug `[Text list]`
   API Debug Logs

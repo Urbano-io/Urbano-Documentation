@@ -5,17 +5,17 @@
 Create Project Setting
 
 #### Input
-* ##### Directory [Text]
+* ##### Directory `[Text]`
   Project directory to save and cache files
-* ##### Boundary [Text]
+* ##### Boundary `[Text]`
   A string representing geographical boundary
-* ##### Granularity [Text]
+* ##### Granularity `[Text]`
   Granularity
-* ##### Data Layers [Text list]
+* ##### Data Layers `[Text list]`
   Data Layers
-* ##### Coordinate Reference [CR]
+* ##### Coordinate Reference `[CR]`
   Coordinate reference information for properly locating the geometries in the Rhino canvas
 
 #### Output
-* ##### Json [Text]
+* ##### Json `[Text]`
   Json

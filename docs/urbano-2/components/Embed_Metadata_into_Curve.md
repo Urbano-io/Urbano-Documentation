@@ -5,11 +5,11 @@
 Embed Metadata into curve
 
 #### Input
-* ##### Crv [Curve]
+* ##### Crv `[Curve]`
   Curve to embed metadata to
-* ##### Meta [CR]
+* ##### Meta `[CR]`
   Dictionary with keys and values that can be attached to Rhino geometries.
 
 #### Output
-* ##### Urbano Polyline [Urbano Polyline]
+* ##### Urbano Polyline `[Urbano Polyline]`
   Urbano Polyline

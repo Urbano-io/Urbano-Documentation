@@ -5,7 +5,7 @@
 Walkability score for given trips using the WalkScore methodology
 
 #### Inputs
-* ##### Trip []
+* ##### Trip
 Trip to evaluate
 
 #### Outputs

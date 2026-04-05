@@ -5,11 +5,11 @@
 Embed metadata into point
 
 #### Input
-* ##### Pt [Point]
+* ##### Pt `[Point]`
   Point to embed metadata into
-* ##### Meta [CR]
+* ##### Meta `[CR]`
   Dictionary with keys and values that can be attached to Rhino geometries.
 
 #### Output
-* ##### Urbano Pt [Urbano Point]
+* ##### Urbano Pt `[Urbano Point]`
   Urbano Pt

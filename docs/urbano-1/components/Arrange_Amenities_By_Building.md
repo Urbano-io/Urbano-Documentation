@@ -5,9 +5,9 @@
 Arrange points (amenities, geotagged metadata from other sources) by the closest building
 
 #### Inputs
-* ##### Amens []
+* ##### Amens
 List of amenities represented by points with metadata embedded (can be plain points too for just arranging)
-* ##### Bldgs []
+* ##### Bldgs
 Building footprints to examine and place points into
 
 #### Outputs
