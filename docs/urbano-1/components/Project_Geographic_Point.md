@@ -5,11 +5,11 @@
 Project geographic points between WSG84 (lat,long) and UTM coords
 
 #### Inputs
-* ##### Pt []
+* ##### Pt
 Point to project
-* ##### Proj []
+* ##### Proj
 Project geograhic points from Lat-long (WSG84) to UTM and vice-versa
-* ##### UTM []
+* ##### UTM
 UTM Zone (required for UTM to LatLong conversion) formatted as longZone+latZone, eg. 18F
 
 #### Outputs

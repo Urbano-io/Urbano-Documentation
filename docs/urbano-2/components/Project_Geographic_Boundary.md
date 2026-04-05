@@ -5,17 +5,17 @@
 Project geographic boundary
 
 #### Input
-* ##### Boundary [Text]
+* ##### Boundary `[Text]`
   A string representing geographical boundary
-* ##### Geometry [Curve]
+* ##### Geometry `[Curve]`
   Geometry
-* ##### Coordinate Reference [CR]
+* ##### Coordinate Reference `[CR]`
   Coordinate reference information for properly locating the geometries in the Rhino canvas
 
 #### Output
-* ##### Boundary [Text]
+* ##### Boundary `[Text]`
   A string representing geographical boundary
-* ##### Geometry [Curve]
+* ##### Geometry `[Curve]`
   Geometry
-* ##### Coordinate Reference [CR]
+* ##### Coordinate Reference `[CR]`
   Coordinate reference information for properly locating the geometries in the Rhino canvas

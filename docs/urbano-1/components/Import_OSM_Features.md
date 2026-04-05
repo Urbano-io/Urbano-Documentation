@@ -5,19 +5,19 @@
 Import buildings, amenities and other features from an OSM path
 
 #### Inputs
-* ##### Path []
+* ##### Path
 File Path or URL for the OSM data. URL resources will be cached.
-* ##### Feat []
+* ##### Feat
 OSM Feature Type to import
-* ##### Fmt []
+* ##### Fmt
 Format of given OSM data
-* ##### UTM []
+* ##### UTM
 UTM Zone of the given region (can be used along with translation vector) to transform data from different sources to a common origin)
-* ##### Vec []
+* ##### Vec
 Translation vector to move from actual UTM window to working origin (can be used to transform data from different sources to a common origin)
-* ##### Crop []
+* ##### Crop
 Cropping Geometry
-* ##### Altitude []
+* ##### Altitude
 Download the DEM data and match the altitude information for the imported points. (Allow administrator access for Rhino; Wait until the download to be completed in the background and re-enable this component to see the changes)
 
 #### Outputs

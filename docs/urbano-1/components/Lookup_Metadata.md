@@ -5,9 +5,9 @@
 Find values corresponding to keys in metadata (or Rhino geometry with metadata embedded)
 
 #### Inputs
-* ##### Meta []
+* ##### Meta
 Metadata to lookup. Can be Rhino geometry with metadata embedded in UserDictionary
-* ##### Key []
+* ##### Key
 Key to search in metadata
 
 #### Outputs

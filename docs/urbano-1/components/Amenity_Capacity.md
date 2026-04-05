@@ -5,11 +5,11 @@
 Calculate amenity capacity based on the area and activity
 
 #### Inputs
-* ##### Act []
+* ##### Act
 Activity conducted in the amenity
-* ##### Area []
+* ##### Area
 Built area of the amenity, assign -1 to use default area for the activity
-* ##### LogProp []
+* ##### LogProp
 Logistics area proportion of the amenity, default = 0.2
 
 #### Outputs

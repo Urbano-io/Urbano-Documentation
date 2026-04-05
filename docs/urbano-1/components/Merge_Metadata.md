@@ -5,9 +5,9 @@
 Merge collection of metadatas
 
 #### Inputs
-* ##### Meta []
+* ##### Meta
 Metadata to be merged
-* ##### Meta []
+* ##### Meta
 Metadata to be merged
 
 #### Outputs

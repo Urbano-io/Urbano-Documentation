@@ -5,9 +5,9 @@
 Build amenity from point and metadata
 
 #### Inputs
-* ##### Pt []
+* ##### Pt
 Point representing location of amenity
-* ##### Meta []
+* ##### Meta
 Serializable dictionary with string keys and arbitrary values
 
 #### Outputs

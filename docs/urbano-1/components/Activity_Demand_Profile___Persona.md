@@ -5,13 +5,13 @@
 Activity Demand Profile describing the population weighted demand of activities for a certain persona type. Either input profile data, or load from stock data provided by Urbano. Loaded data can then be edited and saved in the ADP editor. You can even start creating a profile from scratch in the editor
 
 #### Inputs
-* ##### ActDem []
+* ##### ActDem
 Activities and their corresponding weights in comma separated lists
-* ##### Load []
+* ##### Load
 Load Activity Demand Profile data in CSV format from the dropdown / File Path / URL
-* ##### Index []
+* ##### Index
 One-based index for the column to use if the ADP data includes multiple columns (normally to indicate different time intervals)
-* ##### Norm []
+* ##### Norm
 Normalize the demand weights to sum to 1
 
 #### Outputs

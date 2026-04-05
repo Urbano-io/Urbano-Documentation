@@ -5,21 +5,21 @@
 Generate trips from the building based on the given activity demand profile and the destination choice model for each activity in the profile
 
 #### Inputs
-* ##### Model []
+* ##### Model
 Urbano model containing buildings with amenities and network
-* ##### Bldg []
+* ##### Bldg
 Building as origin of trips
-* ##### ADPer []
+* ##### ADPer
 Activity Demand Profile (trips are produced for each activity entry in the profile
-* ##### Mode []
+* ##### Mode
 Travel mode for the trips
-* ##### DestChoice []
+* ##### DestChoice
 Destination choice model for each activity. It defines whether to produce one or multiple trips per activity in the ADP
-* ##### FacKey []
+* ##### FacKey
 A necessary input for By-Destination-Factor model. Please ensure the input/selected metadata keys are existing in the model.
-* ##### TimeLmt []
+* ##### TimeLmt
 A necessary input for By-Destination-Factor model. It defines the travel time limit when searching for the available destinations. 
-* ##### Build []
+* ##### Build
 Toggle to start building Urbano model
 
 #### Outputs

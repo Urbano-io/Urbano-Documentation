@@ -5,11 +5,11 @@
 Import Street Network from an OSM path
 
 #### Inputs
-* ##### Path []
+* ##### Path
 File Path or URL for the OSM data. URL resources will be cached.
-* ##### UTM []
+* ##### UTM
 UTM Zone of the given region (can be used along with translation vector) to transform data from different sources to a common origin)
-* ##### Vec []
+* ##### Vec
 Translation vector to move from actual UTM window to working origin (can be used to transform data from different sources to a common origin)
 
 #### Outputs

@@ -5,9 +5,9 @@
 Inspect street segment to get properties and curve
 
 #### Inputs
-* ##### Street []
+* ##### Street
 Street Segment curve to inspect
-* ##### Model []
+* ##### Model
 Urbano model containing buildings with amenities and network
 
 #### Outputs

@@ -5,11 +5,11 @@
 Create metadata from field names (keys) and corresponding values.
 
 #### Input
-* ##### Keys [Text list]
+* ##### Keys `[Text list]`
   Field names (keys) in the metadata.
-* ##### Values [Generic Data list]
+* ##### Values `[Generic Data list]`
   Values corresponding to keys in the metadata.
 
 #### Output
-* ##### Meta [CR]
+* ##### Meta `[CR]`
   Dictionary with keys and values that can be attached to Rhino geometries.

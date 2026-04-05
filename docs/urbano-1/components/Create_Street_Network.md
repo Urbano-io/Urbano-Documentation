@@ -5,15 +5,15 @@
 Create street network from curves
 
 #### Inputs
-* ##### StCrvs []
+* ##### StCrvs
 Curves represting streets in the network
-* ##### Meta []
+* ##### Meta
 Serializable dictionary with string keys and arbitrary values
-* ##### Split []
+* ##### Split
 Preprocessing: split the street curves to get more  accurate routing results
-* ##### UTM []
+* ##### UTM
 UTM Zone of the given region (can be used along with translation vector) to transform data from different sources to a common origin)
-* ##### Vec []
+* ##### Vec
 Translation vector to move from actual UTM window to working origin (can be used to transform data from different sources to a common origin)
 
 #### Outputs

@@ -5,15 +5,15 @@
 Calculate the population in a building using area data
 
 #### Inputs
-* ##### ResArea []
+* ##### ResArea
 Residential area of building (will be 0 if not assigned)
-* ##### RAreaPP []
+* ##### RAreaPP
 Residential area per person, default = 40
-* ##### OffArea []
+* ##### OffArea
 Office area of building (will be 0 if not assigned)
-* ##### OAreaPP []
+* ##### OAreaPP
 Office area per person, default = 14
-* ##### LogProp []
+* ##### LogProp
 Logistics area proportion of the building, default = 0.2
 
 #### Outputs

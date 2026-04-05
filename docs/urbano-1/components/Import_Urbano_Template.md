@@ -5,9 +5,9 @@
 Load samples for Urbano from directory or URL
 
 #### Inputs
-* ##### Dir []
+* ##### Dir
 Additional folders to import Urbano templates from
-* ##### URL []
+* ##### URL
 Additional templates to download from URL (will be cached)
 
 #### Outputs

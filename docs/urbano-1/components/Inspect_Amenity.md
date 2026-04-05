@@ -5,7 +5,7 @@
 Inspect amenities to get properties
 
 #### Inputs
-* ##### Amen []
+* ##### Amen
 Amenity hosting certain activities for people to do
 
 #### Outputs

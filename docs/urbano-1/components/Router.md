@@ -5,15 +5,15 @@
 Find a trip between two places (buildings/points/curves) using the best mode of the mode options selected
 
 #### Inputs
-* ##### Router []
+* ##### Router
 Router (Urbano Model or Street Network) which can be used to find trips
-* ##### Orig []
+* ##### Orig
 Origin Point/Building
-* ##### Dest []
+* ##### Dest
 Destination Point/Building
-* ##### Mode []
+* ##### Mode
 Travel modes to choose from (fastest selected)
-* ##### TimeLmt []
+* ##### TimeLmt
 Time limit to filter the trips (optional)
 
 #### Outputs

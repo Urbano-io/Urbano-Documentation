@@ -5,9 +5,9 @@
 Project pt onto the terrain mesh when there is missing or incorrect point elevation
 
 #### Inputs
-* ##### Mesh []
+* ##### Mesh
 Terrain mesh
-* ##### Pt []
+* ##### Pt
 Point to be projected onto the terrain mesh
 
 #### Outputs

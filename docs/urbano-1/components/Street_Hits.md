@@ -5,9 +5,9 @@
 Street Hits Counter
 
 #### Inputs
-* ##### Model []
+* ##### Model
 Urbano model containing buildings with amenities and network
-* ##### Trips []
+* ##### Trips
 Trips that are used to compute hits
 
 #### Outputs

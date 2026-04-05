@@ -5,9 +5,9 @@
 Embed Metadata into curve
 
 #### Inputs
-* ##### Crv []
+* ##### Crv
 Curve to embed metadata to
-* ##### Meta []
+* ##### Meta
 Serializable dictionary with string keys and arbitrary values
 
 #### Outputs

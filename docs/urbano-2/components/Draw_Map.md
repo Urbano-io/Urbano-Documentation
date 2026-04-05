@@ -5,11 +5,11 @@
 Draw Map
 
 #### Input
-* ##### Geometries [Geometry list]
+* ##### Geometries `[Geometry list]`
   Geometries
-* ##### Values [Text list]
+* ##### Values `[Text list]`
   Values
-* ##### Map Settings [Map Settings]
+* ##### Map Settings `[Map Settings]`
   Map Settings
 
 #### Output

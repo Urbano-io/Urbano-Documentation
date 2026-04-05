@@ -5,9 +5,9 @@
 Embed metadata into point
 
 #### Inputs
-* ##### Pt []
+* ##### Pt
 Point to embed metadata into
-* ##### Meta []
+* ##### Meta
 Serializable dictionary with string keys and arbitrary values
 
 #### Outputs

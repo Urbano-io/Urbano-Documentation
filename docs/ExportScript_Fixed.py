@@ -386,11 +386,12 @@ def exportDescription(component, pluginName, githubFolder, githubRepo=None):
             iname = re.sub(r"\s*\[\s*\]\s*$", "", iname)
 
             if type_name:
-                type_tag = f"[{type_name}]" if access == "item" else f"[{type_name} {access}]"
+                type_tag = f"`[{type_name}]`" if access == "item" else f"`[{type_name} {access}]`"
             else:
-                type_tag = f"[{access}]" if access != "item" else ""
+                type_tag = f"`[{access}]`" if access != "item" else ""
 
-            lines.append(f"* ##### {iname} {type_tag}".rstrip())
+            tag_str = f" {type_tag}" if type_tag else ""
+            lines.append(f"* ##### {iname}{tag_str}".rstrip())
             lines.append(f"  {cleaned_description}")
 
         lines.append("\n#### Output")
@@ -411,11 +412,12 @@ def exportDescription(component, pluginName, githubFolder, githubRepo=None):
             iname = re.sub(r"\s*\[\s*\]\s*$", "", iname)
 
             if type_name:
-                type_tag = f"[{type_name}]" if access == "item" else f"[{type_name} {access}]"
+                type_tag = f"`[{type_name}]`" if access == "item" else f"`[{type_name} {access}]`"
             else:
-                type_tag = f"[{access}]" if access != "item" else ""
+                type_tag = f"`[{access}]`" if access != "item" else ""
 
-            lines.append(f"* ##### {iname} {type_tag}".rstrip())
+            tag_str = f" {type_tag}" if type_tag else ""
+            lines.append(f"* ##### {iname}{tag_str}".rstrip())
             lines.append(f"  {cleaned_description}")
     except Exception:
         pass

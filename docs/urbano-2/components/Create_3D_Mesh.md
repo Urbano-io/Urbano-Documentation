@@ -5,13 +5,13 @@
 Create 3D Mesh
 
 #### Input
-* ##### Polygon [Curve]
+* ##### Polygon `[Curve]`
   Polygon
-* ##### Height [Number]
+* ##### Height `[Number]`
   Height
-* ##### Along Z [Boolean]
+* ##### Along Z `[Boolean]`
   Along Z
 
 #### Output
-* ##### 3D Mesh [Mesh]
+* ##### 3D Mesh `[Mesh]`
   3D Mesh

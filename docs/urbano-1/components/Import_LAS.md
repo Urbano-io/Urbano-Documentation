@@ -5,29 +5,29 @@
 Import LAS file. (This component requires to run Rhino as administrator)
 
 #### Inputs
-* ##### Path []
+* ##### Path
 Specify the path to the Las file (.las)
-* ##### EPSG []
+* ##### EPSG
 Specify the EPSG of the coordinate reference system
-* ##### Proj []
+* ##### Proj
 Project geograhic points from source file to UTM (rhino canvas) or WSG84 (lon,lat)
-* ##### Unit []
+* ##### Unit
 Distance Unit
-* ##### Sparsity []
+* ##### Sparsity
 Sparsity of the imported points. The larger the number is, the sparser the points are.
-* ##### UTM []
+* ##### UTM
 UTM Zone of the given region (can be used along with translation vector) to transform data from different sources to a common origin)
-* ##### Vec []
+* ##### Vec
 Translation vector to move from actual UTM window to working origin (can be used to transform data from different sources to a common origin)
-* ##### Left []
+* ##### Left
 Left Bound (minimum longitude) of the cropped LAS region
-* ##### Right []
+* ##### Right
 Right Bound (maximum longitude) of the cropped LAS region
-* ##### Top []
+* ##### Top
 Top Bound (maximum latitude) of the cropped LAS region
-* ##### Bottom []
+* ##### Bottom
 Bottom Bound (minimum latitude) of the cropped LAS region
-* ##### Crop []
+* ##### Crop
 Cropping Geometry
 
 #### Outputs

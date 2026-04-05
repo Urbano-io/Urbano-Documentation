@@ -5,17 +5,17 @@
 Save Data To Geojson
 
 #### Input
-* ##### Geometries [Geometry list]
+* ##### Geometries `[Geometry list]`
   Geometries
-* ##### Meta [CR list]
+* ##### Meta `[CR list]`
   Serializable dictionary with string keys and arbitrary values
-* ##### File Path [Text]
+* ##### File Path `[Text]`
   File Path
-* ##### Coordinate Reference [CR]
+* ##### Coordinate Reference `[CR]`
   Coordinate reference information for properly locating the geometries in the Rhino canvas
-* ##### Run [Boolean]
+* ##### Run `[Boolean]`
   Run
 
 #### Output
-* ##### File Path [Text]
+* ##### File Path `[Text]`
   File Path

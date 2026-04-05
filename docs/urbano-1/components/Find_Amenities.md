@@ -5,9 +5,9 @@
 Find amenities for an activity in the model
 
 #### Inputs
-* ##### Model []
+* ##### Model
 Urbano model containing buildings with amenities and network
-* ##### Act []
+* ##### Act
 Activity to look for
 
 #### Outputs

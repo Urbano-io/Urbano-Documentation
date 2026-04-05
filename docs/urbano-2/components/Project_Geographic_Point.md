@@ -5,15 +5,15 @@
 Project geographic points between WSG84 (lat,long) and UTM coords
 
 #### Input
-* ##### Pt [Point]
+* ##### Pt `[Point]`
   Point to project
-* ##### Proj [Text]
+* ##### Proj `[Text]`
   Project geograhic points from Lat-long (WSG84) to UTM and vice-versa
-* ##### Coordinate Reference [CR]
+* ##### Coordinate Reference `[CR]`
   Coordinate reference information for properly locating the geometries in the Rhino canvas
 
 #### Output
-* ##### Out [Point]
+* ##### Out `[Point]`
   Projected Point
-* ##### Coordinate Reference [CR]
+* ##### Coordinate Reference `[CR]`
   Coordinate reference information for properly locating the geometries in the Rhino canvas

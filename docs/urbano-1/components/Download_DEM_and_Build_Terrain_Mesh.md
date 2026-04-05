@@ -5,21 +5,21 @@
 Download the DEM data and build the terrain mesh (Allow administrator access for Rhino; Wait until the download to be completed in the background and re-enable this component to see the changes)
 
 #### Inputs
-* ##### Left []
+* ##### Left
 Left Bound (Longitude, x-axis) of the site
-* ##### Right []
+* ##### Right
 Right Bound (Longitude, x-axis) of the site
-* ##### Top []
+* ##### Top
 Top Bound (Latitude, y-axis) of the site
-* ##### Bottom []
+* ##### Bottom
 Bottom Bound (Latitude, y-axis) of the site
-* ##### UTM []
+* ##### UTM
 UTM Zone of the given region (can be used along with translation vector) to transform data from different sources to a common origin)
-* ##### Vec []
+* ##### Vec
 Translation vector to move from actual UTM window to working origin (can be used to transform data from different sources to a common origin)
-* ##### X Count []
+* ##### X Count
 Count of mesh vertices on X axis
-* ##### Y Count []
+* ##### Y Count
 Count of mesh vertices on Y axis
 
 #### Outputs

@@ -5,23 +5,23 @@
 Import data from GIS shapefiles
 
 #### Inputs
-* ##### Path []
+* ##### Path
 Specify the path to the shapefile (.shp)
-* ##### Proj []
+* ##### Proj
 Change the map projection to WGS84 datum (recommended), default is true
-* ##### UTM []
+* ##### UTM
 UTM Zone of the given region (can be used along with translation vector) to transform data from different sources to a common origin)
-* ##### Vec []
+* ##### Vec
 Translation vector to move from actual UTM window to working origin (can be used to transform data from different sources to a common origin)
-* ##### Left []
+* ##### Left
 Left Bound (Longitude, x-axis) of the OSM region
-* ##### Right []
+* ##### Right
 Right Bound (Longitude, x-axis) of the OSM region
-* ##### Top []
+* ##### Top
 Top Bound (Latitude, y-axis) of the OSM region
-* ##### Bottom []
+* ##### Bottom
 Bottom Bound (Latitude, y-axis) of the OSM region
-* ##### Crop []
+* ##### Crop
 Cropping Geometry
 
 #### Outputs
