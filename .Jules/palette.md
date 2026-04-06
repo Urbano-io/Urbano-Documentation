@@ -73,3 +73,7 @@
 ## 2026-04-04 - [Component Parameter Type Readability]
 **Learning:** In technical documentation, displaying parameter names and their types as plain text adjacent to each other (e.g., `* ##### ParamName [Type]`) makes it harder for users to quickly scan and differentiate the variable name from its data type constraint. Empty type brackets (e.g., `[]`) add visual noise without providing value.
 **Action:** Style type signatures or constraints as inline code badges (e.g., `* ##### ParamName `[`Type`]``) to create clear visual separation from the variable name, improving scannability. Always remove empty/null type markers.
+
+## 2026-05-15 - [Explicit Download Link Affordances]
+**Learning:** When external links point directly to file downloads (e.g., `.gh` template files) rather than standard web pages, a generic `aria-label` like "(opens in a new tab)" is misleading to screen reader users. Furthermore, mouse users benefit from an explicit hover tooltip.
+**Action:** Always update the `aria-label` for direct file downloads to explicitly state the action (e.g., "(Download .gh file)") and include a `title` attribute to provide a helpful tooltip.
