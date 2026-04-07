@@ -15,3 +15,7 @@
 * [Import Public Transits](../components/Import_Public_Transits.md)
 * [Import Streets](../components/Import_Streets.md)
 * [Import Terrain](../components/Import_Terrain.md)
+
+<br>
+
+[Start with License :octicons-arrow-right-24:](../components/License.md){ .md-button .md-button--primary aria-label="Start with License" }
