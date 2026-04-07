@@ -9,3 +9,7 @@
 * [Merge Metadata](../components/Merge_Metadata.md)
 * [Search Metadata](../components/Search_Metadata.md)
 * [Street Metadata](../components/Street_Metadata.md)
+
+<br>
+
+[Start with Create Metadata :octicons-arrow-right-24:](../components/Create_Metadata.md){ .md-button .md-button--primary aria-label="Start with Create Metadata" }
