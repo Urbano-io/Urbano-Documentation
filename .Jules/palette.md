@@ -77,3 +77,7 @@
 ## 2026-05-15 - [Explicit Download Link Affordances]
 **Learning:** When external links point directly to file downloads (e.g., `.gh` template files) rather than standard web pages, a generic `aria-label` like "(opens in a new tab)" is misleading to screen reader users. Furthermore, mouse users benefit from an explicit hover tooltip.
 **Action:** Always update the `aria-label` for direct file downloads to explicitly state the action (e.g., "(Download .gh file)") and include a `title` attribute to provide a helpful tooltip.
+
+## 2026-04-08 - [Semantic Roles for Custom UI Buttons]
+**Learning:** When using non-interactive elements (like `<label>`) as custom UI buttons (e.g., to trigger a search overlay), adding `tabindex="0"` makes them focusable, but they are still announced by screen readers according to their native semantics (e.g., as a text label). This can confuse screen reader and voice dictation users who expect to interact with a "button".
+**Action:** Always add `role="button"` to custom UI buttons built from non-native interactive elements (like `<label>` or `<div>`) to ensure their semantic role matches their visual and interactive behavior.
