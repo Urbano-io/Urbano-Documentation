@@ -117,3 +117,7 @@
 .error-actions button {
   cursor: pointer;
 }
+
+#broken-url {
+  word-break: break-all;
+}
