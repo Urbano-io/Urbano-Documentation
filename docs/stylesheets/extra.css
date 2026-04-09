@@ -88,16 +88,18 @@
 
 /* Button Hover Lift Effect */
 .md-button {
-  transition: transform 0.2s ease, background-color 0.2s ease, opacity 0.2s ease;
+  transition: transform 0.2s ease, background-color 0.2s ease, opacity 0.2s ease, box-shadow 0.2s ease;
 }
 
 .md-button:not(:disabled):not([aria-disabled="true"]):hover,
 .md-button:not(:disabled):not([aria-disabled="true"]):focus-visible {
   transform: translateY(-2px);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
 .md-button:not(:disabled):not([aria-disabled="true"]):active {
   transform: translateY(0) scale(0.97);
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
 }
 
 .md-button:disabled,
