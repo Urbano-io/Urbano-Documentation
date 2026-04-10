@@ -25,6 +25,12 @@
         </span>
         Go Back
       </button>
+      <a id="report-issue-btn" href="https://github.com/Urbano-io/Urbano-Documentation/issues/new?title=Broken%20Link%20Report&body=I%20found%20a%20broken%20link%20on%20the%20documentation%20site." target="_blank" rel="noopener noreferrer" class="md-button" aria-label="Report broken link on GitHub (opens in a new tab)" title="Report this broken link to help us fix it">
+        <span class="twemoji" aria-hidden="true">
+          {% include ".icons/fontawesome/brands/github.svg" %}
+        </span>
+        Report Issue
+      </a>
     </div>
   </div>
 
@@ -44,6 +50,14 @@
         backBtn.setAttribute('aria-disabled', 'true');
         backBtn.title = "No previous page to go back to";
       }
+    }
+
+    const reportIssueBtn = document.getElementById('report-issue-btn');
+    if (reportIssueBtn) {
+      const path = window.location.pathname;
+      const issueTitle = encodeURIComponent(`Broken Link: ${path}`);
+      const issueBody = encodeURIComponent(`I encountered a 404 Not Found error when trying to access:\n\n\`${path}\`\n\n*(Please add any additional context here if needed)*`);
+      reportIssueBtn.href = `https://github.com/Urbano-io/Urbano-Documentation/issues/new?title=${issueTitle}&body=${issueBody}`;
     }
   </script>
 {% endblock %}
