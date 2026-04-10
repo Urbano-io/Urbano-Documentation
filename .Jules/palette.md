@@ -81,3 +81,7 @@
 ## 2026-04-08 - [Semantic Roles for Custom UI Buttons]
 **Learning:** When using non-interactive elements (like `<label>`) as custom UI buttons (e.g., to trigger a search overlay), adding `tabindex="0"` makes them focusable, but they are still announced by screen readers according to their native semantics (e.g., as a text label). This can confuse screen reader and voice dictation users who expect to interact with a "button".
 **Action:** Always add `role="button"` to custom UI buttons built from non-native interactive elements (like `<label>` or `<div>`) to ensure their semantic role matches their visual and interactive behavior.
+
+## 2026-05-19 - [Frictionless Feedback Loops in Empty States]
+**Learning:** Dead-ends (like 404 pages) cause frustration, but they are also prime opportunities to catch bugs and broken links before they affect many users. Without a clear "Report Issue" action, most users simply bounce instead of navigating to GitHub to manually create a report.
+**Action:** Always provide a subtle, low-friction "Report Issue" action in error empty states. Pre-fill the external reporting form (e.g., GitHub issues via URL parameters) with relevant dynamic context (like `window.location.pathname`) to reduce user effort to a single click.
