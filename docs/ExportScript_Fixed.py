@@ -116,7 +116,7 @@ def clean_string(text):
 def should_process_category(cleaned_sub_cat):
     return True
 
-def write_grouped_components(file_path, exposure_dict, link_prefix="components/"):
+def write_grouped_components(file_path, exposure_dict, link_prefix="components/", add_cta=False):
     main_components = []
     hidden_components = []
 
@@ -138,6 +138,11 @@ def write_grouped_components(file_path, exposure_dict, link_prefix="components/"
         for comp in hidden_components:
             display_name = comp.replace('_', ' ')
             write_utf8(file_path, f"* [{display_name}]({link_prefix}{comp}.md)\n", mode="a")
+
+    if add_cta and main_components:
+        first_comp = main_components[0]
+        first_display = first_comp.replace('_', ' ')
+        write_utf8(file_path, f"\n<br>\n\n[Start with {first_display} :octicons-arrow-right-24:]({link_prefix}{first_comp}.md){{ .md-button .md-button--primary aria-label=\"Start with {first_display}\" }}\n", mode="a")
 
 def reset_output_directories(base_dir):
     if not CLEAN_OUTPUT_DIR:
@@ -591,7 +596,7 @@ else:
             categoryFilePath = os.path.join(finalOutputFolder, "categories", f"{safeFileName}.md")
             ensure_utf8_file(categoryFilePath)
             write_utf8(categoryFilePath, f"# {cleanSubCat}\n")
-            write_grouped_components(categoryFilePath, pluginComponents[cleanSubCat], link_prefix="../components/")
+            write_grouped_components(categoryFilePath, pluginComponents[cleanSubCat], link_prefix="../components/", add_cta=True)
 
 
         summaryPath = os.path.join(finalOutputFolder, "README.md")
