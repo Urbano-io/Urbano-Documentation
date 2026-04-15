@@ -85,3 +85,7 @@
 ## 2026-05-19 - [Frictionless Feedback Loops in Empty States]
 **Learning:** Dead-ends (like 404 pages) cause frustration, but they are also prime opportunities to catch bugs and broken links before they affect many users. Without a clear "Report Issue" action, most users simply bounce instead of navigating to GitHub to manually create a report.
 **Action:** Always provide a subtle, low-friction "Report Issue" action in error empty states. Pre-fill the external reporting form (e.g., GitHub issues via URL parameters) with relevant dynamic context (like `window.location.pathname`) to reduce user effort to a single click.
+
+## 2026-04-15 - Avoid Duplicate Titles and Visible Text
+**Learning:** When using `title` attributes on buttons or links to provide tooltips for mouse users, ensure the text does not perfectly duplicate the visible text (and therefore the `aria-label`). Screen readers announce both, leading to redundant reading. Title attributes should provide additional context.
+**Action:** Use `title` to elaborate on the action (e.g., instead of title="Start Browsing Components" on a button with that text, use title="Explore the first category: Download & Import").

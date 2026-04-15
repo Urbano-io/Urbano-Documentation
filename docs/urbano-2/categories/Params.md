@@ -21,4 +21,4 @@
 
 <br>
 
-[Start with Block :octicons-arrow-right-24:](../components/Block.md){ .md-button .md-button--primary aria-label="Start with Block" }
+[Start with Block :octicons-arrow-right-24:](../components/Block.md){ .md-button .md-button--primary aria-label="Start with Block" title="View documentation for Block" }
