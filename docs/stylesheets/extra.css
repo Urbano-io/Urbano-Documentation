@@ -123,3 +123,30 @@
 #broken-url {
   word-break: break-all;
 }
+
+/* Kinetic Feedback Utilities for Button Icons */
+.md-button .twemoji {
+  transition: transform 0.2s ease;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .btn-hover-shift-right:not(:disabled):not([aria-disabled="true"]):hover .twemoji,
+  .btn-hover-shift-right:not(:disabled):not([aria-disabled="true"]):focus-visible .twemoji {
+    transform: translateX(4px);
+  }
+
+  .btn-hover-shift-left:not(:disabled):not([aria-disabled="true"]):hover .twemoji,
+  .btn-hover-shift-left:not(:disabled):not([aria-disabled="true"]):focus-visible .twemoji {
+    transform: translateX(-4px);
+  }
+
+  .btn-hover-shift-down:not(:disabled):not([aria-disabled="true"]):hover .twemoji,
+  .btn-hover-shift-down:not(:disabled):not([aria-disabled="true"]):focus-visible .twemoji {
+    transform: translateY(4px);
+  }
+
+  .btn-hover-scale-up:not(:disabled):not([aria-disabled="true"]):hover .twemoji,
+  .btn-hover-scale-up:not(:disabled):not([aria-disabled="true"]):focus-visible .twemoji {
+    transform: scale(1.15);
+  }
+}
