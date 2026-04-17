@@ -8,34 +8,34 @@
 
     Define project boundary, granularity, and source data selection.
 
-    [Download *Project Setting Template* :material-download:](https://github.com/Urbano-io/Urbano2-GH-Templates/raw/refs/heads/2.2.1.2/basics/1_project_setting.gh){ .md-button target="_blank" rel="noopener noreferrer" aria-label="Download Project Setting Template (Download .gh file)" title="Download Grasshopper template (.gh)" }
+    [Download *Project Setting Template* :material-download:](https://github.com/Urbano-io/Urbano2-GH-Templates/raw/refs/heads/2.2.1.2/basics/1_project_setting.gh){ .md-button .btn-hover-shift-down target="_blank" rel="noopener noreferrer" aria-label="Download Project Setting Template (Download .gh file)" title="Download Grasshopper template (.gh)" }
 
 -   __Build Site Model__
 
     Build a complete urban site model from imported geospatial layers.
 
-    [Download *Build Site Model Template* :material-download:](https://github.com/Urbano-io/Urbano2-GH-Templates/raw/refs/heads/2.2.1.2/use_cases/1_build_site_model.gh){ .md-button target="_blank" rel="noopener noreferrer" aria-label="Download Build Site Model Template (Download .gh file)" title="Download Grasshopper template (.gh)" }
+    [Download *Build Site Model Template* :material-download:](https://github.com/Urbano-io/Urbano2-GH-Templates/raw/refs/heads/2.2.1.2/use_cases/1_build_site_model.gh){ .md-button .btn-hover-shift-down target="_blank" rel="noopener noreferrer" aria-label="Download Build Site Model Template (Download .gh file)" title="Download Grasshopper template (.gh)" }
 
 -   __Walkscore by Block__
 
     Compute baseline block-level walkability across the study area.
 
-    [Download *Walkscore by Block Template* :material-download:](https://github.com/Urbano-io/Urbano2-GH-Templates/raw/refs/heads/2.2.1.2/use_cases/2_compute_walkscore_by_block.gh){ .md-button target="_blank" rel="noopener noreferrer" aria-label="Download Walkscore by Block Template (Download .gh file)" title="Download Grasshopper template (.gh)" }
+    [Download *Walkscore by Block Template* :material-download:](https://github.com/Urbano-io/Urbano2-GH-Templates/raw/refs/heads/2.2.1.2/use_cases/2_compute_walkscore_by_block.gh){ .md-button .btn-hover-shift-down target="_blank" rel="noopener noreferrer" aria-label="Download Walkscore by Block Template (Download .gh file)" title="Download Grasshopper template (.gh)" }
 
 -   __Customize Walkscore__
 
     Add or remove amenities and compare walkscore...
 
-    [Download *Customize Walkscore Template* :material-download:](https://github.com/Urbano-io/Urbano2-GH-Templates/raw/refs/heads/2.2.1.2/use_cases/3_customize_walkscore.gh){ .md-button target="_blank" rel="noopener noreferrer" aria-label="Download Customize Walkscore Template (Download .gh file)" title="Download Grasshopper template (.gh)" }
+    [Download *Customize Walkscore Template* :material-download:](https://github.com/Urbano-io/Urbano2-GH-Templates/raw/refs/heads/2.2.1.2/use_cases/3_customize_walkscore.gh){ .md-button .btn-hover-shift-down target="_blank" rel="noopener noreferrer" aria-label="Download Customize Walkscore Template (Download .gh file)" title="Download Grasshopper template (.gh)" }
 
 -   __Compute Betweenness Centrality__
 
     Evaluate network centrality and test street interventions.
 
-    [Download *Betweenness Centrality Template* :material-download:](https://github.com/Urbano-io/Urbano2-GH-Templates/raw/refs/heads/2.2.1.2/use_cases/4_compute_BC.gh){ .md-button target="_blank" rel="noopener noreferrer" aria-label="Download Betweenness Centrality Template (Download .gh file)" title="Download Grasshopper template (.gh)" }
+    [Download *Betweenness Centrality Template* :material-download:](https://github.com/Urbano-io/Urbano2-GH-Templates/raw/refs/heads/2.2.1.2/use_cases/4_compute_BC.gh){ .md-button .btn-hover-shift-down target="_blank" rel="noopener noreferrer" aria-label="Download Betweenness Centrality Template (Download .gh file)" title="Download Grasshopper template (.gh)" }
 
 </div>
 
 <br>
 
-[Start Browsing Components :octicons-arrow-right-24:](categories/1_Download_Import.md){ .md-button .md-button--primary aria-label="Start Browsing Components" title="Explore the first category: Download & Import" }
+[Start Browsing Components :octicons-arrow-right-24:](categories/1_Download_Import.md){ .md-button .md-button--primary .btn-hover-shift-right aria-label="Start Browsing Components" title="Explore the first category: Download & Import" }

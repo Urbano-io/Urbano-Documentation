@@ -7,25 +7,25 @@
     <p>You can use the search bar above (press <kbd>/</kbd>) to find what you need, or return to the main documentation.</p>
     <br>
     <div class="error-actions">
-      <a href="{{ base_url }}/" class="md-button md-button--primary" aria-label="Go to Homepage" title="Return to main documentation">
+      <a href="{{ base_url }}/" class="md-button md-button--primary btn-hover-scale-up" aria-label="Go to Homepage" title="Return to main documentation">
         <span class="twemoji" aria-hidden="true">
           {% include ".icons/material/home.svg" %}
         </span>
         Go to Homepage
       </a>
-      <label for="__search" class="md-button" tabindex="0" role="button" onkeydown="if(event.key==='Enter'||event.key===' '){event.preventDefault(); this.click();}" aria-label="Search documentation" title="Open search">
+      <label for="__search" class="md-button btn-hover-scale-up" tabindex="0" role="button" onkeydown="if(event.key==='Enter'||event.key===' '){event.preventDefault(); this.click();}" aria-label="Search documentation" title="Open search">
         <span class="twemoji" aria-hidden="true">
           {% include ".icons/material/magnify.svg" %}
         </span>
         Search
       </label>
-      <button id="go-back-btn" type="button" onclick="window.history.back()" class="md-button" aria-label="Go Back" title="Return to previous page">
+      <button id="go-back-btn" type="button" onclick="window.history.back()" class="md-button btn-hover-shift-left" aria-label="Go Back" title="Return to previous page">
         <span class="twemoji" aria-hidden="true">
           {% include ".icons/material/arrow-left.svg" %}
         </span>
         Go Back
       </button>
-      <a id="report-issue-btn" href="https://github.com/Urbano-io/Urbano-Documentation/issues/new?title=Broken%20Link%20Report&body=I%20found%20a%20broken%20link%20on%20the%20documentation%20site." target="_blank" rel="noopener noreferrer" class="md-button" aria-label="Report broken link on GitHub (opens in a new tab)" title="Report this broken link to help us fix it">
+      <a id="report-issue-btn" href="https://github.com/Urbano-io/Urbano-Documentation/issues/new?title=Broken%20Link%20Report&body=I%20found%20a%20broken%20link%20on%20the%20documentation%20site." target="_blank" rel="noopener noreferrer" class="md-button btn-hover-scale-up" aria-label="Report broken link on GitHub (opens in a new tab)" title="Report this broken link to help us fix it">
         <span class="twemoji" aria-hidden="true">
           {% include ".icons/fontawesome/brands/github.svg" %}
         </span>

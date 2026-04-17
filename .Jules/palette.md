@@ -89,3 +89,7 @@
 ## 2026-04-15 - Avoid Duplicate Titles and Visible Text
 **Learning:** When using `title` attributes on buttons or links to provide tooltips for mouse users, ensure the text does not perfectly duplicate the visible text (and therefore the `aria-label`). Screen readers announce both, leading to redundant reading. Title attributes should provide additional context.
 **Action:** Use `title` to elaborate on the action (e.g., instead of title="Start Browsing Components" on a button with that text, use title="Explore the first category: Download & Import").
+
+## 2026-05-20 - [Kinetic Spatial Intent on Buttons]
+**Learning:** Adding micro-animations to icons inside buttons on hover/focus (e.g., an arrow shifting right or a download icon shifting down) provides strong contextual feedback. It reinforces the spatial intent of the action ("moving forward" vs "downloading"). However, to comply with WCAG 2.3.3 (Animation from Interactions), these transitions must be disabled for users who prefer reduced motion.
+**Action:** Create utility classes (like `.btn-hover-shift-right`) to target icon transforms (`translateX`, `translateY`), and wrap these rules entirely within `@media (prefers-reduced-motion: no-preference)` to ensure a universally accessible, delightful experience.
