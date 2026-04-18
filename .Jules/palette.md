@@ -93,3 +93,7 @@
 ## 2026-05-20 - [Kinetic Spatial Intent on Buttons]
 **Learning:** Adding micro-animations to icons inside buttons on hover/focus (e.g., an arrow shifting right or a download icon shifting down) provides strong contextual feedback. It reinforces the spatial intent of the action ("moving forward" vs "downloading"). However, to comply with WCAG 2.3.3 (Animation from Interactions), these transitions must be disabled for users who prefer reduced motion.
 **Action:** Create utility classes (like `.btn-hover-shift-right`) to target icon transforms (`translateX`, `translateY`), and wrap these rules entirely within `@media (prefers-reduced-motion: no-preference)` to ensure a universally accessible, delightful experience.
+
+## 2026-05-21 - [Human-Readable Context in Empty States]
+**Learning:** When displaying dynamic context in empty states (like injecting `window.location.pathname` on a 404 page) or pre-filling error report templates, raw machine-encoded URLs (e.g., `%20` for spaces) are cognitively jarring for humans to read.
+**Action:** Always wrap dynamically injected URL paths in `decodeURIComponent()` when presenting them to users or pre-filling plain-text issue bodies, so that users see standard spacing and natural character formatting.
