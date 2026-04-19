@@ -97,3 +97,7 @@
 ## 2026-05-21 - [Human-Readable Context in Empty States]
 **Learning:** When displaying dynamic context in empty states (like injecting `window.location.pathname` on a 404 page) or pre-filling error report templates, raw machine-encoded URLs (e.g., `%20` for spaces) are cognitively jarring for humans to read.
 **Action:** Always wrap dynamically injected URL paths in `decodeURIComponent()` when presenting them to users or pre-filling plain-text issue bodies, so that users see standard spacing and natural character formatting.
+
+## 2026-05-22 - [Kinetic Effects and MkDocs Markdown Emoji Plugin]
+**Learning:** When using mkdocs-material's `attr_list` and `emoji` extensions, emojis (like `:octicons-arrow-right-24:`) inside markdown links `[Text :emoji:](url){.classes}` are expanded into `<span class="twemoji">` tags nested *inside* the generated anchor tag `<a class="classes">`. Therefore, kinetic micro-animations (like shift-on-hover) that target `.twemoji` must have their hover trigger classes (e.g. `.btn-hover-shift-right`) applied to the outer wrapper (`<a>`), not an inner element.
+**Action:** Always apply the hover utility class directly to the button component itself (`.md-button`) in the markdown `attr_list` curly braces so that the CSS selector `.btn-hover-shift-right:hover .twemoji` successfully matches the nested emoji span.

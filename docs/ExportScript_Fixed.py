@@ -142,7 +142,7 @@ def write_grouped_components(file_path, exposure_dict, link_prefix="components/"
     if add_cta and main_components:
         first_comp = main_components[0]
         first_display = first_comp.replace('_', ' ')
-        write_utf8(file_path, f"\n<br>\n\n[Start with {first_display} :octicons-arrow-right-24:]({link_prefix}{first_comp}.md){{ .md-button .md-button--primary aria-label=\"Start with {first_display}\" title=\"View documentation for {first_display}\" }}\n", mode="a")
+        write_utf8(file_path, f"\n<br>\n\n[Start with {first_display} :octicons-arrow-right-24:]({link_prefix}{first_comp}.md){{ .md-button .md-button--primary .btn-hover-shift-right aria-label=\"Start with {first_display}\" title=\"View documentation for {first_display}\" }}\n", mode="a")
 
 def reset_output_directories(base_dir):
     if not CLEAN_OUTPUT_DIR:
