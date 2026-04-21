@@ -4,7 +4,6 @@
 
 Urbano License Management
 
-#### Input
 
 #### Output
 * ##### Info `[Text]`

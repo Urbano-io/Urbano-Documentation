@@ -11,5 +11,3 @@ Draw Map
   Values
 * ##### Map Settings `[Map Settings]`
   Map Settings
-
-#### Output
