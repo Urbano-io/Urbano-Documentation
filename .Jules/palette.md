@@ -101,3 +101,7 @@
 ## 2026-05-22 - [Kinetic Effects and MkDocs Markdown Emoji Plugin]
 **Learning:** When using mkdocs-material's `attr_list` and `emoji` extensions, emojis (like `:octicons-arrow-right-24:`) inside markdown links `[Text :emoji:](url){.classes}` are expanded into `<span class="twemoji">` tags nested *inside* the generated anchor tag `<a class="classes">`. Therefore, kinetic micro-animations (like shift-on-hover) that target `.twemoji` must have their hover trigger classes (e.g. `.btn-hover-shift-right`) applied to the outer wrapper (`<a>`), not an inner element.
 **Action:** Always apply the hover utility class directly to the button component itself (`.md-button`) in the markdown `attr_list` curly braces so that the CSS selector `.btn-hover-shift-right:hover .twemoji` successfully matches the nested emoji span.
+
+## 2026-05-23 - [Component Docs Empty Input/Output States]
+**Learning:** Found component documentation pages (like `Draw_Map.md` or `License.md`) where the "#### Input" or "#### Output" sections were completely empty. This happens when a component lacks inputs or outputs, but the headings are still blindly appended by the export script. Empty sections create a confusing UX, leaving users to wonder if the documentation is broken or if information is missing.
+**Action:** Always check the count of inputs/outputs before appending their respective headings in automated documentation generation scripts to avoid confusing empty states.

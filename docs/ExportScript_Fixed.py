@@ -370,60 +370,62 @@ def exportDescription(component, pluginName, githubFolder, githubRepo=None):
     lines.append("\n" + desc)
 
     try:
-        lines.append("\n#### Input")
-        for i in range(component.Params.Input.Count):
-            param = component.Params.Input[i]
-            iname = param.NickName.strip()
-            cleaned_description = param.Description.replace("\n", " ")
+        if component.Params.Input.Count > 0:
+            lines.append("\n#### Input")
+            for i in range(component.Params.Input.Count):
+                param = component.Params.Input[i]
+                iname = param.NickName.strip()
+                cleaned_description = param.Description.replace("\n", " ")
 
-            # Get type and access info
-            try:
-                type_name = param.TypeName
-            except Exception:
-                type_name = ""
-            try:
-                access = _format_access(param.Access)
-            except Exception:
-                access = "item"
+                # Get type and access info
+                try:
+                    type_name = param.TypeName
+                except Exception:
+                    type_name = ""
+                try:
+                    access = _format_access(param.Access)
+                except Exception:
+                    access = "item"
 
-            # Strip the empty [] that GH appends to NickName for list params,
-            # then fill brackets with actual TypeName + access info.
-            iname = re.sub(r"\s*\[\s*\]\s*$", "", iname)
+                # Strip the empty [] that GH appends to NickName for list params,
+                # then fill brackets with actual TypeName + access info.
+                iname = re.sub(r"\s*\[\s*\]\s*$", "", iname)
 
-            if type_name:
-                type_tag = f"`[{type_name}]`" if access == "item" else f"`[{type_name} {access}]`"
-            else:
-                type_tag = f"`[{access}]`" if access != "item" else ""
+                if type_name:
+                    type_tag = f"`[{type_name}]`" if access == "item" else f"`[{type_name} {access}]`"
+                else:
+                    type_tag = f"`[{access}]`" if access != "item" else ""
 
-            tag_str = f" {type_tag}" if type_tag else ""
-            lines.append(f"* ##### {iname}{tag_str}".rstrip())
-            lines.append(f"  {cleaned_description}")
+                tag_str = f" {type_tag}" if type_tag else ""
+                lines.append(f"* ##### {iname}{tag_str}".rstrip())
+                lines.append(f"  {cleaned_description}")
 
-        lines.append("\n#### Output")
-        for i in range(component.Params.Output.Count):
-            param = component.Params.Output[i]
-            iname = param.NickName.strip()
-            cleaned_description = param.Description.replace("\n", " ")
+        if component.Params.Output.Count > 0:
+            lines.append("\n#### Output")
+            for i in range(component.Params.Output.Count):
+                param = component.Params.Output[i]
+                iname = param.NickName.strip()
+                cleaned_description = param.Description.replace("\n", " ")
 
-            try:
-                type_name = param.TypeName
-            except Exception:
-                type_name = ""
-            try:
-                access = _format_access(param.Access)
-            except Exception:
-                access = "item"
+                try:
+                    type_name = param.TypeName
+                except Exception:
+                    type_name = ""
+                try:
+                    access = _format_access(param.Access)
+                except Exception:
+                    access = "item"
 
-            iname = re.sub(r"\s*\[\s*\]\s*$", "", iname)
+                iname = re.sub(r"\s*\[\s*\]\s*$", "", iname)
 
-            if type_name:
-                type_tag = f"`[{type_name}]`" if access == "item" else f"`[{type_name} {access}]`"
-            else:
-                type_tag = f"`[{access}]`" if access != "item" else ""
+                if type_name:
+                    type_tag = f"`[{type_name}]`" if access == "item" else f"`[{type_name} {access}]`"
+                else:
+                    type_tag = f"`[{access}]`" if access != "item" else ""
 
-            tag_str = f" {type_tag}" if type_tag else ""
-            lines.append(f"* ##### {iname}{tag_str}".rstrip())
-            lines.append(f"  {cleaned_description}")
+                tag_str = f" {type_tag}" if type_tag else ""
+                lines.append(f"* ##### {iname}{tag_str}".rstrip())
+                lines.append(f"  {cleaned_description}")
     except Exception:
         pass
 
