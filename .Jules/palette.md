@@ -105,3 +105,11 @@
 ## 2026-05-23 - [Component Docs Empty Input/Output States]
 **Learning:** Found component documentation pages (like `Draw_Map.md` or `License.md`) where the "#### Input" or "#### Output" sections were completely empty. This happens when a component lacks inputs or outputs, but the headings are still blindly appended by the export script. Empty sections create a confusing UX, leaving users to wonder if the documentation is broken or if information is missing.
 **Action:** Always check the count of inputs/outputs before appending their respective headings in automated documentation generation scripts to avoid confusing empty states.
+
+## 2026-06-10 - [Vestibular Accessibility for Button Hover States]
+**Learning:** Adding vertical transforms (like `translateY(-2px)`) to buttons on hover or focus creates a nice "lift" effect that makes them feel tactile and interactive. However, if this is applied globally to all buttons without respecting user preferences, it can cause motion sickness or dizziness for users with vestibular disorders.
+**Action:** Always wrap standard UI component hover/focus transitions (especially vertical transforms and scaling) inside `@media (prefers-reduced-motion: no-preference)` to ensure a universally safe experience.
+
+## 2026-06-10 - [Inline Keyboard Shortcut Discoverability]
+**Learning:** Relying solely on paragraph text (e.g., "press / to search") to teach users keyboard shortcuts requires them to read paragraphs. Embedding the keyboard shortcut hint visually *inside* the button itself (e.g., "Search `/`") makes it immediately discoverable precisely at the moment the user is looking at the action.
+**Action:** When a global UI action (like Search) has a dedicated keyboard shortcut, embed a subtle `<kbd>` hint directly within the button label, rather than hiding the instruction in surrounding text.
