@@ -30,7 +30,7 @@ The Grasshopper plugin currently exists in two versions, please see below.
 
     ---
 
-    [:material-history: View v1 Archive](urbano-1/index.md){ .md-button .btn-hover-shift-right aria-label="View v1 Archive" title="Access legacy Urbano v1 documentation" }
+    [:material-history: View v1 Archive](urbano-1/index.md){ .md-button .btn-hover-shift-left aria-label="View v1 Archive" title="Access legacy Urbano v1 documentation" }
 
 - __Urbano v2__
 

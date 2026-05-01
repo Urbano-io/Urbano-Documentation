@@ -113,3 +113,7 @@
 ## 2026-06-10 - [Inline Keyboard Shortcut Discoverability]
 **Learning:** Relying solely on paragraph text (e.g., "press / to search") to teach users keyboard shortcuts requires them to read paragraphs. Embedding the keyboard shortcut hint visually *inside* the button itself (e.g., "Search `/`") makes it immediately discoverable precisely at the moment the user is looking at the action.
 **Action:** When a global UI action (like Search) has a dedicated keyboard shortcut, embed a subtle `<kbd>` hint directly within the button label, rather than hiding the instruction in surrounding text.
+
+## 2026-06-11 - [Kinetic Spatial Intent Alignment]
+**Learning:** Found a button ("View v1 Archive") featuring a left-aligned history/backwards icon (`:material-history:`) that had a `.btn-hover-shift-right` kinetic class applied. This caused a UX conflict: the visual metaphor indicated "looking back", but the hover animation indicated "moving forward".
+**Action:** Aligned the kinetic animation direction with the semantic meaning of the action and icon. Always ensure hover animations match the spatial intent of the button's purpose (e.g., use `.btn-hover-shift-left` for history/back actions).
