@@ -31,6 +31,15 @@
         </span>
         Report Broken Link
       </a>
+      <button id="copy-url-btn" type="button" class="md-button btn-hover-scale-up" aria-label="Copy broken link to clipboard" title="Copy this URL to share with support">
+        <span class="twemoji" aria-hidden="true" id="copy-icon-default">
+          {% include ".icons/material/content-copy.svg" %}
+        </span>
+        <span class="twemoji" aria-hidden="true" id="copy-icon-success" style="display: none;">
+          {% include ".icons/material/check.svg" %}
+        </span>
+        <span id="copy-text">Copy Link</span>
+      </button>
     </div>
   </div>
 
@@ -66,6 +75,27 @@
       const issueTitle = encodeURIComponent(`Broken Link: ${readablePath}`);
       const issueBody = encodeURIComponent(`I encountered a 404 Not Found error when trying to access:\n\n\`${readablePath}\`\n\n*(Please add any additional context here if needed)*`);
       reportIssueBtn.href = `https://github.com/Urbano-io/Urbano-Documentation/issues/new?title=${issueTitle}&body=${issueBody}`;
+    }
+
+    const copyUrlBtn = document.getElementById('copy-url-btn');
+    const copyIconDefault = document.getElementById('copy-icon-default');
+    const copyIconSuccess = document.getElementById('copy-icon-success');
+    const copyText = document.getElementById('copy-text');
+
+    if (copyUrlBtn && copyIconDefault && copyIconSuccess && copyText) {
+      copyUrlBtn.addEventListener('click', () => {
+        navigator.clipboard.writeText(window.location.href).then(() => {
+          copyIconDefault.style.display = 'none';
+          copyIconSuccess.style.display = '';
+          copyText.textContent = 'Copied!';
+
+          setTimeout(() => {
+            copyIconDefault.style.display = '';
+            copyIconSuccess.style.display = 'none';
+            copyText.textContent = 'Copy Link';
+          }, 2000);
+        }).catch(err => console.error("Failed to copy URL", err));
+      });
     }
   </script>
 {% endblock %}
