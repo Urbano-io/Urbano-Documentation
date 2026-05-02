@@ -117,3 +117,7 @@
 ## 2026-06-11 - [Kinetic Spatial Intent Alignment]
 **Learning:** Found a button ("View v1 Archive") featuring a left-aligned history/backwards icon (`:material-history:`) that had a `.btn-hover-shift-right` kinetic class applied. This caused a UX conflict: the visual metaphor indicated "looking back", but the hover animation indicated "moving forward".
 **Action:** Aligned the kinetic animation direction with the semantic meaning of the action and icon. Always ensure hover animations match the spatial intent of the button's purpose (e.g., use `.btn-hover-shift-left` for history/back actions).
+
+## 2026-06-12 - [Utility Actions in Empty States]
+**Learning:** Error states like 404 pages often rely on users taking manual steps (like copying the URL to share with a developer). Providing a one-click "Copy Link" action reduces user friction, but needs clear visual state feedback (like swapping icons and text to "Copied!") so the user knows the background clipboard action succeeded.
+**Action:** When providing clipboard actions or similar background tasks, use a hidden success icon (e.g. `check.svg`) and toggle its display via CSS instead of injecting SVG strings into JavaScript to avoid template engine escaping issues. Always provide a temporary text change (e.g. "Copied!") as explicit feedback.
