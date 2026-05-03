@@ -121,3 +121,7 @@
 ## 2026-06-12 - [Utility Actions in Empty States]
 **Learning:** Error states like 404 pages often rely on users taking manual steps (like copying the URL to share with a developer). Providing a one-click "Copy Link" action reduces user friction, but needs clear visual state feedback (like swapping icons and text to "Copied!") so the user knows the background clipboard action succeeded.
 **Action:** When providing clipboard actions or similar background tasks, use a hidden success icon (e.g. `check.svg`) and toggle its display via CSS instead of injecting SVG strings into JavaScript to avoid template engine escaping issues. Always provide a temporary text change (e.g. "Copied!") as explicit feedback.
+
+## 2026-06-13 - [Screen Reader Feedback for Clipboard Actions]
+**Learning:** Visual feedback (like changing button text to "Copied!") is completely invisible to screen readers if the button uses an `aria-label`. The `aria-label` completely overrides the inner text of the button. Therefore, screen reader users never hear the success state.
+**Action:** When implementing temporary state changes on buttons with `aria-label`s (like clipboard copy actions), dynamically update the `aria-label` itself to the success state (e.g. "Link copied to clipboard!"), AND add a visually hidden `aria-live="polite"` region to independently announce the success to ensure the interaction is understood. Restore the original `aria-label` when the visual state resets.
