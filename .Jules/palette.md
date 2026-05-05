@@ -125,3 +125,7 @@
 ## 2026-06-13 - [Screen Reader Feedback for Clipboard Actions]
 **Learning:** Visual feedback (like changing button text to "Copied!") is completely invisible to screen readers if the button uses an `aria-label`. The `aria-label` completely overrides the inner text of the button. Therefore, screen reader users never hear the success state.
 **Action:** When implementing temporary state changes on buttons with `aria-label`s (like clipboard copy actions), dynamically update the `aria-label` itself to the success state (e.g. "Link copied to clipboard!"), AND add a visually hidden `aria-live="polite"` region to independently announce the success to ensure the interaction is understood. Restore the original `aria-label` when the visual state resets.
+
+## 2026-06-14 - [Accessible Embedded Iframes]
+**Learning:** Found several embedded YouTube videos via `<iframe>` tags. While they correctly had `title` attributes for generic iframe context, adding an `aria-label` provides explicit, immediate context to screen readers when navigating directly to or interacting with the video container, ensuring they understand the purpose of the interactive embed.
+**Action:** Always provide an `aria-label` detailing the content on interactive `<iframe>` embeds (especially videos) to ensure optimal screen reader compatibility, even if a `title` attribute is present.
