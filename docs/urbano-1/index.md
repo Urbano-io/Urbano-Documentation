@@ -204,7 +204,7 @@ Use cases with Urbano components
 
 ## Step 1 — Downloading Map Data
 <div class="video-embed">
-  <iframe
+  <iframe aria-label="Step 1 — Downloading Map Data Video"
     src="https://www.youtube.com/embed/mwNlGaMVBns"
     title="Step 1 — Downloading Map Data"
     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
@@ -216,7 +216,7 @@ Use cases with Urbano components
 
 ## Step 2 — Importing and Modeling
 <div class="video-embed">
-  <iframe
+  <iframe aria-label="Step 2 — Importing and Modeling Video"
     src="https://www.youtube.com/embed/NA1vpiR7vFI"
     title="Step 2 — Importing and Modeling"
     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
@@ -228,7 +228,7 @@ Use cases with Urbano components
 
 ## Step 3 — Site Analysis
 <div class="video-embed">
-  <iframe
+  <iframe aria-label="Step 3 — Site Analysis Video"
     src="https://www.youtube.com/embed/KMT0TOODwdY"
     title="Step 3 — Site Analysis"
     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
@@ -240,7 +240,7 @@ Use cases with Urbano components
 
 ## Step 4 — Evaluating Design Scenarios
 <div class="video-embed">
-  <iframe
+  <iframe aria-label="Step 4 — Evaluating Design Scenarios Video"
     src="https://www.youtube.com/embed/n1u3WJTBb30"
     title="Step 4 — Evaluating Design Scenarios"
     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
@@ -252,7 +252,7 @@ Use cases with Urbano components
 
 ## Step 5 — Generative Approach
 <div class="video-embed">
-  <iframe
+  <iframe aria-label="Step 5 — Generative Approach Video"
     src="https://www.youtube.com/embed/rlrk0SwV4Do"
     title="Step 5 — Generative Approach"
     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
