@@ -31,7 +31,7 @@
         </span>
         Report Broken Link
       </a>
-      <button id="copy-url-btn" type="button" class="md-button btn-hover-scale-up" aria-label="Copy broken link to clipboard" title="Copy this URL to share with support">
+      <button id="copy-url-btn" type="button" class="md-button btn-hover-scale-up" aria-label="Copy Link to clipboard" title="Copy this URL to share with support">
         <span class="twemoji" aria-hidden="true" id="copy-icon-default">
           {% include ".icons/material/content-copy.svg" %}
         </span>
@@ -68,6 +68,7 @@
         backBtn.removeAttribute('onclick');
         backBtn.setAttribute('aria-disabled', 'true');
         backBtn.title = "No previous page to go back to";
+        backBtn.setAttribute('aria-description', "No previous page to go back to");
       }
     }
 
@@ -93,7 +94,7 @@
           copyAnnouncer.textContent = 'Link copied to clipboard!';
 
           const originalAriaLabel = copyUrlBtn.getAttribute('aria-label');
-          copyUrlBtn.setAttribute('aria-label', 'Link copied to clipboard!');
+          copyUrlBtn.setAttribute('aria-label', 'Copied! Link copied to clipboard!');
 
           setTimeout(() => {
             copyIconDefault.style.display = '';
