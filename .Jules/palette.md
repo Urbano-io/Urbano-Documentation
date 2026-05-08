@@ -129,3 +129,11 @@
 ## 2026-06-14 - [Accessible Embedded Iframes]
 **Learning:** Found several embedded YouTube videos via `<iframe>` tags. While they correctly had `title` attributes for generic iframe context, adding an `aria-label` provides explicit, immediate context to screen readers when navigating directly to or interacting with the video container, ensuring they understand the purpose of the interactive embed.
 **Action:** Always provide an `aria-label` detailing the content on interactive `<iframe>` embeds (especially videos) to ensure optimal screen reader compatibility, even if a `title` attribute is present.
+
+## 2026-06-15 - [Dynamic WCAG 2.5.3 Adherence]
+**Learning:** When a button's visible text changes dynamically via JavaScript (like a "Copy Link" button changing to "Copied!"), any associated `aria-label` must also be dynamically updated to ensure it always contains the new visible text string. Failing to sync the `aria-label` with the dynamic visible text creates an immediate WCAG 2.5.3 (Label in Name) violation, confusing voice dictation software.
+**Action:** Always write JavaScript logic to update the `aria-label` in tandem with any changes to the visible text (e.g. `textContent`) of a button.
+
+## 2026-06-16 - [Aria-Description Parity for Disabled States]
+**Learning:** While using `aria-disabled="true"` keeps a button in the focus order, relying solely on a `title` attribute to explain *why* it is disabled is insufficient for accessibility. Many screen readers ignore the `title` attribute if the element already has an accessible name (like an `aria-label`).
+**Action:** When adding explanatory `title` tooltips to disabled interactive elements, always add a matching `aria-description` attribute to ensure parity between the visual tooltip and the screen reader announcement.
