@@ -137,3 +137,7 @@
 ## 2026-06-16 - [Aria-Description Parity for Disabled States]
 **Learning:** While using `aria-disabled="true"` keeps a button in the focus order, relying solely on a `title` attribute to explain *why* it is disabled is insufficient for accessibility. Many screen readers ignore the `title` attribute if the element already has an accessible name (like an `aria-label`).
 **Action:** When adding explanatory `title` tooltips to disabled interactive elements, always add a matching `aria-description` attribute to ensure parity between the visual tooltip and the screen reader announcement.
+
+## 2026-06-17 - [ARIA Keyboard Shortcuts]
+**Learning:** When displaying keyboard shortcuts visually within a button using `<kbd>` (e.g., `<kbd>/</kbd>`), screen readers will read out the symbol as part of the button's name (e.g., "Search slash"), which is confusing and non-semantic.
+**Action:** Hide visual `<kbd>` hints inside interactive elements from screen readers using `aria-hidden="true"`, and instead apply the `aria-keyshortcuts` attribute to the interactive element to semantically announce the shortcut in a screen-reader-friendly way.
