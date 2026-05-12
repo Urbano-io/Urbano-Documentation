@@ -141,3 +141,7 @@
 ## 2026-06-17 - [ARIA Keyboard Shortcuts]
 **Learning:** When displaying keyboard shortcuts visually within a button using `<kbd>` (e.g., `<kbd>/</kbd>`), screen readers will read out the symbol as part of the button's name (e.g., "Search slash"), which is confusing and non-semantic.
 **Action:** Hide visual `<kbd>` hints inside interactive elements from screen readers using `aria-hidden="true"`, and instead apply the `aria-keyshortcuts` attribute to the interactive element to semantically announce the shortcut in a screen-reader-friendly way.
+
+## 2026-06-18 - [Title Tooltip Parity in Temporary States]
+**Learning:** When temporarily changing the visible text and `aria-label` of an interactive element to provide feedback (like a "Copy Link" button changing to "Copied!"), the `title` attribute must also be updated. If left unchanged, mouse users hovering over the button after the state change will still see the original, now-stale tooltip (e.g., "Copy this URL..."), creating cognitive dissonance.
+**Action:** When implementing temporary textual feedback states in JavaScript, always synchronize the `title` attribute along with `textContent` and `aria-label`, and ensure all are correctly restored when the temporary state expires.
