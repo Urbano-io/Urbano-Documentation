@@ -94,17 +94,27 @@
           copyAnnouncer.textContent = 'Link copied to clipboard!';
 
           const originalAriaLabel = copyUrlBtn.getAttribute('aria-label');
+          const originalTitle = copyUrlBtn.getAttribute('title');
+
           copyUrlBtn.setAttribute('aria-label', 'Copied! Link copied to clipboard!');
+          copyUrlBtn.setAttribute('title', 'Copied!');
 
           setTimeout(() => {
             copyIconDefault.style.display = '';
             copyIconSuccess.style.display = 'none';
             copyText.textContent = 'Copy Link';
             copyAnnouncer.textContent = '';
+
             if (originalAriaLabel !== null) {
               copyUrlBtn.setAttribute('aria-label', originalAriaLabel);
             } else {
               copyUrlBtn.removeAttribute('aria-label');
+            }
+
+            if (originalTitle !== null) {
+              copyUrlBtn.setAttribute('title', originalTitle);
+            } else {
+              copyUrlBtn.removeAttribute('title');
             }
           }, 2000);
         }).catch(err => console.error("Failed to copy URL", err));
