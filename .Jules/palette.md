@@ -145,3 +145,11 @@
 ## 2026-06-18 - [Title Tooltip Parity in Temporary States]
 **Learning:** When temporarily changing the visible text and `aria-label` of an interactive element to provide feedback (like a "Copy Link" button changing to "Copied!"), the `title` attribute must also be updated. If left unchanged, mouse users hovering over the button after the state change will still see the original, now-stale tooltip (e.g., "Copy this URL..."), creating cognitive dissonance.
 **Action:** When implementing temporary textual feedback states in JavaScript, always synchronize the `title` attribute along with `textContent` and `aria-label`, and ensure all are correctly restored when the temporary state expires.
+
+## 2026-06-19 - [Progressive Enhancement for Dynamic Content]
+**Learning:** Empty states (like 404 pages) often use JavaScript to inject dynamic context (e.g., `<code id="broken-url"></code>` filled with `window.location.pathname`). However, if JavaScript fails to load, is disabled, or throws an error before execution, the user is left with grammatically confusing empty elements (e.g., "The page at doesn't seem to exist").
+**Action:** Always provide sensible fallback text inside elements targeted for dynamic injection (e.g., `<code id="broken-url">this URL</code>`). This ensures the UI degrades gracefully and remains comprehensible without client-side scripts.
+
+## 2026-06-19 - [History Length Validation]
+**Learning:** Disabling a "Go Back" button when `window.history.length <= 2` incorrectly assumes that the user's browser history stack starts at 0 for the current tab. In many browsers, a new tab opened via an external link will have a history length of exactly 1. Disabling the back button at `<= 2` traps users who have a single valid previous entry.
+**Action:** Only disable historical navigation actions (like `window.history.back()`) when `window.history.length <= 1`, representing the true absence of a previous entry.
